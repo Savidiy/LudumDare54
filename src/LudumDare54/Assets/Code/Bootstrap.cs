@@ -1,18 +1,23 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
-public class Bootstrap : MonoBehaviour
+namespace LudumDare54
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Bootstrap : MonoBehaviour
     {
-        
-    }
+        private ApplicationStateMachine _applicationStateMachine;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [Inject]
+        public void Construct(ApplicationStateMachine applicationStateMachine, List<IApplicationState> applicationStates)
+        {
+            _applicationStateMachine = applicationStateMachine;
+            _applicationStateMachine.AddStates(applicationStates);
+        }
+
+        private void Awake()
+        {
+            _applicationStateMachine.EnterToState<GameLoopApplicationState>();
+        }
     }
 }
