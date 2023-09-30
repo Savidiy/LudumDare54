@@ -4,7 +4,7 @@ using Object = UnityEngine.Object;
 
 namespace LudumDare54
 {
-    public sealed class Ship : IDisposable
+    public sealed class Ship : IDisposable, ICanShiftPosition
     {
         private readonly ShipBehaviour _behaviour;
         private readonly Transform _transform;
@@ -12,12 +12,14 @@ namespace LudumDare54
         public Vector3 Position => _transform.position;
         public Quaternion Rotation => _transform.rotation;
         public IShipMover ShipMover { get; }
+        public IShipShooter ShipShooter { get; }
         public IShipStats Stats { get; }
 
-        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipStats stats)
+        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipStats stats, IShipShooter shipShooter)
         {
             ShipMover = shipMover;
             Stats = stats;
+            ShipShooter = shipShooter;
             _behaviour = behaviour;
             _transform = _behaviour.transform;
         }

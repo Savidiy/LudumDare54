@@ -19,10 +19,16 @@ namespace LudumDare54
             Container.Bind<HeroShipHolder>().AsSingle();
             Container.Bind<EnemiesHolder>().AsSingle();
             Container.Bind<ShipFactory>().AsSingle();
-            Container.Bind<PlayerInputProvider>().AsSingle();
+            Container.Bind<InputProvider>().AsSingle();
             Container.Bind<ShipMoveInvoker>().AsSingle();
+            Container.Bind<ShipShootInvoker>().AsSingle();
             Container.Bind<Radar>().AsSingle();
             Container.Bind<LimitedSpaceChecker>().AsSingle();
+            
+            Container.Bind<BulletHolder>().AsSingle();
+            Container.Bind<BulletFactory>().AsSingle();
+            Container.Bind<BulletMoveInvoker>().AsSingle();
+            Container.Bind<BulletLifetimeKiller>().AsSingle();
 
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();

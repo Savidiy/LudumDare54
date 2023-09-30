@@ -6,21 +6,21 @@ namespace LudumDare54
     {
         private readonly ShipBehaviour _shipBehaviour;
         private readonly IShipStats _shipStats;
-        private readonly PlayerInputProvider _playerInputProvider;
+        private readonly InputProvider _inputProvider;
 
-        public HeroMover(ShipBehaviour shipBehaviour, IShipStats shipStats, PlayerInputProvider playerInputProvider)
+        public HeroMover(ShipBehaviour shipBehaviour, IShipStats shipStats, InputProvider inputProvider)
         {
             _shipBehaviour = shipBehaviour;
             _shipStats = shipStats;
-            _playerInputProvider = playerInputProvider;
+            _inputProvider = inputProvider;
         }
         
         public void UpdatePosition(float deltaTime)
         {
-            PlayerInputData playerInputData = _playerInputProvider.GetPlayerInput();
-            float moveInput = playerInputData.Move;
-            float rotateInput = playerInputData.Rotate;
-            float strafeInput = playerInputData.Strafe;
+            HeroInputData heroInputData = _inputProvider.GetMoveInput();
+            float moveInput = heroInputData.Move;
+            float rotateInput = heroInputData.Rotate;
+            float strafeInput = heroInputData.Strafe;
 
             float rotationSpeed = _shipStats.RotationSpeed;
             float strafeSpeed = _shipStats.StrafeSpeed;

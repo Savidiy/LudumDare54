@@ -42,7 +42,7 @@ namespace LudumDare54
                 Move(ship, deltaTime);
             }
             
-            _limitedSpaceChecker.Check();
+            _limitedSpaceChecker.CheckShips();
         }
 
         private void Move(Ship ship, float deltaTime)

@@ -4,15 +4,15 @@ namespace LudumDare54
 {
     public sealed class ShipFactory
     {
-        private readonly PlayerInputProvider _playerInputProvider;
+        private readonly InputProvider _inputProvider;
         private readonly HeroSettings _heroSettings;
         private readonly ShipStatStaticDataLibrary _shipStatStaticDataLibrary;
         private readonly ShipStaticDataLibrary _shipStaticDataLibrary;
 
-        public ShipFactory(PlayerInputProvider playerInputProvider, HeroSettings heroSettings,
+        public ShipFactory(InputProvider inputProvider, HeroSettings heroSettings,
             ShipStatStaticDataLibrary shipStatStaticDataLibrary, ShipStaticDataLibrary shipStaticDataLibrary)
         {
-            _playerInputProvider = playerInputProvider;
+            _inputProvider = inputProvider;
             _heroSettings = heroSettings;
             _shipStatStaticDataLibrary = shipStatStaticDataLibrary;
             _shipStaticDataLibrary = shipStaticDataLibrary;
@@ -30,9 +30,10 @@ namespace LudumDare54
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
             var shipStats = new ShipStats(shipStatStaticData);
 
-            var heroMover = new HeroMover(shipBehaviour, shipStats, _playerInputProvider);
+            var heroMover = new HeroMover(shipBehaviour, shipStats, _inputProvider);
+            var heroShooter = new HeroShooter(shipBehaviour, shipStats, _inputProvider);
 
-            return new Ship(shipBehaviour, heroMover, shipStats);
+            return new Ship(shipBehaviour, heroMover, shipStats, heroShooter);
         }
 
         public Ship CreateEnemyShip(SpawnPointStaticData spawnPointStaticData)
@@ -50,8 +51,9 @@ namespace LudumDare54
             var shipStats = new ShipStats(shipStatStaticData);
 
             var asteroidMover = new AsteroidMover(shipBehaviour, shipStats);
-
-            return new Ship(shipBehaviour, asteroidMover, shipStats);
+            var asteroidShooter = new AsteroidShooter();
+            
+            return new Ship(shipBehaviour, asteroidMover, shipStats, asteroidShooter);
         }
     }
 }

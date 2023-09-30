@@ -6,16 +6,19 @@ namespace LudumDare54
     {
         private readonly HeroShipHolder _heroShipHolder;
         private readonly EnemiesHolder _enemiesHolder;
+        private readonly BulletHolder _bulletHolder;
         private readonly LevelDataProvider _levelDataProvider;
 
-        public LimitedSpaceChecker(HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder, LevelDataProvider levelDataProvider)
+        public LimitedSpaceChecker(HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder, BulletHolder bulletHolder,
+            LevelDataProvider levelDataProvider)
         {
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
+            _bulletHolder = bulletHolder;
             _levelDataProvider = levelDataProvider;
         }
-        
-        public void Check()
+
+        public void CheckShips()
         {
             if (!_heroShipHolder.TryGetHeroShip(out Ship heroShip))
                 return;
@@ -31,7 +34,23 @@ namespace LudumDare54
             }
         }
 
-        private void CorrectPosition(Ship ship, Vector3 anchorPosition, float width, float height)
+        public void CheckBullets()
+        {
+            if (!_heroShipHolder.TryGetHeroShip(out Ship heroShip))
+                return;
+
+            Vector3 anchorPosition = heroShip.Position;
+            LevelStaticData levelStaticData = _levelDataProvider.GetCurrentLevel();
+            float width = levelStaticData.Width;
+            float height = levelStaticData.Height;
+            for (var index = 0; index < _bulletHolder.Bullets.Count; index++)
+            {
+                IBullet bullet = _bulletHolder.Bullets[index];
+                CorrectPosition(bullet, anchorPosition, width, height);
+            }
+        }
+
+        private void CorrectPosition(ICanShiftPosition ship, Vector3 anchorPosition, float width, float height)
         {
             Vector3 position = ship.Position;
             Vector3 direction = position - anchorPosition;
@@ -42,7 +61,7 @@ namespace LudumDare54
                 shift.x -= width;
             else if (direction.x < -halfWidth)
                 shift.x += width;
-            
+
             if (direction.y > halfHeight)
                 shift.y -= height;
             else if (direction.y < -halfHeight)

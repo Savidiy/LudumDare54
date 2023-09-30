@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bullets
+    uniqueID: 3332967183
+    locked: 0
+  - name: Enemies
+    uniqueID: 2433903321
+    locked: 0
+  - name: Hero
+    uniqueID: 2549520459
+    locked: 0
+  - name: Radar
+    uniqueID: 794511429
+    locked: 0

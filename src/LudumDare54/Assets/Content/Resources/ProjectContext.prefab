@@ -82,3 +82,4 @@ MonoBehaviour:
   LevelSettings: {fileID: 11400000, guid: b8e79c936a306714cbad6d2ac704e463, type: 2}
   ShipStaticDataLibrary: {fileID: 11400000, guid: a75334240f6fac94cbf1fe8b0bf781c8, type: 2}
   RadarSettings: {fileID: 11400000, guid: f8b98650f2d44c340915bf7705bacf17, type: 2}
+  BulletSettings: {fileID: 11400000, guid: cbb954f58c6c5184cb2af73c60710f7e, type: 2}

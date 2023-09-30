@@ -1,12 +1,12 @@
 ﻿namespace LudumDare54
 {
-    public struct PlayerInputData
+    public struct HeroInputData
     {
         public float Move;
         public float Rotate;
         public float Strafe;
 
-        public PlayerInputData(float move, float rotate, float strafe)
+        public HeroInputData(float move, float rotate, float strafe)
         {
             Move = move;
             Rotate = rotate;

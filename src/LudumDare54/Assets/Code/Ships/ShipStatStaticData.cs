@@ -11,6 +11,7 @@ namespace LudumDare54
         public float ForwardSpeed;
         public float BackwardSpeed;
         public float StrafeSpeed;
+        public float ShootCooldown = 0.2f;
 
         public override string ToString()
         {

@@ -3,6 +3,7 @@
     public sealed class ShipStats : IShipStats
     {
         private readonly ShipStatStaticData _shipStatStaticData;
+        public float ShootCooldown => _shipStatStaticData.ShootCooldown;
         public float RotationSpeed => _shipStatStaticData.RotationSpeed;
         public float ForwardSpeed => _shipStatStaticData.ForwardSpeed;
         public float BackwardSpeed => _shipStatStaticData.BackwardSpeed;

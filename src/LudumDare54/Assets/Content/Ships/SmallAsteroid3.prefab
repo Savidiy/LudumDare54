@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 8870156924323859633}
+  Gun: {fileID: 0}
 --- !u!1 &6925208916924517015
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,8 +117,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1861063975
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -6099050445329199328, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

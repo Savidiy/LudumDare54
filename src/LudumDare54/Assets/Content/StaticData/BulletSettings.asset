@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f99912310f2e4cfc88d80d4524414c41, type: 3}
-  m_Name: InputSettings
+  m_Script: {fileID: 11500000, guid: f326a6ac3a724d808674b1aa9902bef8, type: 3}
+  m_Name: BulletSettings
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,14 +21,6 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  Left: 610000000401000014010000
-  Right: 640000000601000013010000
-  Up: 770000000801000011010000
-  Down: 730000000501000012010000
-  StrafeLeft: 7100000007010000
-  StrafeRight: 6500000009010000
-  Fire1: 20000000
-  Fire2: 
-  Fire3: 
-  Fire4: 
-  Menu: 
+  BulletPrefab: {fileID: 6095704002184616489, guid: 64b1a278b60e5e24ca04ae4fd28e9221, type: 3}
+  BulletSpeed: 4
+  BulletLifeTime: 1
