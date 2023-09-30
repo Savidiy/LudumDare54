@@ -2,7 +2,7 @@
 
 namespace LudumDare54
 {
-    public sealed class HudSwitcher
+    public sealed class HudSwitcher : IActivatable
     {
         private readonly HudBehaviour _hudBehaviour;
         private readonly ApplicationStateMachine _applicationStateMachine;

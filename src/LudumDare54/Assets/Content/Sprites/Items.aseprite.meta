@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 0, y: -973}
+    uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -151,10 +151,10 @@ ScriptedImporter:
     - name: Items
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 4
+        y: 977
+        width: 155
+        height: 45
       spriteId: b15a4791220d7dd479bf87ffaea7ddc4
     linkedCells: []
     parentIndex: -1

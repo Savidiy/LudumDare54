@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3652bc408534cb5bbf8261e9fd2efb6, type: 3}
-  m_Name: CameraSettings
+  m_Script: {fileID: 11500000, guid: d2835dc3ca134461bcc66de1e0fcee09, type: 3}
+  m_Name: RadarSettings
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,4 +21,6 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  HeroOffset: {x: 0, y: 0.6, z: -10}
+  RadarPointPrefab: {fileID: 4875745027101229353, guid: 24146de05bc62e94da23d3d5c6468af8, type: 3}
+  Scale: 0.02
+  MinOffset: 0.18

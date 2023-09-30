@@ -1,33 +1,31 @@
+using System.Collections.Generic;
 using Savidiy.Utils.StateMachine;
 
 namespace LudumDare54
 {
     public sealed class GameLoopApplicationState : IState, IStateWithExit, IApplicationState
     {
-        private readonly HeroCameraTracker _heroCameraPlayerTracker;
-        private readonly ShipMoveInvoker _shipMoveInvoker;
-        private readonly HudSwitcher _hudSwitcher;
+        private readonly List<IActivatable> _activatables = new();
 
         public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
-            HudSwitcher hudSwitcher)
+            HudSwitcher hudSwitcher, Radar radar)
         {
-            _heroCameraPlayerTracker = heroCameraPlayerTracker;
-            _shipMoveInvoker = shipMoveInvoker;
-            _hudSwitcher = hudSwitcher;
+            _activatables.Add(heroCameraPlayerTracker);
+            _activatables.Add(shipMoveInvoker);
+            _activatables.Add(hudSwitcher);
+            _activatables.Add(radar);
         }
 
         public void Enter()
         {
-            _shipMoveInvoker.Activate();
-            _heroCameraPlayerTracker.Activate();
-            _hudSwitcher.Activate();
+            foreach (IActivatable activatable in _activatables)
+                activatable.Activate();
         }
 
         public void Exit()
         {
-            _hudSwitcher.Deactivate();
-            _shipMoveInvoker.Deactivate();
-            _heroCameraPlayerTracker.Deactivate();
+            foreach (IActivatable activatable in _activatables)
+                activatable.Deactivate();
         }
     }
 }

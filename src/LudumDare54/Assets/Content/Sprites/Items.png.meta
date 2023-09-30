@@ -346,6 +346,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: RadarBeep
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 982
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68917248bd9f77d49888eb67bd4996b5
+      internalID: -1610332445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -361,6 +382,7 @@ TextureImporter:
       Gun: 4337684191699249041
       MetalChunk: -488721925442295091
       MiddleAsteroid: 1801263428120863714
+      RadarBeep: -1610332445
       Ship: 8033092973025764044
       SmallAsteroid1: -5971942374765049077
       SmallAsteroid2: 4639506938558671751

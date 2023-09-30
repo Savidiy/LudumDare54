@@ -2,7 +2,7 @@
 
 namespace LudumDare54
 {
-    public sealed class ShipMoveInvoker
+    public sealed class ShipMoveInvoker : IActivatable
     {
         private readonly IEventInvoker _eventInvoker;
         private readonly HeroShipHolder _heroShipHolder;

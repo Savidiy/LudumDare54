@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    public sealed class HeroCameraTracker
+    public sealed class HeroCameraTracker : IActivatable
     {
         private readonly IEventInvoker _eventInvoker;
         private readonly HeroShipHolder _heroShipHolder;
