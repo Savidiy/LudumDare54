@@ -74,3 +74,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aece77036634ae43a55680be6fe8640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CameraSettings: {fileID: 11400000, guid: 42b43acd99a158d4eabf7582c873260a, type: 2}

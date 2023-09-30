@@ -2,18 +2,23 @@ using Savidiy.Utils.StateMachine;
 
 namespace LudumDare54
 {
-    public sealed class GameLoopApplicationState : IState, IApplicationState
+    public sealed class GameLoopApplicationState : IState, IStateWithExit, IApplicationState
     {
-        private readonly TextUpdater _textUpdater;
+        private readonly HeroCameraTracker _heroCameraPlayerTracker;
 
-        public GameLoopApplicationState(TextUpdater textUpdater)
+        public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker)
         {
-            _textUpdater = textUpdater;
+            _heroCameraPlayerTracker = heroCameraPlayerTracker;
         }
 
         public void Enter()
         {
-            _textUpdater.StartUpdate();
+            _heroCameraPlayerTracker.StartTracking();
+        }
+
+        public void Exit()
+        {
+            _heroCameraPlayerTracker.StopTracking();
         }
     }
 }
