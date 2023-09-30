@@ -2,36 +2,45 @@
 
 namespace LudumDare54
 {
-    public sealed class LoadingLevelApplicationState : IState, IStateWithExit, IApplicationState
+    public sealed class LoadingLevelApplicationState : IState, IApplicationState
     {
         private readonly ApplicationStateMachine _applicationStateMachine;
         private readonly LevelDataProvider _levelDataProvider;
-        private readonly HudSwitcher _hudSwitcher;
         private readonly HeroShipHolder _heroShipHolder;
         private readonly ShipFactory _shipFactory;
+        private readonly EnemiesHolder _enemiesHolder;
 
         public LoadingLevelApplicationState(ApplicationStateMachine applicationStateMachine, LevelDataProvider levelDataProvider,
-            HudSwitcher hudSwitcher, HeroShipHolder heroShipHolder, ShipFactory shipFactory)
+            HeroShipHolder heroShipHolder, ShipFactory shipFactory, EnemiesHolder enemiesHolder)
         {
             _applicationStateMachine = applicationStateMachine;
             _levelDataProvider = levelDataProvider;
-            _hudSwitcher = hudSwitcher;
             _heroShipHolder = heroShipHolder;
             _shipFactory = shipFactory;
+            _enemiesHolder = enemiesHolder;
         }
 
         public void Enter()
         {
-            Ship heroShip = _shipFactory.CreateHeroShip();
-            _heroShipHolder.SetHeroShip(heroShip);
-
-            _hudSwitcher.TurnOn();
+            CreateHero();
+            CreateEnemies();
             _applicationStateMachine.EnterToState<GameLoopApplicationState>();
         }
 
-        public void Exit()
+        private void CreateHero()
         {
-            _hudSwitcher.TurnOff();
+            Ship heroShip = _shipFactory.CreateHeroShip();
+            _heroShipHolder.SetHeroShip(heroShip);
+        }
+
+        private void CreateEnemies()
+        {
+            LevelStaticData levelStaticData = _levelDataProvider.GetCurrentLevel();
+            foreach (SpawnPointStaticData spawnPointStaticData in levelStaticData.SpawnPoints)
+            {
+                Ship enemyShip = _shipFactory.CreateEnemyShip(spawnPointStaticData);
+                _enemiesHolder.AddShip(enemyShip);
+            }
         }
     }
 }

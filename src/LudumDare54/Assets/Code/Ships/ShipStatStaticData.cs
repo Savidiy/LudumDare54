@@ -1,11 +1,12 @@
 ﻿using System;
+using UnityEngine.Serialization;
 
 namespace LudumDare54
 {
     [Serializable]
-    public sealed class ShipStaticData
+    public sealed class ShipStatStaticData
     {
-        public string ShipId;
+        [FormerlySerializedAs("ShipId")] public string ShipStatId = "";
         public float RotationSpeed;
         public float ForwardSpeed;
         public float BackwardSpeed;
@@ -13,7 +14,7 @@ namespace LudumDare54
 
         public override string ToString()
         {
-            return ShipId;
+            return ShipStatId;
         }
     }
 }

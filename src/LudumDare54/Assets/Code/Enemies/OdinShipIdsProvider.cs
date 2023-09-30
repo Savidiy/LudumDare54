@@ -1,4 +1,4 @@
-using Savidiy.Utils;
+﻿using Savidiy.Utils;
 using Sirenix.OdinInspector;
 
 namespace LudumDare54
@@ -7,6 +7,5 @@ namespace LudumDare54
     {
         private static readonly EditorScriptableObjectLoader<ShipStaticDataLibrary> Loader = new();
         public static ValueDropdownList<string> ShipIds => Loader.GetAsset().ShipIds;
-        
     }
 }

@@ -20,6 +20,15 @@ namespace Savidiy.Utils
 #endif
         }
 
+        public void ValidateAndSave()
+        {
+#if UNITY_EDITOR
+            OnValidate();
+            EditorUtility.SetDirty(this);
+            SaveAsync().Forget();
+#endif
+        }
+
         private async UniTaskVoid SaveAsync()
         {
             _cancellationTokenSource?.Cancel();

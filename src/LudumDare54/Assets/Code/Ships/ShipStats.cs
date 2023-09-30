@@ -2,15 +2,15 @@
 {
     public sealed class ShipStats : IShipStats
     {
-        private readonly ShipStaticData _shipStaticData;
-        public float RotationSpeed => _shipStaticData.RotationSpeed;
-        public float ForwardSpeed => _shipStaticData.ForwardSpeed;
-        public float BackwardSpeed => _shipStaticData.BackwardSpeed;
-        public float StrafeSpeed => _shipStaticData.StrafeSpeed;
+        private readonly ShipStatStaticData _shipStatStaticData;
+        public float RotationSpeed => _shipStatStaticData.RotationSpeed;
+        public float ForwardSpeed => _shipStatStaticData.ForwardSpeed;
+        public float BackwardSpeed => _shipStatStaticData.BackwardSpeed;
+        public float StrafeSpeed => _shipStatStaticData.StrafeSpeed;
 
-        public ShipStats(ShipStaticData shipStaticData)
+        public ShipStats(ShipStatStaticData shipStatStaticData)
         {
-            _shipStaticData = shipStaticData;
+            _shipStatStaticData = shipStatStaticData;
         }
     }
 }

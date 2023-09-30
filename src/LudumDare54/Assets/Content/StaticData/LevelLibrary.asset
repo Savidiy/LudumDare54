@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11bb11b8ca8849c7987e3448731d6fea, type: 3}
+  m_Name: LevelLibrary
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  LevelStaticData:
+  - LevelId: Tutor1
+    SpawnPoints:
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+  - LevelId: Tutor2
+    SpawnPoints:
+    - Position: {x: 0.968, y: -0.515, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.783, y: 0.353, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: MiddleAsteroid
+    - Position: {x: -0.919, y: -0.564, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      EnemyId: SmallAsteroid2
