@@ -39,6 +39,6 @@ MonoBehaviour:
     StrafeSpeed: 0
   - ShipStatId: SmallAsteroid
     RotationSpeed: 40
-    ForwardSpeed: 0.1
+    ForwardSpeed: 0.3
     BackwardSpeed: 0
     StrafeSpeed: 0

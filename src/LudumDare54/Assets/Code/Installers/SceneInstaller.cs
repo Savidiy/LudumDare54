@@ -12,6 +12,7 @@ namespace LudumDare54
             Container.Bind<ApplicationStateMachine>().AsSingle();
             Container.BindInterfacesTo<LoadingLevelApplicationState>().AsSingle();
             Container.BindInterfacesTo<GameLoopApplicationState>().AsSingle();
+            Container.BindInterfacesTo<UnloadingLevelApplicationState>().AsSingle();
 
             Container.Bind<LevelDataProvider>().AsSingle();
 
@@ -21,6 +22,7 @@ namespace LudumDare54
             Container.Bind<PlayerInputProvider>().AsSingle();
             Container.Bind<ShipMoveInvoker>().AsSingle();
             Container.Bind<Radar>().AsSingle();
+            Container.Bind<LimitedSpaceChecker>().AsSingle();
 
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();

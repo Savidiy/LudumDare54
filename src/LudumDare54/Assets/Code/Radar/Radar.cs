@@ -29,6 +29,7 @@ namespace LudumDare54
         public void Activate()
         {
             _subscription ??= _eventInvoker.Subscribe(UnityEventType.Update, OnUpdate);
+            OnUpdate();
         }
 
         public void Deactivate()

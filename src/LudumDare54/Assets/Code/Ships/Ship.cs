@@ -26,5 +26,10 @@ namespace LudumDare54
         {
             Object.Destroy(_behaviour.gameObject);
         }
+
+        public void ShiftPosition(Vector3 shift)
+        {
+            _transform.position += shift;
+        }
     }
 }
