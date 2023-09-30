@@ -75,3 +75,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraSettings: {fileID: 11400000, guid: 42b43acd99a158d4eabf7582c873260a, type: 2}
+  HeroSettings: {fileID: 11400000, guid: 88a131c764f676c46b11df4e230acec8, type: 2}
+  InputSettings: {fileID: 11400000, guid: 3a520eed134f7f84298b68515194e2b4, type: 2}
+  ShipStaticDataLibrary: {fileID: 11400000, guid: b3f20efa81273094887981483de5472a, type: 2}

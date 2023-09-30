@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99912310f2e4cfc88d80d4524414c41, type: 3}
+  m_Name: InputSettings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Left: 610000000401000014010000
+  Right: 640000000601000013010000
+  Up: 770000000801000011010000
+  Down: 730000000501000012010000
+  StrafeLeft: 7100000007010000
+  StrafeRight: 6500000009010000
+  Fire1: 
+  Fire2: 
+  Fire3: 
+  Fire4: 
+  Menu: 

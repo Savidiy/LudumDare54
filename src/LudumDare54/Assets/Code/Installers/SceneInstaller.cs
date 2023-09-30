@@ -17,6 +17,8 @@ namespace LudumDare54
 
             Container.Bind<HeroShipHolder>().AsSingle();
             Container.Bind<ShipFactory>().AsSingle();
+            Container.Bind<PlayerInputShipControls>().AsSingle();
+            Container.Bind<ShipMoving>().AsSingle();
 
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();

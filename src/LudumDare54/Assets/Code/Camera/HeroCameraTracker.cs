@@ -20,16 +20,16 @@ namespace LudumDare54
             _cameraSettings = cameraSettings;
         }
 
-        public void StartTracking()
+        public void Activate()
         {
             if (_updateSubscription != null)
                 return;
 
-            _updateSubscription = _eventInvoker.Subscribe(UnityEventType.Update, OnUpdate);
+            _updateSubscription = _eventInvoker.Subscribe(UnityEventType.LateUpdate, OnUpdate);
             OnUpdate();
         }
 
-        public void StopTracking()
+        public void Deactivate()
         {
             _updateSubscription?.Dispose();
             _updateSubscription = null;
@@ -41,7 +41,7 @@ namespace LudumDare54
                 return;
 
             Transform cameraTransform = _cameraProvider.Camera.transform;
-            cameraTransform.position = ship.Position + _cameraSettings.HeroOffset;
+            cameraTransform.position = ship.Position + ship.Rotation * _cameraSettings.HeroOffset;
             cameraTransform.rotation = ship.Rotation;
         }
     }

@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SMallAsteroid2
+      name: SmallAsteroid2
       rect:
         serializedVersion: 2
         x: 145
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SMallAsteroid3
+      name: SmallAsteroid3
       rect:
         serializedVersion: 2
         x: 132
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SMallAsteroid4
+      name: SmallAsteroid4
       rect:
         serializedVersion: 2
         x: 146
@@ -361,11 +361,11 @@ TextureImporter:
       Gun: 4337684191699249041
       MetalChunk: -488721925442295091
       MiddleAsteroid: 1801263428120863714
-      SMallAsteroid2: 4639506938558671751
-      SMallAsteroid3: -6099050445329199328
-      SMallAsteroid4: -7855203551248514480
       Ship: 8033092973025764044
       SmallAsteroid1: -5971942374765049077
+      SmallAsteroid2: 4639506938558671751
+      SmallAsteroid3: -6099050445329199328
+      SmallAsteroid4: -7855203551248514480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
