@@ -21,24 +21,24 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  ShipStaticData:
-  - ShipId: Hero
+  ShipStatStaticData:
+  - ShipStatId: Hero
     RotationSpeed: 103.9
     ForwardSpeed: 2
     BackwardSpeed: 1
     StrafeSpeed: 1.5
-  - ShipId: BigAsteroid
-    RotationSpeed: 103.9
-    ForwardSpeed: 2
-    BackwardSpeed: 1
-    StrafeSpeed: 1.5
-  - ShipId: MiddleAsteroid
-    RotationSpeed: 103.9
-    ForwardSpeed: 2
-    BackwardSpeed: 1
-    StrafeSpeed: 1.5
-  - ShipId: SmallAsteroid
-    RotationSpeed: 103.9
-    ForwardSpeed: 2
-    BackwardSpeed: 1
-    StrafeSpeed: 1.5
+  - ShipStatId: BigAsteroid
+    RotationSpeed: 20
+    ForwardSpeed: 0.2
+    BackwardSpeed: 0
+    StrafeSpeed: 0
+  - ShipStatId: MiddleAsteroid
+    RotationSpeed: 30
+    ForwardSpeed: 0.15
+    BackwardSpeed: 0
+    StrafeSpeed: 0
+  - ShipStatId: SmallAsteroid
+    RotationSpeed: 40
+    ForwardSpeed: 0.1
+    BackwardSpeed: 0
+    StrafeSpeed: 0

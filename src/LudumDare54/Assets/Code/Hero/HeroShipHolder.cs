@@ -16,5 +16,11 @@
         {
             _ship = ship;
         }
+
+        public void Clear()
+        {
+            _ship.Dispose();
+            _ship = null;
+        }
     }
 }

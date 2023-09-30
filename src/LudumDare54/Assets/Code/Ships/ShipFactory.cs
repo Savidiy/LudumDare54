@@ -4,15 +4,15 @@ namespace LudumDare54
 {
     public sealed class ShipFactory
     {
-        private readonly PlayerInputShipControls _playerInputShipControls;
+        private readonly PlayerInputProvider _playerInputProvider;
         private readonly HeroSettings _heroSettings;
         private readonly ShipStatStaticDataLibrary _shipStatStaticDataLibrary;
         private readonly ShipStaticDataLibrary _shipStaticDataLibrary;
 
-        public ShipFactory(PlayerInputShipControls playerInputShipControls, HeroSettings heroSettings,
+        public ShipFactory(PlayerInputProvider playerInputProvider, HeroSettings heroSettings,
             ShipStatStaticDataLibrary shipStatStaticDataLibrary, ShipStaticDataLibrary shipStaticDataLibrary)
         {
-            _playerInputShipControls = playerInputShipControls;
+            _playerInputProvider = playerInputProvider;
             _heroSettings = heroSettings;
             _shipStatStaticDataLibrary = shipStatStaticDataLibrary;
             _shipStaticDataLibrary = shipStaticDataLibrary;
@@ -30,7 +30,9 @@ namespace LudumDare54
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
             var shipStats = new ShipStats(shipStatStaticData);
 
-            return new Ship(shipBehaviour, _playerInputShipControls, shipStats);
+            var heroMover = new HeroMover(shipBehaviour, shipStats, _playerInputProvider);
+
+            return new Ship(shipBehaviour, heroMover, shipStats);
         }
 
         public Ship CreateEnemyShip(SpawnPointStaticData spawnPointStaticData)
@@ -47,7 +49,9 @@ namespace LudumDare54
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
             var shipStats = new ShipStats(shipStatStaticData);
 
-            return new Ship(shipBehaviour, _playerInputShipControls, shipStats);
+            var asteroidMover = new AsteroidMover(shipBehaviour, shipStats);
+
+            return new Ship(shipBehaviour, asteroidMover, shipStats);
         }
     }
 }

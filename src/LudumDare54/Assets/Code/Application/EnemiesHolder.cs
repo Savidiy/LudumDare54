@@ -11,5 +11,13 @@ namespace LudumDare54
         {
             _ships.Add(ship);
         }
+
+        public void Clear()
+        {
+            foreach (Ship ship in _ships)
+                ship.Dispose();
+
+            _ships.Clear();
+        }
     }
 }

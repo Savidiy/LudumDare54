@@ -1,4 +1,6 @@
-﻿using Sirenix.OdinInspector;
+﻿#if UNITY_EDITOR
+using Sirenix.OdinInspector;
+using UnityEditor;
 using UnityEngine;
 
 namespace LudumDare54
@@ -60,10 +62,11 @@ namespace LudumDare54
 
         private void OnValidate()
         {
+            if (EditorApplication.isPlaying)
+                return;
+
             if (_currentLevelId != LevelId)
                 LoadLevel(LevelId);
-            else
-                SaveLevel(LevelId);
         }
 
         private void LoadLevel(string levelId)
@@ -72,13 +75,26 @@ namespace LudumDare54
             if (!LevelLibrary.TryGetLevelStaticData(levelId, out LevelStaticData levelStaticData))
                 return;
 
+            SpawnPointEditor[] spawnPointEditors = GetComponentsInChildren<SpawnPointEditor>(includeInactive: true);
+            var index = 0;
+
             foreach (SpawnPointStaticData spawnPointStaticData in levelStaticData.SpawnPoints)
             {
-                SpawnPointEditor spawnPointEditor = Instantiate(SpawnPointEditorPrefab, spawnPointStaticData.Position,
-                    Quaternion.Euler(spawnPointStaticData.Rotation), transform);
+                SpawnPointEditor spawnPointEditor = index < spawnPointEditors.Length
+                    ? spawnPointEditors[index]
+                    : Instantiate(SpawnPointEditorPrefab, transform);
+
+                spawnPointEditor.transform.position = spawnPointStaticData.Position;
+                spawnPointEditor.transform.rotation = Quaternion.Euler(spawnPointStaticData.Rotation);
 
                 spawnPointEditor.EnemyId = spawnPointStaticData.EnemyId;
+                spawnPointEditor.OnValidate();
+                spawnPointEditor.gameObject.SetActive(true);
+                index++;
             }
+
+            for (int i = index; i < spawnPointEditors.Length; i++)
+                spawnPointEditors[i].gameObject.SetActive(false);
         }
 
         private void SaveLevel(string levelId)
@@ -99,8 +115,9 @@ namespace LudumDare54
 
                 levelStaticData.SpawnPoints.Add(spawnPointStaticData);
             }
-            
+
             LevelLibrary.ValidateAndSave();
         }
     }
 }
+#endif

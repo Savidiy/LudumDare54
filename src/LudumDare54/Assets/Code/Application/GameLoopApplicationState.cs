@@ -5,28 +5,28 @@ namespace LudumDare54
     public sealed class GameLoopApplicationState : IState, IStateWithExit, IApplicationState
     {
         private readonly HeroCameraTracker _heroCameraPlayerTracker;
-        private readonly PlayerInputShipControls _playerInputShipControls;
-        private readonly ShipMoving _shipMoving;
+        private readonly ShipMoveInvoker _shipMoveInvoker;
+        private readonly HudSwitcher _hudSwitcher;
 
-        public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, PlayerInputShipControls playerInputShipControls,
-            ShipMoving shipMoving)
+        public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
+            HudSwitcher hudSwitcher)
         {
             _heroCameraPlayerTracker = heroCameraPlayerTracker;
-            _playerInputShipControls = playerInputShipControls;
-            _shipMoving = shipMoving;
+            _shipMoveInvoker = shipMoveInvoker;
+            _hudSwitcher = hudSwitcher;
         }
 
         public void Enter()
         {
-            _playerInputShipControls.Activate();
-            _shipMoving.Activate();
+            _shipMoveInvoker.Activate();
             _heroCameraPlayerTracker.Activate();
+            _hudSwitcher.Activate();
         }
 
         public void Exit()
         {
-            _playerInputShipControls.Deactivate();
-            _shipMoving.Deactivate();
+            _hudSwitcher.Deactivate();
+            _shipMoveInvoker.Deactivate();
             _heroCameraPlayerTracker.Deactivate();
         }
     }

@@ -11,12 +11,12 @@ namespace LudumDare54
 
         public Vector3 Position => _transform.position;
         public Quaternion Rotation => _transform.rotation;
-        public IShipControls ShipControls { get; }
+        public IShipMover ShipMover { get; }
         public IShipStats Stats { get; }
 
-        public Ship(ShipBehaviour behaviour, IShipControls shipControls, IShipStats stats)
+        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipStats stats)
         {
-            ShipControls = shipControls;
+            ShipMover = shipMover;
             Stats = stats;
             _behaviour = behaviour;
             _transform = _behaviour.transform;
@@ -25,23 +25,6 @@ namespace LudumDare54
         public void Dispose()
         {
             Object.Destroy(_behaviour.gameObject);
-        }
-
-        public void Rotate(float rotation)
-        {
-            _transform.Rotate(0, 0, -rotation);
-        }
-
-        public void Move(float movement)
-        {
-            Vector3 shift = _transform.up * movement;
-            _transform.position += shift;
-        }
-
-        public void Strafe(float strafe)
-        {
-            Vector3 shift = _transform.right * strafe;
-            _transform.position += shift;
         }
     }
 }

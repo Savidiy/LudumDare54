@@ -4,5 +4,6 @@ namespace LudumDare54
 {
     public sealed class ShipBehaviour : MonoBehaviour
     {
+        public Transform RotateRoot;
     }
 }
