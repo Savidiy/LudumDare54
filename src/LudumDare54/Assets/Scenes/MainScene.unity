@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 17712245}
   - component: {fileID: 17712246}
   m_Layer: 0
-  m_Name: Spawn - smallasteroid3
+  m_Name: Spawn - smallturret
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 17712244}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.9608527, w: -0.27705982}
-  m_LocalPosition: {x: -0.15, y: -1.12, z: 0}
+  m_LocalPosition: {x: 2.281, y: -1.642, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,8 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 17
-  EnemyId: SmallAsteroid3
+  ShipType: 30
 --- !u!1 &40747590
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,13 +234,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65973267}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.9842163, w: 0.1769697}
-  m_LocalPosition: {x: -1.26, y: 2.48, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.76863897, w: 0.6396829}
+  m_LocalPosition: {x: -2.751, y: 1.0550001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916660794}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 100.464}
 --- !u!114 &65973269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,7 +254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShipType: 10
-  EnemyId: BigAsteroid
 --- !u!1 &409969841
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,7 +735,7 @@ GameObject:
   - component: {fileID: 944581011}
   - component: {fileID: 944581012}
   m_Layer: 0
-  m_Name: Spawn - middleasteroid1
+  m_Name: Spawn - smallturret
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -752,7 +750,7 @@ Transform:
   m_GameObject: {fileID: 944581010}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.059238534, w: 0.99824387}
-  m_LocalPosition: {x: -2.07, y: -1.1, z: 0}
+  m_LocalPosition: {x: -2.972, y: -1.603, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -770,8 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 11
-  EnemyId: MiddleAsteroid1
+  ShipType: 30
 --- !u!1001 &1103613539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -914,13 +911,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162274666}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.9756649, w: -0.21926707}
-  m_LocalPosition: {x: 1.17, y: 0.87, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.95676863, w: 0.29085016}
+  m_LocalPosition: {x: 2.443, y: 1.088, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916660794}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -213.818}
 --- !u!114 &1162274668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -934,7 +931,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShipType: 10
-  EnemyId: BigAsteroid
 --- !u!1 &1289431444
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +942,7 @@ GameObject:
   - component: {fileID: 1289431445}
   - component: {fileID: 1289431446}
   m_Layer: 0
-  m_Name: Spawn - smallasteroid1
+  m_Name: Spawn - smallturret
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -961,7 +957,7 @@ Transform:
   m_GameObject: {fileID: 1289431444}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.9201055, w: 0.3916706}
-  m_LocalPosition: {x: -2.15, y: 0.58, z: 0}
+  m_LocalPosition: {x: -2.065, y: 1.606, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -979,8 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 15
-  EnemyId: SmallAsteroid1
+  ShipType: 30
 --- !u!1 &1301268931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,13 +1035,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435549695}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.9169703, w: 0.39895546}
-  m_LocalPosition: {x: 1.29, y: -0.53, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6005912, w: 0.7995563}
+  m_LocalPosition: {x: -0.20099998, y: -1.9549999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916660794}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 73.824}
 --- !u!114 &1435549697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,7 +1055,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShipType: 10
-  EnemyId: BigAsteroid
 --- !u!1 &1454804691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1066,7 @@ GameObject:
   - component: {fileID: 1454804692}
   - component: {fileID: 1454804693}
   m_Layer: 0
-  m_Name: Spawn - smallasteroid2
+  m_Name: Spawn - smallturret
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1087,7 +1081,7 @@ Transform:
   m_GameObject: {fileID: 1454804691}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.98086196, w: -0.19470447}
-  m_LocalPosition: {x: 0.69, y: 1.8, z: 0}
+  m_LocalPosition: {x: 0.12, y: 1.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1105,8 +1099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 16
-  EnemyId: SmallAsteroid2
+  ShipType: 30
 --- !u!1001 &1468834122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1366,13 +1359,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711486382}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.9925914, w: -0.12150036}
-  m_LocalPosition: {x: -0.96, y: 1.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.923236, w: 0.3842334}
+  m_LocalPosition: {x: -2.299, y: -0.481, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916660794}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -225.192}
 --- !u!114 &1711486384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1386,7 +1379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShipType: 10
-  EnemyId: BigAsteroid
 --- !u!1 &1745932479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,7 +1390,7 @@ GameObject:
   - component: {fileID: 1745932480}
   - component: {fileID: 1745932481}
   m_Layer: 0
-  m_Name: Spawn - smallasteroid4
+  m_Name: Spawn - smallturret
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1412,13 +1404,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745932479}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.43040976, w: -0.9026336}
-  m_LocalPosition: {x: 1.23, y: 0.37, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.1430619, w: 0.9897138}
+  m_LocalPosition: {x: 2.275, y: -0.228, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916660794}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16.45}
 --- !u!114 &1745932481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1431,8 +1423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 18
-  EnemyId: SmallAsteroid4
+  ShipType: 30
 --- !u!224 &1951330678 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7987076770740670936, guid: a26ddfa9748c0b045a9515e5a6c59b8d, type: 3}
@@ -1503,7 +1494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6017222650836163882, guid: 55eacafef2da9c147b31fcfe7324323b, type: 3}
       propertyPath: LevelId
-      value: Tutor3
+      value: Turret1
       objectReference: {fileID: 0}
     - target: {fileID: 6017222650836163882, guid: 55eacafef2da9c147b31fcfe7324323b, type: 3}
       propertyPath: LevelWidth
@@ -1511,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6017222650836163882, guid: 55eacafef2da9c147b31fcfe7324323b, type: 3}
       propertyPath: NewLevelId
-      value: Tutor3
+      value: Turret1
       objectReference: {fileID: 0}
     - target: {fileID: 6017222650836163882, guid: 55eacafef2da9c147b31fcfe7324323b, type: 3}
       propertyPath: LevelHeight

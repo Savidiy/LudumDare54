@@ -27,6 +27,7 @@ MonoBehaviour:
   BackwardSpeed: 1
   StrafeSpeed: 0.7
   ShootCooldown: 0.2
+  BulletId: HeroBullet
   ShootDamage: 1
   StartHealth: 2
   SelfDamageFromCollision: 1

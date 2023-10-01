@@ -40,13 +40,13 @@ namespace LudumDare54
             for (var index = 0; index < _gunBehaviour.GunPoints.Length; index++)
             {
                 Transform gunPoint = _gunBehaviour.GunPoints[index];
-                if(!gunPoint.gameObject.activeSelf)
+                if (!gunPoint.gameObject.activeSelf)
                     continue;
-                
+
                 Vector3 gunPosition = gunPoint.position;
                 Quaternion rotation = gunPoint.rotation;
                 var damage = new SimpleDamage(_heroStats.Damage);
-                bulletDataBuffer.Add(new BulletData(gunPosition, rotation, damage));
+                bulletDataBuffer.Add(new BulletData(_heroStats.BulletId, gunPosition, rotation, damage));
             }
         }
     }

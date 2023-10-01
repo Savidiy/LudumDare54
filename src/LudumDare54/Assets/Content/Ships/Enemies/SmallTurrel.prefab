@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 3043947003853072590}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101,8 +101,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1861063975
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -196763911, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -187,8 +187,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1861063975
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 2103035758, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 3886470681276882155}
   - component: {fileID: 2122917351389826536}
   - component: {fileID: 1197745026828166653}
+  - component: {fileID: 6728146081583470276}
   m_Layer: 0
   m_Name: SmallTurrel
   m_TagString: Untagged
@@ -308,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 5779364337681262935}
-  Gun: {fileID: 3886470681276882155}
+  GunBehaviour: {fileID: 6728146081583470276}
   Collider: {fileID: 6436769110655791819}
   ShipHighlighter: {fileID: 1197745026828166653}
   BlinkGameObjects: []
@@ -327,3 +328,17 @@ MonoBehaviour:
   SpriteRenderers:
   - {fileID: 4223171019215190191}
   - {fileID: 3478554950747634331}
+--- !u!114 &6728146081583470276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9102919204900434043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5210ad8f1b81405c9cfce1dbd4db7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoints:
+  - {fileID: 1324867220777122074}

@@ -5,16 +5,16 @@ namespace LudumDare54
 {
     public sealed class TurretBrain : IShipShooter, IShipMover
     {
-        private readonly TurretSettings _turretSettings;
+        private readonly TurretStatsData _turretStatsData;
         private readonly HeroShipHolder _heroShipHolder;
         private readonly GunBehaviour _gunBehaviour;
 
         private float _shotCooldown;
         private int _burstIndex;
 
-        public TurretBrain(TurretSettings turretSettings, HeroShipHolder heroShipHolder, GunBehaviour gunBehaviour)
+        public TurretBrain(TurretStatsData turretStatsData, GunBehaviour gunBehaviour, HeroShipHolder heroShipHolder)
         {
-            _turretSettings = turretSettings;
+            _turretStatsData = turretStatsData;
             _heroShipHolder = heroShipHolder;
             _gunBehaviour = gunBehaviour;
         }
@@ -37,21 +37,22 @@ namespace LudumDare54
                 if (!gunPoint.gameObject.activeSelf)
                     continue;
 
+                string bulletId = _turretStatsData.BulletId;
                 Vector3 gunPosition = gunPoint.position;
                 Quaternion rotation = gunPoint.rotation;
-                var damage = new SimpleDamage(_turretSettings.BulletDamage);
-                bulletDataBuffer.Add(new BulletData(gunPosition, rotation, damage));
+                var damage = new SimpleDamage(_turretStatsData.BulletDamage);
+                bulletDataBuffer.Add(new BulletData(bulletId, gunPosition, rotation, damage));
             }
 
             _burstIndex++;
-            if (_burstIndex >= _turretSettings.BurstSize)
+            if (_burstIndex >= _turretStatsData.BurstSize)
             {
                 _burstIndex = 0;
-                _shotCooldown = _turretSettings.BurstCooldown;
+                _shotCooldown = _turretStatsData.BurstCooldown;
             }
             else
             {
-                _shotCooldown = _turretSettings.SingleShootCooldown;
+                _shotCooldown = _turretStatsData.SingleShootCooldown;
             }
         }
 

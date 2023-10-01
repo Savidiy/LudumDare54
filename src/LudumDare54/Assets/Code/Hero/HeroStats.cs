@@ -10,6 +10,7 @@
         public float ForwardSpeed => _heroSettings.ForwardSpeed;
         public float BackwardSpeed => _heroSettings.BackwardSpeed;
         public float StrafeSpeed => _heroSettings.StrafeSpeed;
+        public string BulletId => _heroSettings.BulletId;
 
         public HeroStats(HeroSettings heroSettings)
         {

@@ -29,9 +29,15 @@ namespace LudumDare54
 
         private Progress CreateDefaultProgress()
         {
+            int startLevel = _progressSettings.StartLevel;
+#if UNITY_EDITOR
+            if(_progressSettings.SkipMenuInEditor)
+                startLevel = _progressSettings.TestStartLevel;
+#endif
+            
             return new Progress()
             {
-                CurrentLevelIndex = _progressSettings.StartLevel,
+                CurrentLevelIndex = startLevel,
             };
         }
 

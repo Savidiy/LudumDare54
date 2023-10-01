@@ -16,6 +16,8 @@ namespace LudumDare54
         public float BackwardSpeed;
         public float StrafeSpeed;
         public float ShootCooldown = 0.2f;
+        [ValueDropdown(nameof(BulletIds))] public string BulletId;
+        private ValueDropdownList<string> BulletIds => OdinBulletIdsProvider.BulletIds;
         public int ShootDamage = 1;
         public int StartHealth;
         public int SelfDamageFromCollision;

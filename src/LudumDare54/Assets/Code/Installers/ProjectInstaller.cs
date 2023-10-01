@@ -1,19 +1,21 @@
+using Sirenix.OdinInspector;
 using Zenject;
 
 namespace LudumDare54
 {
     public sealed class ProjectInstaller : MonoInstaller
     {
-        public CameraSettings CameraSettings;
-        public HeroSettings HeroSettings;
-        public InputSettings InputSettings;
-        public LevelLibrary LevelLibrary;
-        public LevelSettings LevelSettings;
-        public RadarSettings RadarSettings;
-        public BulletSettings BulletSettings;
-        public HighlightSettings HighlightSettings;
-        public ProgressSettings ProgressSettings;
-        public AsteroidLibrary AsteroidLibrary;
+        [Required] public CameraSettings CameraSettings;
+        [Required] public HeroSettings HeroSettings;
+        [Required] public InputSettings InputSettings;
+        [Required] public LevelLibrary LevelLibrary;
+        [Required] public LevelSettings LevelSettings;
+        [Required] public RadarSettings RadarSettings;
+        [Required] public BulletLibrary BulletLibrary;
+        [Required] public HighlightSettings HighlightSettings;
+        [Required] public ProgressSettings ProgressSettings;
+        [Required] public AsteroidLibrary AsteroidLibrary;
+        [Required] public TurretLibrary TurretLibrary;
 
         public override void InstallBindings()
         {
@@ -23,10 +25,11 @@ namespace LudumDare54
             Container.BindInstance(LevelLibrary);
             Container.BindInstance(LevelSettings);
             Container.BindInstance(RadarSettings);
-            Container.BindInstance(BulletSettings);
+            Container.BindInstance(BulletLibrary);
             Container.BindInstance(HighlightSettings);
             Container.BindInstance(ProgressSettings);
             Container.BindInstance(AsteroidLibrary);
+            Container.BindInstance(TurretLibrary);
 
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<ProgressProvider>().AsSingle();
