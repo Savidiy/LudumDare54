@@ -92,7 +92,7 @@ namespace LudumDare54
                 spawnPointEditor.transform.position = spawnPointStaticData.Position;
                 spawnPointEditor.transform.rotation = Quaternion.Euler(spawnPointStaticData.Rotation);
 
-                spawnPointEditor.EnemyId = spawnPointStaticData.EnemyId;
+                spawnPointEditor.ShipType = spawnPointStaticData.ShipType;
                 spawnPointEditor.OnValidate();
                 spawnPointEditor.gameObject.SetActive(true);
                 index++;
@@ -117,7 +117,7 @@ namespace LudumDare54
                 {
                     Position = spawnPointTransform.position,
                     Rotation = spawnPointTransform.rotation.eulerAngles,
-                    EnemyId = spawnPointEditor.EnemyId
+                    ShipType = spawnPointEditor.ShipType,
                 };
 
                 levelStaticData.SpawnPoints.Add(spawnPointStaticData);

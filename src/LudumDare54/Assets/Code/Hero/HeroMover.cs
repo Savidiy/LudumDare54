@@ -15,7 +15,7 @@ namespace LudumDare54
             _inputProvider = inputProvider;
         }
         
-        public void UpdatePosition(float deltaTime)
+        public void Move(float deltaTime)
         {
             HeroInputData heroInputData = _inputProvider.GetMoveInput();
             float moveInput = heroInputData.Move;

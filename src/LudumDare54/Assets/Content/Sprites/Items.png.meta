@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MiddleAsteroid
+      name: MiddleAsteroid1
       rect:
         serializedVersion: 2
         x: 103
@@ -388,6 +388,300 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BigGravy
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 933
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951a60076ee0ba84e888e99e7cc98456
+      internalID: 337027506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiddleGravy1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 932
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac893bd91cda29e4c9394b125391f491
+      internalID: 244690122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiddleGravy2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 934
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73a70dd99099194da0f882850ae30f9
+      internalID: 2133700041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallGravy1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 946
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21709a5be50cfa4fb8b77bc64b28a10
+      internalID: -1894111192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallGravy2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 930
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdb177b3f314fa48b00de2f6a3c78fb
+      internalID: 946168116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallGravy3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 930
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bba5c96b138b046a537d1e0e601218
+      internalID: -1858162424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiddleAsteroid2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 977
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f87fb7eda58f6947a25cc13720fef7f
+      internalID: -64745353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 894
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e1432d195f1ab4ab3b2264f3498844
+      internalID: -374048483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 881
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ba97c09d0d93444a7208666ffc55b9
+      internalID: 2120665859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 886
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e0a586dcb62c4ca46109f4ae9ab17
+      internalID: -196763911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 886
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49451858, y: 0.32654724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f070c9959a00ce488ae71e6ee253603
+      internalID: 2103035758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 850
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee996c3cbbee02749a74794083dd025b
+      internalID: 46735192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 854
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f63aab548052ce43ba27c43c56a5093
+      internalID: -634315672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 944
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8a085ea682320488fb89e986fe2f4a
+      internalID: 1289045613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -400,16 +694,30 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       BigAsteroid: -7573354855677281409
+      BigGravy: 337027506
       Bullet: -374711799
       Gun: 4337684191699249041
+      Items_0: -374048483
+      Items_1: 2120665859
+      Items_2: -196763911
+      Items_3: 2103035758
+      Items_4: 46735192
+      Items_5: -634315672
+      Items_6: 1289045613
       MetalChunk: -488721925442295091
-      MiddleAsteroid: 1801263428120863714
+      MiddleAsteroid1: 1801263428120863714
+      MiddleAsteroid2: -64745353
+      MiddleGravy1: 244690122
+      MiddleGravy2: 2133700041
       RadarBeep: -1610332445
       Ship: 8033092973025764044
       SmallAsteroid1: -5971942374765049077
       SmallAsteroid2: 4639506938558671751
       SmallAsteroid3: -6099050445329199328
       SmallAsteroid4: -7855203551248514480
+      SmallGravy1: -1894111192
+      SmallGravy2: 946168116
+      SmallGravy3: -1858162424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

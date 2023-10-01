@@ -48,7 +48,7 @@ namespace LudumDare54
         private void Move(Ship ship, float deltaTime)
         {
             IShipMover mover = ship.ShipMover;
-            mover.UpdatePosition(deltaTime);
+            mover.Move(deltaTime);
         }
     }
 }

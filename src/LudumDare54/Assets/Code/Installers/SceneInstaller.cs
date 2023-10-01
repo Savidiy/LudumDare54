@@ -27,10 +27,13 @@ namespace LudumDare54
             Container.BindInterfacesTo<WinGameApplicationState>().AsSingle();
 
             Container.Bind<LevelDataProvider>().AsSingle();
+            
+            Container.Bind<ShipFactory>().AsSingle();
+            Container.BindInterfacesTo<HeroShipFactory>().AsSingle();
+            Container.BindInterfacesTo<AsteroidFactory>().AsSingle();
 
             Container.Bind<HeroShipHolder>().AsSingle();
             Container.Bind<EnemiesHolder>().AsSingle();
-            Container.Bind<ShipFactory>().AsSingle();
             Container.Bind<InputProvider>().AsSingle();
             Container.Bind<ShipMoveInvoker>().AsSingle();
             Container.Bind<ShipShootInvoker>().AsSingle();

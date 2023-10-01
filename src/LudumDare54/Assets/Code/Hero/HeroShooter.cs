@@ -5,15 +5,15 @@ namespace LudumDare54
 {
     public sealed class HeroShooter : IShipShooter
     {
-        private readonly ShipBehaviour _shipBehaviour;
+        private readonly GunBehaviour _gunBehaviour;
         private readonly HeroStats _heroStats;
         private readonly InputProvider _inputProvider;
 
         private float _cooldownTimer;
 
-        public HeroShooter(ShipBehaviour shipBehaviour, HeroStats heroStats, InputProvider inputProvider)
+        public HeroShooter(GunBehaviour gunBehaviour, HeroStats heroStats, InputProvider inputProvider)
         {
-            _shipBehaviour = shipBehaviour;
+            _gunBehaviour = gunBehaviour;
             _heroStats = heroStats;
             _inputProvider = inputProvider;
         }
@@ -36,10 +36,18 @@ namespace LudumDare54
         public void Shoot(List<BulletData> bulletDataBuffer)
         {
             _cooldownTimer = _heroStats.ShootCooldown;
-            Vector3 gunPosition = _shipBehaviour.Gun.position;
-            Quaternion rotation = _shipBehaviour.transform.rotation;
-            var damage = new SimpleDamage(_heroStats.Damage);
-            bulletDataBuffer.Add(new BulletData(gunPosition, rotation, damage));
+
+            for (var index = 0; index < _gunBehaviour.GunPoints.Length; index++)
+            {
+                Transform gunPoint = _gunBehaviour.GunPoints[index];
+                if(!gunPoint.gameObject.activeSelf)
+                    continue;
+                
+                Vector3 gunPosition = gunPoint.position;
+                Quaternion rotation = gunPoint.rotation;
+                var damage = new SimpleDamage(_heroStats.Damage);
+                bulletDataBuffer.Add(new BulletData(gunPosition, rotation, damage));
+            }
         }
     }
 }

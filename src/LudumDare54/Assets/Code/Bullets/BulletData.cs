@@ -4,13 +4,13 @@ namespace LudumDare54
 {
     public struct BulletData
     {
-        public readonly Vector3 GunPosition;
+        public readonly Vector3 StartPosition;
         public readonly Quaternion Rotation;
         public readonly IShipDamage Damage;
 
-        public BulletData(Vector3 gunPosition, Quaternion rotation, IShipDamage damage)
+        public BulletData(Vector3 startPosition, Quaternion rotation, IShipDamage damage)
         {
-            GunPosition = gunPosition;
+            StartPosition = startPosition;
             Rotation = rotation;
             Damage = damage;
         }

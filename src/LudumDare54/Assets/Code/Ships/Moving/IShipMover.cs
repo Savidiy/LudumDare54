@@ -2,6 +2,6 @@
 {
     public interface IShipMover
     {
-        void UpdatePosition(float deltaTime);
+        void Move(float deltaTime);
     }
 }

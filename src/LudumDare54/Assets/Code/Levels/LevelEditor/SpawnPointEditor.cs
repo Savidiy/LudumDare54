@@ -1,16 +1,14 @@
-﻿using Sirenix.OdinInspector;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace LudumDare54
 {
     internal sealed class SpawnPointEditor : MonoBehaviour
     {
-        [ValueDropdown(nameof(EnemyIds))] public string EnemyId = "";
-        private ValueDropdownList<string> EnemyIds => OdinShipIdsProvider.ShipIds;
+        public ShipType ShipType;
 
         public void OnValidate()
         {
-            name = $"Spawn - {EnemyId}";
+            name = $"Spawn - {ShipType.ToStringCached()}";
         }
     }
 }

@@ -84,8 +84,5 @@ MonoBehaviour:
   RadarSettings: {fileID: 11400000, guid: f8b98650f2d44c340915bf7705bacf17, type: 2}
   BulletSettings: {fileID: 11400000, guid: cbb954f58c6c5184cb2af73c60710f7e, type: 2}
   HighlightSettings: {fileID: 11400000, guid: e3daa1ed859eabd448fe2342713b090d, type: 2}
-  WinLevelBehaviour: {fileID: 5954079452358887604, guid: d775074f6e30d12468b9e049d33f4de5, type: 3}
-  MainMenuBehaviour: {fileID: 8831310223880100403, guid: 442b999108c573e4f8a816fe26d1566c, type: 3}
-  LoseLevelBehaviour: {fileID: 7805710648491580407, guid: 75c1dcbfad6e3324d9dd00e78519b500, type: 3}
-  WinGameBehaviour: {fileID: 5092932728372442358, guid: d2201ab414caf764b8fedb2f60d1435d, type: 3}
   ProgressSettings: {fileID: 11400000, guid: cd941e956acd1bd46a2ebbc67e2ac5ff, type: 2}
+  AsteroidLibrary: {fileID: 11400000, guid: be4e945d1be1f284abff6babdcb58ac5, type: 2}

@@ -18,13 +18,12 @@ namespace LudumDare54
         public IShipDamage SelfDamageFromCollision { get; }
         public bool IsInvulnerable => _invulnerableTimer > 0;
 
-        public HeroHealth(int maxHealth, HeroSettings heroSettings, ShipBehaviour shipBehaviour,
-            ShipStatStaticData shipStatStaticData)
+        public HeroHealth(ShipBehaviour shipBehaviour, HeroSettings heroSettings)
         {
-            _health = maxHealth;
             _heroSettings = heroSettings;
+            _health = heroSettings.StartHealth;
             _blinkGameObjects = shipBehaviour.BlinkGameObjects;
-            SelfDamageFromCollision = new SimpleDamage(shipStatStaticData.SelfDamageFromCollision);
+            SelfDamageFromCollision = new SimpleDamage(heroSettings.SelfDamageFromCollision);
             StartInvulnerable(_heroSettings.StartLevelInvulnerabilityTime);
         }
 

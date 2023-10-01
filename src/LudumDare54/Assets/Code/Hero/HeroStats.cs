@@ -2,18 +2,18 @@
 {
     public sealed class HeroStats
     {
-        private readonly ShipStatStaticData _shipStatStaticData;
+        private readonly HeroSettings _heroSettings;
 
-        public float ShootCooldown => _shipStatStaticData.ShootCooldown;
-        public int Damage => _shipStatStaticData.ShootDamage;
-        public float RotationSpeed => _shipStatStaticData.RotationSpeed;
-        public float ForwardSpeed => _shipStatStaticData.ForwardSpeed;
-        public float BackwardSpeed => _shipStatStaticData.BackwardSpeed;
-        public float StrafeSpeed => _shipStatStaticData.StrafeSpeed;
+        public float ShootCooldown => _heroSettings.ShootCooldown;
+        public int Damage => _heroSettings.ShootDamage;
+        public float RotationSpeed => _heroSettings.RotationSpeed;
+        public float ForwardSpeed => _heroSettings.ForwardSpeed;
+        public float BackwardSpeed => _heroSettings.BackwardSpeed;
+        public float StrafeSpeed => _heroSettings.StrafeSpeed;
 
-        public HeroStats(ShipStatStaticData shipStatStaticData)
+        public HeroStats(HeroSettings heroSettings)
         {
-            _shipStatStaticData = shipStatStaticData;
+            _heroSettings = heroSettings;
         }
     }
 }

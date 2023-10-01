@@ -62,7 +62,6 @@ namespace LudumDare54
     {
         public Vector3 Position;
         public Vector3 Rotation;
-        [ValueDropdown(nameof(EnemyIds))] public string EnemyId = "";
-        private ValueDropdownList<string> EnemyIds => OdinShipIdsProvider.ShipIds;
+        public ShipType ShipType;
     }
 }

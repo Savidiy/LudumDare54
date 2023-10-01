@@ -21,7 +21,15 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  HeroShipId: Hero
+  ShipBehaviourPrefab: {fileID: 7120423441994563903, guid: 5c9798ce640b95d4f9d07dfc70f16bc1, type: 3}
+  RotationSpeed: 80
+  ForwardSpeed: 1.5
+  BackwardSpeed: 1
+  StrafeSpeed: 0.7
+  ShootCooldown: 0.2
+  ShootDamage: 1
+  StartHealth: 2
+  SelfDamageFromCollision: 1
   StartLevelInvulnerabilityTime: 2.5
   AfterDamageInvulnerabilityTime: 1
   BlinkPeriod: 0.18

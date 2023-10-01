@@ -15,7 +15,7 @@ namespace LudumDare54
 
         public IBullet CreateBullet(BulletData bulletData, bool isHero)
         {
-            Vector3 gunPosition = bulletData.GunPosition;
+            Vector3 gunPosition = bulletData.StartPosition;
             Quaternion rotation = bulletData.Rotation;
             BulletBehaviour prefab = _bulletSettings.BulletPrefab;
             BulletBehaviour bulletBehaviour = Object.Instantiate(prefab, gunPosition, rotation, _bulletRoot);

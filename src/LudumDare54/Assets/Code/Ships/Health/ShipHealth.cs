@@ -12,10 +12,10 @@ namespace LudumDare54
         public bool IsDead => !IsAlive;
         public IShipDamage SelfDamageFromCollision { get; }
 
-        public ShipHealth(int maxHealth, ShipStatStaticData shipStatStaticData)
+        public ShipHealth(int maxHealth, int selfDamageFromCollision)
         {
             _health = maxHealth;
-            SelfDamageFromCollision = new SimpleDamage(shipStatStaticData.SelfDamageFromCollision);
+            SelfDamageFromCollision = new SimpleDamage(selfDamageFromCollision);
         }
 
         public void TakeDamage(IShipDamage damage, Vector3 attackVector)

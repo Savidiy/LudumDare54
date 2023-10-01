@@ -31,6 +31,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 256018762889537280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &792441337003610786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5855622315502471794}
+  m_Layer: 0
+  m_Name: GunPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5855622315502471794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792441337003610786}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 0.13091147, w: 0.9913941}
+  m_LocalPosition: {x: -0.1079, y: -0.0302, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 256018762889537280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15.045}
+--- !u!1 &4790872885080032538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5396089011131999679}
+  m_Layer: 0
+  m_Name: GunPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5396089011131999679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790872885080032538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.1556079, w: 0.98781896}
+  m_LocalPosition: {x: 0.1049, y: -0.0287, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 256018762889537280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.904}
 --- !u!1 &7510440222968582617
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,6 +104,7 @@ GameObject:
   - component: {fileID: 256018762889537280}
   - component: {fileID: 7120423441994563903}
   - component: {fileID: 1608528513849851303}
+  - component: {fileID: 8099899855238249325}
   m_Layer: 0
   m_Name: HeroShip
   m_TagString: Untagged
@@ -64,6 +127,8 @@ Transform:
   m_Children:
   - {fileID: 2995580741437662820}
   - {fileID: 7010002849150818383}
+  - {fileID: 5396089011131999679}
+  - {fileID: 5855622315502471794}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7120423441994563903
@@ -79,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 256018762889537280}
-  Gun: {fileID: 7010002849150818383}
+  GunBehaviour: {fileID: 8099899855238249325}
   Collider: {fileID: 3042063148578310544}
   ShipHighlighter: {fileID: 1608528513849851303}
   BlinkGameObjects:
@@ -98,6 +163,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteRenderers:
   - {fileID: 4050531735457695177}
+--- !u!114 &8099899855238249325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7510440222968582617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5210ad8f1b81405c9cfce1dbd4db7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoints:
+  - {fileID: 7010002849150818383}
+  - {fileID: 5396089011131999679}
+  - {fileID: 5855622315502471794}
 --- !u!1 &8785560129467439609
 GameObject:
   m_ObjectHideFlags: 0
