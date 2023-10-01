@@ -24,6 +24,6 @@ MonoBehaviour:
   StartBlinkDuration: 0.03
   StartEase: 5
   MaxValue: 1
-  PauseDuration: 0
+  PauseDuration: 0.005
   EndBlinkDuration: 0.08
   EndEase: 3
