@@ -2,9 +2,9 @@
 {
     public struct HeroInputData
     {
-        public float Move;
-        public float Rotate;
-        public float Strafe;
+        public readonly float Move;
+        public readonly float Rotate;
+        public readonly float Strafe;
 
         public HeroInputData(float move, float rotate, float strafe)
         {

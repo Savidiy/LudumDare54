@@ -24,3 +24,4 @@ MonoBehaviour:
   LevelQueue:
   - LevelId: Tutor1
   - LevelId: Tutor2
+  - LevelId: Tutor3

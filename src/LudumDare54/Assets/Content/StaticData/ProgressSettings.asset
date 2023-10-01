@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f326a6ac3a724d808674b1aa9902bef8, type: 3}
-  m_Name: BulletSettings
+  m_Script: {fileID: 11500000, guid: b1dfd2cdd90d42339fc22c7f9e65eb7a, type: 3}
+  m_Name: ProgressSettings
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,6 +21,4 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  BulletPrefab: {fileID: 6095704002184616489, guid: 64b1a278b60e5e24ca04ae4fd28e9221, type: 3}
-  BulletSpeed: 4
-  BulletLifeTime: 0.5
+  StartLevel: 0

@@ -14,7 +14,8 @@ namespace LudumDare54
         public RadarSettings RadarSettings;
         public BulletSettings BulletSettings;
         public HighlightSettings HighlightSettings;
-        
+        public ProgressSettings ProgressSettings;
+
         public override void InstallBindings()
         {
             Container.BindInstance(CameraSettings);
@@ -27,9 +28,10 @@ namespace LudumDare54
             Container.BindInstance(RadarSettings);
             Container.BindInstance(BulletSettings);
             Container.BindInstance(HighlightSettings);
-            
+            Container.BindInstance(ProgressSettings);
+
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
-            Container.Bind<AssetProvider>().AsSingle();
+            Container.Bind<ProgressProvider>().AsSingle();
         }
     }
 }

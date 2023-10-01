@@ -1,13 +1,9 @@
-﻿using UnityEngine;
-
-namespace LudumDare54
+﻿namespace LudumDare54
 {
     public sealed class HeroShipHolder
     {
         private Ship _ship;
         
-        public bool HasHeroShip => _ship != null;
-
         public bool TryGetHeroShip(out Ship ship)
         {
             ship = _ship;
@@ -21,13 +17,8 @@ namespace LudumDare54
 
         public void Clear()
         {
-            _ship.Dispose();
+            _ship?.Dispose();
             _ship = null;
-        }
-
-        public void RemoveHeroShip()
-        {
-            Debug.LogError("RemoveHeroShip is not implemented");
         }
     }
 }

@@ -2,16 +2,17 @@
 
 namespace LudumDare54
 {
-    public sealed class HudSwitcher : IActivatable
+    public sealed class HudWindow : IActivatable
     {
         private readonly HudBehaviour _hudBehaviour;
         private readonly ApplicationStateMachine _applicationStateMachine;
         private CompositeDisposable _subscriptions;
 
-        public HudSwitcher(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine)
+        public HudWindow(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine)
         {
             _hudBehaviour = hudBehaviour;
             _applicationStateMachine = applicationStateMachine;
+            _hudBehaviour.gameObject.SetActive(false);
         }
 
         public void Activate()
@@ -31,7 +32,7 @@ namespace LudumDare54
 
         private void OnRestartClick()
         {
-            _applicationStateMachine.EnterToState<UnloadingLevelApplicationState>();
+            _applicationStateMachine.EnterToState<LoadingLevelApplicationState>();
         }
     }
 }

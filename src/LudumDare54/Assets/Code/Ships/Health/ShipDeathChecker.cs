@@ -40,7 +40,7 @@ namespace LudumDare54
             }
 
             if (_heroShipHolder.TryGetHeroShip(out Ship heroShip) && heroShip.Health.IsDead)
-                _heroShipHolder.RemoveHeroShip();
+                heroShip.HideShip();
         }
     }
 }

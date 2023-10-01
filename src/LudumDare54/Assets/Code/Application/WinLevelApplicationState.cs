@@ -3,34 +3,33 @@ using Savidiy.Utils.StateMachine;
 
 namespace LudumDare54
 {
-    public sealed class GameLoopApplicationState : IState, IStateWithExit, IApplicationState
+    public sealed class WinLevelApplicationState : IState, IStateWithExit, IApplicationState
     {
         private readonly List<IActivatable> _activatables = new();
+        private readonly ProgressProvider _progressProvider;
 
-        public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
-            HudWindow hudWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
-            BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
-            BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, WinLoseChecker winLoseChecker,
-            ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider)
+        public WinLevelApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
+            WinLevelWindow winLevelWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker,
+            BulletCleaner bulletCleaner, ShipHealthTicker shipHealthTicker, ProgressProvider progressProvider,
+            BulletLifeTimeUpdater bulletLifeTimeUpdater)
         {
-            _activatables.Add(inputProvider);
+            _progressProvider = progressProvider;
+            
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
-            _activatables.Add(hudWindow);
             _activatables.Add(radar);
-            _activatables.Add(shipShootInvoker);
-            _activatables.Add(shipCollisionChecker);
             _activatables.Add(bulletMoveInvoker);
-            _activatables.Add(bulletCollisionChecker);
             _activatables.Add(bulletLifeTimeUpdater);
             _activatables.Add(bulletCleaner);
             _activatables.Add(shipHealthTicker);
-            _activatables.Add(shipDeathChecker);
-            _activatables.Add(winLoseChecker);
+            _activatables.Add(winLevelWindow);
         }
 
         public void Enter()
         {
+            _progressProvider.Progress.CurrentLevelIndex++;
+            _progressProvider.SaveProgress();
+            
             for (var index = 0; index < _activatables.Count; index++)
             {
                 IActivatable activatable = _activatables[index];

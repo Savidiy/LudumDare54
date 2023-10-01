@@ -23,10 +23,10 @@ MonoBehaviour:
     SerializationNodes: []
   ShipStatStaticData:
   - ShipStatId: Hero
-    RotationSpeed: 103.9
-    ForwardSpeed: 2
+    RotationSpeed: 80
+    ForwardSpeed: 1.5
     BackwardSpeed: 1
-    StrafeSpeed: 1.5
+    StrafeSpeed: 0.7
     ShootCooldown: 0.2
     ShootDamage: 1
     StartHealth: 3

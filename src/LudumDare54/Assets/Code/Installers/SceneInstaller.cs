@@ -5,14 +5,26 @@ namespace LudumDare54
     public sealed class SceneInstaller : MonoInstaller
     {
         public HudBehaviour HudBehaviour;
+        public WinLevelBehaviour WinLevelBehaviour;
+        public MainMenuBehaviour MainMenuBehaviour;
+        public LoseLevelBehaviour LoseLevelBehaviour;
+        public WinGameBehaviour WinGameBehaviour;
 
         public override void InstallBindings()
         {
             Container.BindInstance(HudBehaviour);
+            Container.BindInstance(WinLevelBehaviour);
+            Container.BindInstance(MainMenuBehaviour);
+            Container.BindInstance(LoseLevelBehaviour);
+            Container.BindInstance(WinGameBehaviour);
+
             Container.Bind<ApplicationStateMachine>().AsSingle();
+            Container.BindInterfacesTo<MainMenuApplicationState>().AsSingle();
             Container.BindInterfacesTo<LoadingLevelApplicationState>().AsSingle();
             Container.BindInterfacesTo<GameLoopApplicationState>().AsSingle();
-            Container.BindInterfacesTo<UnloadingLevelApplicationState>().AsSingle();
+            Container.BindInterfacesTo<WinLevelApplicationState>().AsSingle();
+            Container.BindInterfacesTo<LoseLevelApplicationState>().AsSingle();
+            Container.BindInterfacesTo<WinGameApplicationState>().AsSingle();
 
             Container.Bind<LevelDataProvider>().AsSingle();
 
@@ -27,7 +39,7 @@ namespace LudumDare54
             Container.Bind<ShipDeathChecker>().AsSingle();
             Container.Bind<ShipHealthTicker>().AsSingle();
             Container.Bind<ShipCollisionChecker>().AsSingle();
-            
+
             Container.Bind<BulletHolder>().AsSingle();
             Container.Bind<BulletFactory>().AsSingle();
             Container.Bind<BulletMoveInvoker>().AsSingle();
@@ -37,7 +49,13 @@ namespace LudumDare54
 
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();
-            Container.Bind<HudSwitcher>().AsSingle();
+            Container.Bind<HudWindow>().AsSingle();
+
+            Container.Bind<WinLoseChecker>().AsSingle();
+            Container.Bind<WinLevelWindow>().AsSingle();
+            Container.Bind<WinGameWindow>().AsSingle();
+            Container.Bind<LoseLevelWindow>().AsSingle();
+            Container.Bind<MainMenuWindow>().AsSingle();
         }
     }
 }

@@ -24,36 +24,61 @@ MonoBehaviour:
   LevelStaticData:
   - LevelId: Tutor1
     SpawnPoints:
-    - Position: {x: 0.607, y: -0.181, z: 0}
-      Rotation: {x: 0, y: 0, z: 331.18546}
-      EnemyId: BigAsteroid
-    - Position: {x: -0.633, y: -0.568, z: 0}
-      Rotation: {x: -0, y: -0, z: 117.88086}
+    - Position: {x: 1.883, y: -0.766, z: 0}
+      Rotation: {x: -0, y: -0, z: 28.340378}
       EnemyId: MiddleAsteroid
-    - Position: {x: 0.838, y: 0.331, z: 0}
-      Rotation: {x: 0, y: 0, z: 302.36954}
-      EnemyId: SmallAsteroid1
-    - Position: {x: -0.694, y: 0.721, z: 0}
-      Rotation: {x: 0, y: 0, z: 207.54364}
+    - Position: {x: -1.1, y: 0.605, z: 0}
+      Rotation: {x: 0, y: 0, z: 276.291}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 1.139, y: 0.764, z: 0}
+      Rotation: {x: 0, y: 0, z: 193.23361}
       EnemyId: SmallAsteroid2
-    - Position: {x: 0.866, y: -0.706, z: 0}
-      Rotation: {x: -0, y: -0, z: 24.15688}
-      EnemyId: SmallAsteroid3
-    - Position: {x: -0.817, y: 0.183, z: 0}
-      Rotation: {x: 0, y: 0, z: 309.01288}
-      EnemyId: SmallAsteroid4
-    Width: 6
-    Height: 6
+    Width: 5
+    Height: 5
   - LevelId: Tutor2
     SpawnPoints:
-    - Position: {x: 0.968, y: -0.515, z: 0}
-      Rotation: {x: -0, y: 0, z: 0}
+    - Position: {x: 0.8, y: 1.73, z: 0}
+      Rotation: {x: -0, y: 0, z: 205.33197}
       EnemyId: BigAsteroid
-    - Position: {x: -0.783, y: 0.353, z: 0}
-      Rotation: {x: -0, y: 0, z: 0}
+    - Position: {x: -0.51, y: 1.837, z: 0}
+      Rotation: {x: -0, y: 0, z: 159.61339}
+      EnemyId: BigAsteroid
+    - Position: {x: -1.327, y: -0.62, z: 0}
+      Rotation: {x: -0, y: -0, z: 6.792213}
       EnemyId: MiddleAsteroid
-    - Position: {x: -0.919, y: -0.564, z: 0}
-      Rotation: {x: -0, y: 0, z: 0}
+    - Position: {x: 0.575, y: 0.263, z: 0}
+      Rotation: {x: -0, y: 0, z: 202.45493}
       EnemyId: SmallAsteroid2
+    Width: 6
+    Height: 6
+  - LevelId: Tutor3
+    SpawnPoints:
+    - Position: {x: 1.17, y: 0.87, z: 0}
+      Rotation: {x: -0, y: 0, z: 205.33197}
+      EnemyId: BigAsteroid
+    - Position: {x: -1.26, y: 2.48, z: 0}
+      Rotation: {x: -0, y: 0, z: 159.61339}
+      EnemyId: BigAsteroid
+    - Position: {x: -0.96, y: 1.2, z: 0}
+      Rotation: {x: -0, y: 0, z: 193.9574}
+      EnemyId: BigAsteroid
+    - Position: {x: 1.29, y: -0.53, z: 0}
+      Rotation: {x: -0, y: 0, z: 132.97421}
+      EnemyId: BigAsteroid
+    - Position: {x: -2.07, y: -1.1, z: 0}
+      Rotation: {x: -0, y: -0, z: 6.792213}
+      EnemyId: MiddleAsteroid
+    - Position: {x: 0.69, y: 1.8, z: 0}
+      Rotation: {x: -0, y: 0, z: 202.45493}
+      EnemyId: SmallAsteroid2
+    - Position: {x: -2.15, y: 0.58, z: 0}
+      Rotation: {x: -0, y: -0, z: 133.88303}
+      EnemyId: SmallAsteroid1
+    - Position: {x: -0.15, y: -1.12, z: 0}
+      Rotation: {x: 0, y: 0, z: 212.16962}
+      EnemyId: SmallAsteroid3
+    - Position: {x: 1.23, y: 0.37, z: 0}
+      Rotation: {x: 0, y: 0, z: 309.01288}
+      EnemyId: SmallAsteroid4
     Width: 6
     Height: 6

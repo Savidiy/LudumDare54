@@ -17,7 +17,7 @@ namespace LudumDare54
 
         private void Awake()
         {
-            _applicationStateMachine.EnterToState<LoadingLevelApplicationState>();
+            _applicationStateMachine.EnterToState<MainMenuApplicationState>();
         }
     }
 }

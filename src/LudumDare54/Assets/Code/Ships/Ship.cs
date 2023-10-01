@@ -41,5 +41,10 @@ namespace LudumDare54
         {
             _transform.position += shift;
         }
+
+        public void HideShip()
+        {
+            _behaviour.gameObject.SetActive(false);
+        }
     }
 }
