@@ -10,10 +10,13 @@ namespace LudumDare54
         private readonly ShipFactory _shipFactory;
         private readonly EnemiesHolder _enemiesHolder;
         private readonly BulletHolder _bulletHolder;
+        private readonly StarField _starField;
 
         public LoadingLevelApplicationState(ApplicationStateMachine applicationStateMachine, LevelDataProvider levelDataProvider,
-            HeroShipHolder heroShipHolder, ShipFactory shipFactory, EnemiesHolder enemiesHolder, BulletHolder bulletHolder)
+            HeroShipHolder heroShipHolder, ShipFactory shipFactory, EnemiesHolder enemiesHolder, BulletHolder bulletHolder,
+            StarField starField)
         {
+            _starField = starField;
             _applicationStateMachine = applicationStateMachine;
             _levelDataProvider = levelDataProvider;
             _heroShipHolder = heroShipHolder;
@@ -27,6 +30,7 @@ namespace LudumDare54
             CleanUp();
             CreateHero();
             CreateEnemies();
+            CreateStars();
             _applicationStateMachine.EnterToState<GameLoopApplicationState>();
         }
 
@@ -35,6 +39,7 @@ namespace LudumDare54
             _enemiesHolder.Clear();
             _heroShipHolder.Clear();
             _bulletHolder.Clear();
+            _starField.ClearStars();
         }
 
         private void CreateHero()
@@ -51,6 +56,11 @@ namespace LudumDare54
                 Ship enemyShip = _shipFactory.CreateEnemyShip(spawnPointStaticData);
                 _enemiesHolder.AddShip(enemyShip);
             }
+        }
+
+        private void CreateStars()
+        {
+            _starField.CreateStars();
         }
     }
 }

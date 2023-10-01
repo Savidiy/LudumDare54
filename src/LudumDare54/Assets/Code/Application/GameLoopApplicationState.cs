@@ -11,7 +11,7 @@ namespace LudumDare54
             HudWindow hudWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
             BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
             BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, WinLoseChecker winLoseChecker,
-            ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider)
+            ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider, StarField starField)
         {
             _activatables.Add(inputProvider);
             _activatables.Add(heroCameraPlayerTracker);
@@ -27,6 +27,7 @@ namespace LudumDare54
             _activatables.Add(shipHealthTicker);
             _activatables.Add(shipDeathChecker);
             _activatables.Add(winLoseChecker);
+            _activatables.Add(starField);
         }
 
         public void Enter()

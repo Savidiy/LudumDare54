@@ -50,7 +50,7 @@ namespace LudumDare54
             }
         }
 
-        private void CorrectPosition(ICanShiftPosition ship, Vector3 anchorPosition, float width, float height)
+        public void CorrectPosition(ICanShiftPosition ship, Vector3 anchorPosition, float width, float height)
         {
             Vector3 position = ship.Position;
             Vector3 direction = position - anchorPosition;

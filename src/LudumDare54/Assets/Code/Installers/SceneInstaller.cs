@@ -51,6 +51,7 @@ namespace LudumDare54
             Container.Bind<BulletCollisionChecker>().AsSingle();
             Container.Bind<BulletLifeTimeUpdater>().AsSingle();
 
+            Container.Bind<StarField>().AsSingle();
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();
             Container.Bind<HudWindow>().AsSingle();
