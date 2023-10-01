@@ -25,14 +25,48 @@ MonoBehaviour:
   - ShipType: 30
     ShipBehaviourPrefab: {fileID: 2122917351389826536, guid: 10cd1442622b11e4d887376da4437ed5, type: 3}
     Stats:
-      StartHealth: 2
+      StartHealth: 1
       SelfDamageFromCollision: 0
       RotationSpeed: 40
       SingleShootCooldown: 0.3
-      BurstCooldown: 1.8
-      BurstSize: 4
+      BurstCooldown: 1
+      BurstSize: 1
       BulletId: SmallTurretBullet
       BulletDamage: 1
-      AttackAngle: 1
-      AlarmRadius: 2
+      DetectDistance: 1.7
+      NeedSeeHeroToShoot: 0
       AlarmDuration: 1
+      HasAimAngle: 0
+      AimAngleDegree: 1
+  - ShipType: 31
+    ShipBehaviourPrefab: {fileID: 9167964614219745351, guid: 1b0344300e4319c429ed9ca7e2108950, type: 3}
+    Stats:
+      StartHealth: 2
+      SelfDamageFromCollision: 0
+      RotationSpeed: 70
+      SingleShootCooldown: 0.2
+      BurstCooldown: 2
+      BurstSize: 3
+      BulletId: SmallTurrentBullet2
+      BulletDamage: 1
+      DetectDistance: 2
+      NeedSeeHeroToShoot: 1
+      AlarmDuration: 2
+      HasAimAngle: 1
+      AimAngleDegree: 5
+  - ShipType: 32
+    ShipBehaviourPrefab: {fileID: 381143952565608754, guid: 731b08c91df1ae44c8c4338a2cdf934c, type: 3}
+    Stats:
+      StartHealth: 3
+      SelfDamageFromCollision: 0
+      RotationSpeed: 30
+      SingleShootCooldown: 0.3
+      BurstCooldown: 1.5
+      BurstSize: 1
+      BulletId: SmallTurretBullet
+      BulletDamage: 1
+      DetectDistance: 1.7
+      NeedSeeHeroToShoot: 1
+      AlarmDuration: 2
+      HasAimAngle: 1
+      AimAngleDegree: 5

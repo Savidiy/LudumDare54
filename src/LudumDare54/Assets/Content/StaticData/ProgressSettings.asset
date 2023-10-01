@@ -22,5 +22,6 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   StartLevel: 0
-  SkipMenuInEditor: 1
-  TestStartLevel: 3
+  TestMode: 1
+  TestStartLevel: 4
+  TestInvulnerability: 0

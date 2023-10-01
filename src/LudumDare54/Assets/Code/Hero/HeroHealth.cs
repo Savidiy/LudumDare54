@@ -5,6 +5,7 @@ namespace LudumDare54
     public sealed class HeroHealth : IShipHealth, ICanHasInvulnerability
     {
         private readonly HeroSettings _heroSettings;
+        private readonly ProgressSettings _progressSettings;
         private readonly GameObject[] _blinkGameObjects;
 
         private int _health;
@@ -18,9 +19,10 @@ namespace LudumDare54
         public IShipDamage SelfDamageFromCollision { get; }
         public bool IsInvulnerable => _invulnerableTimer > 0;
 
-        public HeroHealth(ShipBehaviour shipBehaviour, HeroSettings heroSettings)
+        public HeroHealth(ShipBehaviour shipBehaviour, HeroSettings heroSettings, ProgressSettings progressSettings)
         {
             _heroSettings = heroSettings;
+            _progressSettings = progressSettings;
             _health = heroSettings.StartHealth;
             _blinkGameObjects = shipBehaviour.BlinkGameObjects;
             SelfDamageFromCollision = new SimpleDamage(heroSettings.SelfDamageFromCollision);
@@ -30,7 +32,13 @@ namespace LudumDare54
         public void TakeDamage(IShipDamage damage, Vector3 attackVector)
         {
             LastAttackVector = attackVector;
-            _health -= damage.Damage;
+            int damageValue = damage.Damage;
+#if UNITY_EDITOR
+            if (_progressSettings.TestInvulnerability)
+                damageValue = 0;
+#endif
+            _health -= damageValue;
+
             StartInvulnerable(_heroSettings.AfterDamageInvulnerabilityTime);
         }
 

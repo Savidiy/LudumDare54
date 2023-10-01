@@ -26,3 +26,8 @@ MonoBehaviour:
   - LevelId: Tutor2
   - LevelId: Tutor3
   - LevelId: Turret1
+  - LevelId: Turret2
+  - LevelId: Turret3
+  - LevelId: Turret4
+  - LevelId: Turret5
+  - LevelId: Turret6

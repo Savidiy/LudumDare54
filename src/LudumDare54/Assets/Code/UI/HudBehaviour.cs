@@ -6,5 +6,6 @@ namespace LudumDare54
     public sealed class HudBehaviour : MonoBehaviour
     {
         public Button RestartButton;
+        public Button KillAllButton;
     }
 }

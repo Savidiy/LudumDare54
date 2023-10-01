@@ -8,7 +8,8 @@ namespace LudumDare54
     public sealed class ProgressSettings : AutoSaveScriptableObject
     {
         public int StartLevel = 0;
-        public bool SkipMenuInEditor;
+        public bool TestMode;
         public int TestStartLevel = 0;
+        public bool TestInvulnerability;
     }
 }

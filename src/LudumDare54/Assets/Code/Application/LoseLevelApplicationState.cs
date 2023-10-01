@@ -5,14 +5,17 @@ namespace LudumDare54
 {
     public sealed class LoseLevelApplicationState : IState, IStateWithExit, IApplicationState
     {
+        private readonly HeroShipHolder _heroShipHolder;
         private readonly List<IActivatable> _activatables = new();
 
         public LoseLevelApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
             LoseLevelWindow loseLevelWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
             BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
-            BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker,
+            BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, HeroShipHolder heroShipHolder,
             ShipCollisionChecker shipCollisionChecker)
         {
+            _heroShipHolder = heroShipHolder;
+            
             _activatables.Add(loseLevelWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
@@ -29,6 +32,8 @@ namespace LudumDare54
 
         public void Enter()
         {
+            _heroShipHolder.Clear();
+            
             for (var index = 0; index < _activatables.Count; index++)
             {
                 IActivatable activatable = _activatables[index];

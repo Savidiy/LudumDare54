@@ -31,7 +31,7 @@ namespace LudumDare54
         {
             int startLevel = _progressSettings.StartLevel;
 #if UNITY_EDITOR
-            if(_progressSettings.SkipMenuInEditor)
+            if(_progressSettings.TestMode)
                 startLevel = _progressSettings.TestStartLevel;
 #endif
             

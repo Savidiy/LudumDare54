@@ -11,7 +11,7 @@ namespace LudumDare54
         private readonly HighlightSettings _highlightSettings;
 
         public ShipType[] ShipTypes { get; } =
-            {SmallTurret};
+            {SmallTurret1, SmallTurret2, SmallTurret3};
 
         public TurretFactory(HighlightSettings highlightSettings, TurretLibrary turretLibrary, IInstantiator instantiator)
         {
@@ -31,8 +31,9 @@ namespace LudumDare54
             var shipHighlighter = new ShipHighlighter(shipBehaviour.ShipHighlighter, _highlightSettings);
             var shipHealth = new ShipHealth(statsData.StartHealth, statsData.SelfDamageFromCollision);
 
-            GunBehaviour gunBehaviour = shipBehaviour.GunBehaviour;
-            var turretBrain = _instantiator.Instantiate<TurretBrain>(new object[] {statsData, gunBehaviour});
+            var turretBrainArgs = new TurretBrainArgs(statsData, shipBehaviour);
+            var turretBrain = _instantiator.Instantiate<TurretBrain>(new object[] {turretBrainArgs});
+
             var collider = new SimpleCollider(shipBehaviour);
             IDeathAction deathAction = new NullDeathAction();
 

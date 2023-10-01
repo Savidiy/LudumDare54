@@ -50,8 +50,10 @@ namespace LudumDare54
         [ValueDropdown(nameof(BulletIds))] public string BulletId;
         private ValueDropdownList<string> BulletIds => OdinBulletIdsProvider.BulletIds;
         public int BulletDamage = 1;
-        public float AttackAngle = 1;
-        public float AlarmRadius = 2;
+        public float DetectDistance = 2;
+        public bool NeedSeeHeroToShoot;
         public float AlarmDuration = 1;
+        public bool HasAimAngle;
+        public float AimAngleDegree = 1;
     }
 }

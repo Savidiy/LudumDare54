@@ -77,7 +77,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -682,6 +682,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Items_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 888
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3280792ba0c3e054f9af39ad0936137e
+      internalID: -226643986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 885
+        width: 13
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44443148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa203795b3dedd446a33aebedc1e2af7
+      internalID: -2065876341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 887
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58005bca92842143a05d01d3c1bbd60
+      internalID: 1344577920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Items_13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 888
+        width: 17
+        height: 19
+      alignment: 9
+      pivot: {x: 0.4932314, y: 0.34505424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d75a06cc3788245a46ca5a89367f11
+      internalID: -18209737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -699,11 +783,18 @@ TextureImporter:
       Gun: 4337684191699249041
       Items_0: -374048483
       Items_1: 2120665859
+      Items_10: -226643986
+      Items_11: -2065876341
+      Items_12: 1344577920
+      Items_13: -18209737
       Items_2: -196763911
       Items_3: 2103035758
       Items_4: 46735192
       Items_5: -634315672
       Items_6: 1289045613
+      Items_7: -1971482128
+      Items_8: 866415061
+      Items_9: -993514259
       MetalChunk: -488721925442295091
       MiddleAsteroid1: 1801263428120863714
       MiddleAsteroid2: -64745353

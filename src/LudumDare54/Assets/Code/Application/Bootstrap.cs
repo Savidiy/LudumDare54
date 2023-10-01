@@ -23,7 +23,7 @@ namespace LudumDare54
         private void Awake()
         {
 #if UNITY_EDITOR
-            if (_progressSettings.SkipMenuInEditor)
+            if (_progressSettings.TestMode)
             {
                 _progressProvider.ResetProgress();
                 _applicationStateMachine.EnterToState<LoadingLevelApplicationState>();

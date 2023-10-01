@@ -5,14 +5,12 @@ namespace LudumDare54
     public sealed class ShipDeathChecker : IActivatable
     {
         private readonly IEventInvoker _eventInvoker;
-        private readonly HeroShipHolder _heroShipHolder;
         private readonly EnemiesHolder _enemiesHolder;
         private IDisposable _updateSubscribe;
 
-        public ShipDeathChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder)
+        public ShipDeathChecker(IEventInvoker eventInvoker, EnemiesHolder enemiesHolder)
         {
             _eventInvoker = eventInvoker;
-            _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
         }
 
@@ -38,9 +36,6 @@ namespace LudumDare54
                     ship.DeathAction.Invoke();
                 }
             }
-
-            if (_heroShipHolder.TryGetHeroShip(out Ship heroShip) && heroShip.Health.IsDead)
-                heroShip.HideShip();
         }
     }
 }

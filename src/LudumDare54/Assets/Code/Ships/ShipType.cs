@@ -12,7 +12,9 @@ namespace LudumDare54
         SmallAsteroid2 = 16,
         SmallAsteroid3 = 17,
         SmallAsteroid4 = 18,
-        SmallTurret = 30,
+        SmallTurret1 = 30,
+        SmallTurret2 = 31,
+        SmallTurret3 = 32,
     }
     
     public static class ShipTypeExtension
