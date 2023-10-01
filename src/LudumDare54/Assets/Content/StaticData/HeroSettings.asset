@@ -26,11 +26,16 @@ MonoBehaviour:
   ForwardSpeed: 1.5
   BackwardSpeed: 1
   StrafeSpeed: 0.7
-  ShootCooldown: 0.2
+  ShootCooldown: 0.18
   BulletId: HeroBullet
   ShootDamage: 1
   StartHealth: 2
   SelfDamageFromCollision: 1
+  SingleShootTemperature: 1
+  OverheatMaxTemperature: 5
+  AfterShootCooldown: 0.43
+  TemperatureCoolingPerSecond: 15
+  OverheatShootCooldownBonus: 0.25
   StartLevelInvulnerabilityTime: 2.5
   AfterDamageInvulnerabilityTime: 1
   BlinkPeriod: 0.18

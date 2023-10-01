@@ -7,5 +7,9 @@ namespace LudumDare54
     {
         public Button RestartButton;
         public Button KillAllButton;
+        public Image TemperatureBar;
+        public Color MinTemperatureColor;
+        public Color MiddleTemperatureColor;
+        public Color MaxTemperatureColor;
     }
 }

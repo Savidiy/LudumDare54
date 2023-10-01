@@ -20,6 +20,7 @@ namespace LudumDare54
             {
                 string json = PlayerPrefs.GetString(PROGRESS_KEY);
                 Progress = _serializer.Deserialize(json);
+                HasProgress = true;
             }
             else
             {

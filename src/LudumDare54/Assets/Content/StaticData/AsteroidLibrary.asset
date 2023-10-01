@@ -27,37 +27,31 @@ MonoBehaviour:
     Stats:
       RotationSpeed: 20
       ForwardSpeed: 0.3
-      StartHealth: 4
+      StartHealth: 2
       SelfDamageFromCollision: 5
       MinSpawnCount: 0
       DeathSpawnStaticData:
       - ShipType: 11
-        ShipId: MiddleAsteroid1
         SpawnChance: 100
         MinMaxAngleRandom: {x: -132.2449, y: -55.102036}
         PositionOffset: 0.13
       - ShipType: 12
-        ShipId: MiddleAsteroid2
         SpawnChance: 100
         MinMaxAngleRandom: {x: 44.08161, y: 117.55101}
         PositionOffset: 0.13
       - ShipType: 15
-        ShipId: SmallAsteroid1
         SpawnChance: 15
         MinMaxAngleRandom: {x: -183.67346, y: -113.87756}
         PositionOffset: 0.15
       - ShipType: 16
-        ShipId: SmallAsteroid2
         SpawnChance: 15
         MinMaxAngleRandom: {x: -95.5102, y: -22.040806}
         PositionOffset: 0.15
       - ShipType: 17
-        ShipId: SmallAsteroid3
         SpawnChance: 15
         MinMaxAngleRandom: {x: -11.020403, y: 66.12246}
         PositionOffset: 0.15
       - ShipType: 18
-        ShipId: SmallAsteroid4
         SpawnChance: 5
         MinMaxAngleRandom: {x: 88.16327, y: 180}
         PositionOffset: 0.15
@@ -66,32 +60,27 @@ MonoBehaviour:
     Stats:
       RotationSpeed: 30
       ForwardSpeed: 0.35
-      StartHealth: 3
+      StartHealth: 2
       SelfDamageFromCollision: 5
       MinSpawnCount: 2
       DeathSpawnStaticData:
       - ShipType: 15
-        ShipId: SmallAsteroid1
         SpawnChance: 25
         MinMaxAngleRandom: {x: -180, y: -7.3469353}
         PositionOffset: 0.12
       - ShipType: 15
-        ShipId: SmallAsteroid1
         SpawnChance: 25
         MinMaxAngleRandom: {x: -275.5102, y: -117.551025}
         PositionOffset: 0.1
       - ShipType: 16
-        ShipId: SmallAsteroid2
         SpawnChance: 25
         MinMaxAngleRandom: {x: -69.79593, y: 73.4694}
         PositionOffset: 0.08
       - ShipType: 17
-        ShipId: SmallAsteroid3
         SpawnChance: 25
         MinMaxAngleRandom: {x: 18.367338, y: 180}
         PositionOffset: 0.15
       - ShipType: 18
-        ShipId: SmallAsteroid4
         SpawnChance: 25
         MinMaxAngleRandom: {x: 124.89794, y: 319.59186}
         PositionOffset: 0.11
@@ -100,32 +89,27 @@ MonoBehaviour:
     Stats:
       RotationSpeed: 30
       ForwardSpeed: 0.35
-      StartHealth: 3
+      StartHealth: 2
       SelfDamageFromCollision: 5
       MinSpawnCount: 2
       DeathSpawnStaticData:
       - ShipType: 15
-        ShipId: SmallAsteroid1
         SpawnChance: 25
         MinMaxAngleRandom: {x: -180, y: -7.3469353}
         PositionOffset: 0.12
       - ShipType: 15
-        ShipId: SmallAsteroid1
         SpawnChance: 25
         MinMaxAngleRandom: {x: -275.5102, y: -117.551025}
         PositionOffset: 0.1
       - ShipType: 16
-        ShipId: SmallAsteroid2
         SpawnChance: 25
         MinMaxAngleRandom: {x: -69.79593, y: 73.4694}
         PositionOffset: 0.08
       - ShipType: 17
-        ShipId: SmallAsteroid3
         SpawnChance: 25
         MinMaxAngleRandom: {x: 18.367338, y: 180}
         PositionOffset: 0.15
       - ShipType: 18
-        ShipId: SmallAsteroid4
         SpawnChance: 25
         MinMaxAngleRandom: {x: 124.89794, y: 319.59186}
         PositionOffset: 0.11
@@ -143,7 +127,7 @@ MonoBehaviour:
     Stats:
       RotationSpeed: 40
       ForwardSpeed: 0.4
-      StartHealth: 2
+      StartHealth: 1
       SelfDamageFromCollision: 5
       MinSpawnCount: 0
       DeathSpawnStaticData: []
@@ -152,7 +136,7 @@ MonoBehaviour:
     Stats:
       RotationSpeed: 40
       ForwardSpeed: 0.4
-      StartHealth: 2
+      StartHealth: 1
       SelfDamageFromCollision: 5
       MinSpawnCount: 0
       DeathSpawnStaticData: []

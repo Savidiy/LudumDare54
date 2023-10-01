@@ -11,6 +11,11 @@
         public float BackwardSpeed => _heroSettings.BackwardSpeed;
         public float StrafeSpeed => _heroSettings.StrafeSpeed;
         public string BulletId => _heroSettings.BulletId;
+        public float SingleShootTemperature => _heroSettings.SingleShootTemperature;
+        public float OverheatMaxTemperature => _heroSettings.OverheatMaxTemperature;
+        public float AfterShootCoolingPause => _heroSettings.AfterShootCooldown;
+        public float TemperatureCoolingPerSecond => _heroSettings.TemperatureCoolingPerSecond;
+        public float OverheatShootCooldownBonus => _heroSettings.OverheatShootCooldownBonus;
 
         public HeroStats(HeroSettings heroSettings)
         {

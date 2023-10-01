@@ -1,4 +1,5 @@
 ﻿using UniRx;
+using Color = UnityEngine.Color;
 
 namespace LudumDare54
 {
@@ -6,18 +7,24 @@ namespace LudumDare54
     {
         private readonly HudBehaviour _hudBehaviour;
         private readonly ApplicationStateMachine _applicationStateMachine;
+        private readonly HeroShipHolder _heroShipHolder;
         private readonly ProgressSettings _progressSettings;
         private readonly EnemiesHolder _enemiesHolder;
+        private readonly IEventInvoker _eventInvoker;
         private CompositeDisposable _subscriptions;
 
-        public HudWindow(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine,
-            ProgressSettings progressSettings, EnemiesHolder enemiesHolder)
+        public HudWindow(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine, HeroShipHolder heroShipHolder,
+            ProgressSettings progressSettings, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker)
         {
             _enemiesHolder = enemiesHolder;
+            _eventInvoker = eventInvoker;
             _hudBehaviour = hudBehaviour;
             _applicationStateMachine = applicationStateMachine;
+            _heroShipHolder = heroShipHolder;
             _progressSettings = progressSettings;
             _hudBehaviour.gameObject.SetActive(false);
+            _hudBehaviour.RestartButton.gameObject.SetActive(false);
+            _hudBehaviour.KillAllButton.gameObject.SetActive(false);
         }
 
         public void Activate()
@@ -32,6 +39,25 @@ namespace LudumDare54
             _subscriptions = new CompositeDisposable();
             _subscriptions.Add(_hudBehaviour.RestartButton.SubscribeClick(OnRestartClick));
             _subscriptions.Add(_hudBehaviour.KillAllButton.SubscribeClick(OnKillAllClick));
+            _subscriptions.Add(_eventInvoker.Subscribe(UnityEventType.Update, OnUpdate));
+        }
+
+        private void OnUpdate()
+        {
+            var progress = 0f;
+
+            if (_heroShipHolder.TryGetHeroShip(out Ship heroShip) && heroShip.ShipShooter is IHasTemperature hasTemperature)
+                progress = hasTemperature.GetTemperaturePercent();
+
+            _hudBehaviour.TemperatureBar.fillAmount = progress;
+            _hudBehaviour.TemperatureBar.color = GetTemperatureBarColor(progress);
+        }
+
+        private Color GetTemperatureBarColor(float progress)
+        {
+            return progress > 0.5
+                ? Color.Lerp(_hudBehaviour.MiddleTemperatureColor, _hudBehaviour.MaxTemperatureColor, progress * 2 - 1)
+                : Color.Lerp(_hudBehaviour.MinTemperatureColor, _hudBehaviour.MiddleTemperatureColor, progress * 2);
         }
 
         private void OnKillAllClick()

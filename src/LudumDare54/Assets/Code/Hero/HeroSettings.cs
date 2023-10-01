@@ -21,6 +21,13 @@ namespace LudumDare54
         public int ShootDamage = 1;
         public int StartHealth;
         public int SelfDamageFromCollision;
+        
+        [Title("Overheat")]
+        public float SingleShootTemperature;
+        public float OverheatMaxTemperature;
+        public float AfterShootCooldown;
+        public float TemperatureCoolingPerSecond;
+        public float OverheatShootCooldownBonus;
 
         [Title("Invulnerability")]
         [Min(0)] public float StartLevelInvulnerabilityTime = 3f;
