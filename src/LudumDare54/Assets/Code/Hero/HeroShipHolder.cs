@@ -1,4 +1,6 @@
-﻿namespace LudumDare54
+﻿using UnityEngine;
+
+namespace LudumDare54
 {
     public sealed class HeroShipHolder
     {
@@ -21,6 +23,11 @@
         {
             _ship.Dispose();
             _ship = null;
+        }
+
+        public void RemoveHeroShip()
+        {
+            Debug.LogError("RemoveHeroShip is not implemented");
         }
     }
 }

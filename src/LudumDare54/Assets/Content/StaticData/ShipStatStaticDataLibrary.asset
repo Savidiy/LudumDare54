@@ -27,18 +27,86 @@ MonoBehaviour:
     ForwardSpeed: 2
     BackwardSpeed: 1
     StrafeSpeed: 1.5
+    ShootCooldown: 0.2
+    ShootDamage: 1
+    StartHealth: 3
+    DeathActionData:
+      MinSpawnCount: 0
+      DeathSpawnStaticData: []
   - ShipStatId: BigAsteroid
     RotationSpeed: 20
-    ForwardSpeed: 0.2
-    BackwardSpeed: 0
-    StrafeSpeed: 0
-  - ShipStatId: MiddleAsteroid
-    RotationSpeed: 30
-    ForwardSpeed: 0.15
-    BackwardSpeed: 0
-    StrafeSpeed: 0
-  - ShipStatId: SmallAsteroid
-    RotationSpeed: 40
     ForwardSpeed: 0.3
     BackwardSpeed: 0
     StrafeSpeed: 0
+    ShootCooldown: 0.2
+    ShootDamage: 1
+    StartHealth: 3
+    DeathActionData:
+      MinSpawnCount: 0
+      DeathSpawnStaticData:
+      - ShipId: MiddleAsteroid
+        SpawnChance: 100
+        MinMaxAngleRandom: {x: -132.2449, y: -55.102036}
+        PositionOffset: 0.13
+      - ShipId: MiddleAsteroid
+        SpawnChance: 100
+        MinMaxAngleRandom: {x: 44.08161, y: 117.55101}
+        PositionOffset: 0.13
+      - ShipId: SmallAsteroid1
+        SpawnChance: 15
+        MinMaxAngleRandom: {x: -183.67346, y: -113.87756}
+        PositionOffset: 0.15
+      - ShipId: SmallAsteroid2
+        SpawnChance: 15
+        MinMaxAngleRandom: {x: -95.5102, y: -22.040806}
+        PositionOffset: 0.15
+      - ShipId: SmallAsteroid3
+        SpawnChance: 15
+        MinMaxAngleRandom: {x: -11.020403, y: 66.12246}
+        PositionOffset: 0.15
+      - ShipId: SmallAsteroid4
+        SpawnChance: 5
+        MinMaxAngleRandom: {x: 88.16327, y: 180}
+        PositionOffset: 0.15
+  - ShipStatId: MiddleAsteroid
+    RotationSpeed: 30
+    ForwardSpeed: 0.35
+    BackwardSpeed: 0
+    StrafeSpeed: 0
+    ShootCooldown: 0.2
+    ShootDamage: 1
+    StartHealth: 2
+    DeathActionData:
+      MinSpawnCount: 2
+      DeathSpawnStaticData:
+      - ShipId: SmallAsteroid1
+        SpawnChance: 25
+        MinMaxAngleRandom: {x: -180, y: -7.3469353}
+        PositionOffset: 0.12
+      - ShipId: SmallAsteroid1
+        SpawnChance: 25
+        MinMaxAngleRandom: {x: -275.5102, y: -117.551025}
+        PositionOffset: 0.1
+      - ShipId: SmallAsteroid2
+        SpawnChance: 25
+        MinMaxAngleRandom: {x: -69.79593, y: 73.4694}
+        PositionOffset: 0.08
+      - ShipId: SmallAsteroid3
+        SpawnChance: 25
+        MinMaxAngleRandom: {x: 18.367338, y: 180}
+        PositionOffset: 0.15
+      - ShipId: SmallAsteroid4
+        SpawnChance: 25
+        MinMaxAngleRandom: {x: 124.89794, y: 319.59186}
+        PositionOffset: 0.11
+  - ShipStatId: SmallAsteroid
+    RotationSpeed: 40
+    ForwardSpeed: 0.4
+    BackwardSpeed: 0
+    StrafeSpeed: 0
+    ShootCooldown: 0.2
+    ShootDamage: 1
+    StartHealth: 1
+    DeathActionData:
+      MinSpawnCount: 0
+      DeathSpawnStaticData: []

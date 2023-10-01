@@ -24,6 +24,7 @@ namespace LudumDare54
             Container.Bind<ShipShootInvoker>().AsSingle();
             Container.Bind<Radar>().AsSingle();
             Container.Bind<LimitedSpaceChecker>().AsSingle();
+            Container.Bind<ShipDeathChecker>().AsSingle();
             
             Container.Bind<BulletHolder>().AsSingle();
             Container.Bind<BulletFactory>().AsSingle();

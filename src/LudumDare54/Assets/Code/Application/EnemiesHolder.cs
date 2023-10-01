@@ -12,6 +12,13 @@ namespace LudumDare54
             _ships.Add(ship);
         }
 
+        public void RemoveAt(int index)
+        {
+            Ship ship = _ships[index];
+            _ships.RemoveAt(index);
+            ship.Dispose();
+        }
+
         public void Clear()
         {
             foreach (Ship ship in _ships)

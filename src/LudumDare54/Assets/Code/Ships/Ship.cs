@@ -13,18 +13,20 @@ namespace LudumDare54
         public Quaternion Rotation => _transform.rotation;
         public IShipMover ShipMover { get; }
         public IShipShooter ShipShooter { get; }
-        public IShipStats Stats { get; }
+        public IShipHealth Health { get; }
         public IShipCollider ShipCollider { get; }
         public ShipHighlighter ShipHighlighter { get; }
+        public IDeathAction DeathAction { get; }
 
-        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipStats stats, IShipShooter shipShooter,
-            IShipCollider shipCollider, ShipHighlighter shipHighlighter)
+        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipShooter shipShooter,
+            IShipCollider shipCollider, ShipHighlighter shipHighlighter, IShipHealth health, IDeathAction deathAction)
         {
             ShipMover = shipMover;
-            Stats = stats;
             ShipShooter = shipShooter;
             ShipCollider = shipCollider;
             ShipHighlighter = shipHighlighter;
+            Health = health;
+            DeathAction = deathAction;
             _behaviour = behaviour;
             _transform = _behaviour.transform;
         }

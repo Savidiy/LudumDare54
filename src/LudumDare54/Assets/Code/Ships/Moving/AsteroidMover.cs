@@ -5,12 +5,15 @@ namespace LudumDare54
     public sealed class AsteroidMover : IShipMover
     {
         private readonly ShipBehaviour _shipBehaviour;
-        private readonly IShipStats _shipStats;
+        private readonly AsteroidStats _shipStats;
+        private readonly bool _isClockwise;
 
-        public AsteroidMover(ShipBehaviour shipBehaviour, IShipStats shipStats)
+        public AsteroidMover(ShipBehaviour shipBehaviour, AsteroidStats shipStats)
         {
             _shipStats = shipStats;
             _shipBehaviour = shipBehaviour;
+            _shipBehaviour.RotateRoot.Rotate(0, 0, Random.Range(0, 360));
+            _isClockwise = Random.Range(0, 2) == 0;
         }
 
         public void UpdatePosition(float deltaTime)
@@ -23,7 +26,8 @@ namespace LudumDare54
 
             float rotationSpeed = _shipStats.RotationSpeed;
             float rotateDelta = rotationSpeed * deltaTime;
-            _shipBehaviour.RotateRoot.Rotate(0, 0, -rotateDelta);
+            float zAngle = _isClockwise ? rotateDelta : -rotateDelta;
+            _shipBehaviour.RotateRoot.Rotate(0, 0, zAngle);
         }
     }
 }

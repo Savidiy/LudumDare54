@@ -5,13 +5,13 @@ namespace LudumDare54
     public sealed class HeroMover : IShipMover
     {
         private readonly ShipBehaviour _shipBehaviour;
-        private readonly IShipStats _shipStats;
+        private readonly HeroStats _heroStats;
         private readonly InputProvider _inputProvider;
 
-        public HeroMover(ShipBehaviour shipBehaviour, IShipStats shipStats, InputProvider inputProvider)
+        public HeroMover(ShipBehaviour shipBehaviour, HeroStats heroStats, InputProvider inputProvider)
         {
             _shipBehaviour = shipBehaviour;
-            _shipStats = shipStats;
+            _heroStats = heroStats;
             _inputProvider = inputProvider;
         }
         
@@ -22,10 +22,10 @@ namespace LudumDare54
             float rotateInput = heroInputData.Rotate;
             float strafeInput = heroInputData.Strafe;
 
-            float rotationSpeed = _shipStats.RotationSpeed;
-            float strafeSpeed = _shipStats.StrafeSpeed;
-            float forwardSpeed = _shipStats.ForwardSpeed;
-            float backwardSpeed = _shipStats.BackwardSpeed;
+            float rotationSpeed = _heroStats.RotationSpeed;
+            float strafeSpeed = _heroStats.StrafeSpeed;
+            float forwardSpeed = _heroStats.ForwardSpeed;
+            float backwardSpeed = _heroStats.BackwardSpeed;
             float moveSpeed = rotateInput >= 0 ? forwardSpeed : backwardSpeed;
 
             Transform transform = _shipBehaviour.transform;

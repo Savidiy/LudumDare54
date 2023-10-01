@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace LudumDare54
 {
@@ -50,7 +51,8 @@ namespace LudumDare54
 
         private static void TakeDamage(Ship ship, IBullet bullet)
         {
-            ship.Stats.TakeDamage(bullet.Damage);
+            Vector3 attackVector = bullet.Position - ship.Position;
+            ship.Health.TakeDamage(bullet.Damage, attackVector);
             ship.ShipHighlighter.Flash();
         }
 

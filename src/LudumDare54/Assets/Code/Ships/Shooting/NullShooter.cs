@@ -2,7 +2,7 @@
 
 namespace LudumDare54
 {
-    public sealed class AsteroidShooter : IShipShooter
+    public sealed class NullShooter : IShipShooter
     {
         public void UpdateTimer(float deltaTime)
         {
