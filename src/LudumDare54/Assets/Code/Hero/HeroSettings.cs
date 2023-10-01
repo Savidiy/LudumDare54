@@ -10,5 +10,9 @@ namespace LudumDare54
     {
         [FormerlySerializedAs("HeroShipStaticDataId")] [ValueDropdown(nameof(ShipIds))] public string HeroShipId;
         private ValueDropdownList<string> ShipIds => OdinShipIdsProvider.ShipIds;
+
+        [Min(0)] public float StartLevelInvulnerabilityTime = 3f;
+        [Min(0)] public float AfterDamageInvulnerabilityTime = 1f;
+        [Min(0)] public float BlinkPeriod = 0.2f;
     }
 }

@@ -58,11 +58,12 @@ namespace LudumDare54
 
         private bool HasCollisionWithHero(IBullet bullet, out Ship ship)
         {
+            ship = null;
             if (!_heroShipHolder.TryGetHeroShip(out Ship heroShip))
-            {
-                ship = null;
                 return false;
-            }
+
+            if (heroShip.Health is ICanHasInvulnerability {IsInvulnerable: true})
+                return false;
 
             ship = heroShip;
             return HasCollision(bullet, heroShip);
@@ -84,7 +85,7 @@ namespace LudumDare54
                     return true;
                 }
             }
-            
+
             target = null;
             return false;
         }

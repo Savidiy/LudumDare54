@@ -16,6 +16,7 @@ namespace LudumDare54
         public float ShootCooldown = 0.2f;
         public int ShootDamage = 1;
         public int StartHealth;
+        public int SelfDamageFromCollision;
         public DeathActionData DeathActionData;
 
         public override string ToString()

@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  HeroShipStaticDataId: Hero
-  LevelIds:
-  - LevelId: Tutor1
-  - LevelId: Tutor2
+  HeroShipId: Hero
+  StartLevelInvulnerabilityTime: 2.5
+  AfterDamageInvulnerabilityTime: 1
+  BlinkPeriod: 0.18

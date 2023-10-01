@@ -35,7 +35,7 @@ namespace LudumDare54
             string statId = shipStaticData.StatId;
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
             var shipHighlighter = new ShipHighlighter(shipBehaviour.ShipHighlighter, _highlightSettings);
-            var shipHealth = new ShipHealth(shipStatStaticData.StartHealth);
+            var shipHealth = new HeroHealth(shipStatStaticData.StartHealth, _heroSettings, shipBehaviour, shipStatStaticData);
 
             var heroStats = new HeroStats(shipStatStaticData);
             var heroMover = new HeroMover(shipBehaviour, heroStats, _inputProvider);
@@ -66,7 +66,7 @@ namespace LudumDare54
             string statId = shipStaticData.StatId;
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
             var shipHighlighter = new ShipHighlighter(shipBehaviour.ShipHighlighter, _highlightSettings);
-            var shipHealth = new ShipHealth(shipStatStaticData.StartHealth);
+            var shipHealth = new ShipHealth(shipStatStaticData.StartHealth, shipStatStaticData);
 
             var asteroidStats = new AsteroidStats(shipStatStaticData);
             var asteroidMover = new AsteroidMover(shipBehaviour, asteroidStats);

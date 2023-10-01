@@ -7,7 +7,8 @@ namespace LudumDare54
         int Health { get; }
         bool IsAlive { get; }
         bool IsDead { get; }
-        Vector3 LastAttackVector { get; }
+        IShipDamage SelfDamageFromCollision { get; }
         void TakeDamage(IShipDamage damage, Vector3 attackVector);
+        void UpdateTimer(float deltaTime);
     }
 }

@@ -30,6 +30,7 @@ MonoBehaviour:
     ShootCooldown: 0.2
     ShootDamage: 1
     StartHealth: 3
+    SelfDamageFromCollision: 1
     DeathActionData:
       MinSpawnCount: 0
       DeathSpawnStaticData: []
@@ -41,6 +42,7 @@ MonoBehaviour:
     ShootCooldown: 0.2
     ShootDamage: 1
     StartHealth: 3
+    SelfDamageFromCollision: 5
     DeathActionData:
       MinSpawnCount: 0
       DeathSpawnStaticData:
@@ -76,6 +78,7 @@ MonoBehaviour:
     ShootCooldown: 0.2
     ShootDamage: 1
     StartHealth: 2
+    SelfDamageFromCollision: 5
     DeathActionData:
       MinSpawnCount: 2
       DeathSpawnStaticData:
@@ -107,6 +110,7 @@ MonoBehaviour:
     ShootCooldown: 0.2
     ShootDamage: 1
     StartHealth: 1
+    SelfDamageFromCollision: 5
     DeathActionData:
       MinSpawnCount: 0
       DeathSpawnStaticData: []

@@ -82,6 +82,8 @@ MonoBehaviour:
   Gun: {fileID: 7010002849150818383}
   Collider: {fileID: 3042063148578310544}
   ShipHighlighter: {fileID: 1608528513849851303}
+  BlinkGameObjects:
+  - {fileID: 8785560129467439609}
 --- !u!114 &1608528513849851303
 MonoBehaviour:
   m_ObjectHideFlags: 0
