@@ -22,7 +22,7 @@ namespace LudumDare54
 
             float lifeTime = _bulletSettings.BulletLifeTime;
             float speed = _bulletSettings.BulletSpeed;
-            var bullet = new Bullet(bulletBehaviour, speed, lifeTime, isHero);
+            var bullet = new Bullet(bulletBehaviour, speed, lifeTime, isHero, bulletData.Damage);
             return bullet;
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace LudumDare54
 {
@@ -27,7 +28,7 @@ namespace LudumDare54
         {
             if (_cooldownTimer > 0)
                 return false;
-            
+
             var shootInput = _inputProvider.GetShootInput();
             return shootInput.HasFire1;
         }
@@ -35,7 +36,10 @@ namespace LudumDare54
         public void Shoot(List<BulletData> bulletDataBuffer)
         {
             _cooldownTimer = _shipStats.ShootCooldown;
-            bulletDataBuffer.Add(new BulletData(_shipBehaviour.Gun.position, _shipBehaviour.transform.rotation));
+            Vector3 gunPosition = _shipBehaviour.Gun.position;
+            Quaternion rotation = _shipBehaviour.transform.rotation;
+            var damage = new SimpleDamage(_shipStats.Damage);
+            bulletDataBuffer.Add(new BulletData(gunPosition, rotation, damage));
         }
     }
 }

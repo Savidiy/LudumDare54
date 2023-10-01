@@ -14,18 +14,24 @@ namespace LudumDare54
         public IShipMover ShipMover { get; }
         public IShipShooter ShipShooter { get; }
         public IShipStats Stats { get; }
+        public IShipCollider ShipCollider { get; }
+        public ShipHighlighter ShipHighlighter { get; }
 
-        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipStats stats, IShipShooter shipShooter)
+        public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipStats stats, IShipShooter shipShooter,
+            IShipCollider shipCollider, ShipHighlighter shipHighlighter)
         {
             ShipMover = shipMover;
             Stats = stats;
             ShipShooter = shipShooter;
+            ShipCollider = shipCollider;
+            ShipHighlighter = shipHighlighter;
             _behaviour = behaviour;
             _transform = _behaviour.transform;
         }
 
         public void Dispose()
         {
+            ShipHighlighter.Dispose();
             Object.Destroy(_behaviour.gameObject);
         }
 

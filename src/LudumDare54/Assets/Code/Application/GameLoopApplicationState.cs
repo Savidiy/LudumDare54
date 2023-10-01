@@ -9,7 +9,7 @@ namespace LudumDare54
 
         public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
             HudSwitcher hudSwitcher, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
-            BulletLifetimeKiller bulletLifetimeKiller)
+            BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, BulletLifeTimeUpdater bulletLifeTimeUpdater)
         {
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
@@ -17,7 +17,9 @@ namespace LudumDare54
             _activatables.Add(radar);
             _activatables.Add(shipShootInvoker);
             _activatables.Add(bulletMoveInvoker);
-            _activatables.Add(bulletLifetimeKiller);
+            _activatables.Add(bulletCollisionChecker);
+            _activatables.Add(bulletLifeTimeUpdater);
+            _activatables.Add(bulletCleaner);
         }
 
         public void Enter()

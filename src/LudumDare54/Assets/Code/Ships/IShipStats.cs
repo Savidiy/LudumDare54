@@ -6,5 +6,6 @@
         float ForwardSpeed { get; }
         float BackwardSpeed { get; }
         float StrafeSpeed { get;  }
+        void TakeDamage(IShipDamage damage);
     }
 }

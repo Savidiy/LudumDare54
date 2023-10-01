@@ -13,6 +13,7 @@ namespace LudumDare54
         public ShipStaticDataLibrary ShipStaticDataLibrary;
         public RadarSettings RadarSettings;
         public BulletSettings BulletSettings;
+        public HighlightSettings HighlightSettings;
         
         public override void InstallBindings()
         {
@@ -25,6 +26,7 @@ namespace LudumDare54
             Container.BindInstance(ShipStaticDataLibrary);
             Container.BindInstance(RadarSettings);
             Container.BindInstance(BulletSettings);
+            Container.BindInstance(HighlightSettings);
             
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<AssetProvider>().AsSingle();

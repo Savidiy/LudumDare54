@@ -2,13 +2,13 @@
 
 namespace LudumDare54
 {
-    public sealed class BulletLifetimeKiller : IActivatable
+    public sealed class BulletCleaner : IActivatable
     {
         private readonly IEventInvoker _eventInvoker;
         private readonly BulletHolder _bulletHolder;
         private IDisposable _updateSubscribe;
 
-        public BulletLifetimeKiller(IEventInvoker eventInvoker, BulletHolder bulletHolder)
+        public BulletCleaner(IEventInvoker eventInvoker, BulletHolder bulletHolder)
         {
             _eventInvoker = eventInvoker;
             _bulletHolder = bulletHolder;

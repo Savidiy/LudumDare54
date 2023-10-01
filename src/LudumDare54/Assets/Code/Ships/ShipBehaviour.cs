@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using Sirenix.OdinInspector;
+using UnityEngine;
 
 namespace LudumDare54
 {
     public sealed class ShipBehaviour : MonoBehaviour
     {
-        public Transform RotateRoot;
-        public Transform Gun;
+        [Required] public Transform RotateRoot;
+        [Required] public Transform Gun;
+        [Required] public Collider2D Collider;
+        [Required] public SpriteHighlighter ShipHighlighter;
     }
 }

@@ -28,7 +28,9 @@ namespace LudumDare54
             Container.Bind<BulletHolder>().AsSingle();
             Container.Bind<BulletFactory>().AsSingle();
             Container.Bind<BulletMoveInvoker>().AsSingle();
-            Container.Bind<BulletLifetimeKiller>().AsSingle();
+            Container.Bind<BulletCleaner>().AsSingle();
+            Container.Bind<BulletCollisionChecker>().AsSingle();
+            Container.Bind<BulletLifeTimeUpdater>().AsSingle();
 
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();

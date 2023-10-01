@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6033272754309734490}
   - component: {fileID: 5564922101865878728}
+  - component: {fileID: 6949765357040206971}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -52,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9eea14d44ca88224ca641b8b2476674f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,6 +85,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &6949765357040206971
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762238313238405663}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.50969297, y: 0.5437495}
+    oldSize: {x: 0.25, y: 0.24}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.05127797, y: 0.097390346}
+      - {x: -0.11201082, y: 0.029868167}
+      - {x: -0.115313485, y: -0.01784128}
+      - {x: -0.056506377, y: -0.107381225}
+      - {x: 0.061751895, y: -0.11618832}
+      - {x: 0.10936611, y: -0.06417058}
+      - {x: 0.08514657, y: 0.032986812}
+      - {x: 0.01861173, y: 0.04728147}
+      - {x: -0.0015507787, y: 0.0841797}
+  m_UseDelaunayMesh: 0
 --- !u!1 &8707195943290855923
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7313115907959562382}
   - component: {fileID: 4488743366844275468}
+  - component: {fileID: 8882638604318236838}
   m_Layer: 0
   m_Name: MiddleAsteroid
   m_TagString: Untagged
@@ -130,3 +188,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 6033272754309734490}
+  Gun: {fileID: 7313115907959562382}
+  Collider: {fileID: 6949765357040206971}
+  ShipHighlighter: {fileID: 8882638604318236838}
+--- !u!114 &8882638604318236838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707195943290855923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18acca6727f4554b016847a94789e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteRenderers:
+  - {fileID: 5564922101865878728}

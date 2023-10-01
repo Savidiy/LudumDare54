@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Savidiy.Utils
+namespace LudumDare54
 {
     public static class ColliderExtension
     {

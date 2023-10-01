@@ -83,3 +83,4 @@ MonoBehaviour:
   ShipStaticDataLibrary: {fileID: 11400000, guid: a75334240f6fac94cbf1fe8b0bf781c8, type: 2}
   RadarSettings: {fileID: 11400000, guid: f8b98650f2d44c340915bf7705bacf17, type: 2}
   BulletSettings: {fileID: 11400000, guid: cbb954f58c6c5184cb2af73c60710f7e, type: 2}
+  HighlightSettings: {fileID: 11400000, guid: e3daa1ed859eabd448fe2342713b090d, type: 2}

@@ -8,12 +8,14 @@ namespace LudumDare54
         private readonly HeroSettings _heroSettings;
         private readonly ShipStatStaticDataLibrary _shipStatStaticDataLibrary;
         private readonly ShipStaticDataLibrary _shipStaticDataLibrary;
+        private readonly HighlightSettings _highlightSettings;
 
-        public ShipFactory(InputProvider inputProvider, HeroSettings heroSettings,
+        public ShipFactory(InputProvider inputProvider, HeroSettings heroSettings, HighlightSettings highlightSettings,
             ShipStatStaticDataLibrary shipStatStaticDataLibrary, ShipStaticDataLibrary shipStaticDataLibrary)
         {
             _inputProvider = inputProvider;
             _heroSettings = heroSettings;
+            _highlightSettings = highlightSettings;
             _shipStatStaticDataLibrary = shipStatStaticDataLibrary;
             _shipStaticDataLibrary = shipStaticDataLibrary;
         }
@@ -28,12 +30,14 @@ namespace LudumDare54
 
             string statId = shipStaticData.StatId;
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
+            var shipHighlighter = new ShipHighlighter(shipBehaviour.ShipHighlighter, _highlightSettings);
             var shipStats = new ShipStats(shipStatStaticData);
 
             var heroMover = new HeroMover(shipBehaviour, shipStats, _inputProvider);
             var heroShooter = new HeroShooter(shipBehaviour, shipStats, _inputProvider);
+            var collider = new SimpleCollider(shipBehaviour);
 
-            return new Ship(shipBehaviour, heroMover, shipStats, heroShooter);
+            return new Ship(shipBehaviour, heroMover, shipStats, heroShooter, collider, shipHighlighter);
         }
 
         public Ship CreateEnemyShip(SpawnPointStaticData spawnPointStaticData)
@@ -48,12 +52,14 @@ namespace LudumDare54
 
             string statId = shipStaticData.StatId;
             ShipStatStaticData shipStatStaticData = _shipStatStaticDataLibrary.Get(statId);
+            var shipHighlighter = new ShipHighlighter(shipBehaviour.ShipHighlighter, _highlightSettings);
             var shipStats = new ShipStats(shipStatStaticData);
 
             var asteroidMover = new AsteroidMover(shipBehaviour, shipStats);
             var asteroidShooter = new AsteroidShooter();
-            
-            return new Ship(shipBehaviour, asteroidMover, shipStats, asteroidShooter);
+            var collider = new SimpleCollider(shipBehaviour);
+
+            return new Ship(shipBehaviour, asteroidMover, shipStats, asteroidShooter, collider, shipHighlighter);
         }
     }
 }
