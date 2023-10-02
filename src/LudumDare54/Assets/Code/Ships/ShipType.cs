@@ -5,6 +5,7 @@ namespace LudumDare54
     public enum ShipType
     {
         Hero = 0,
+        
         BigAsteroid1 = 10,
         MiddleAsteroid1 = 11,
         MiddleAsteroid2 = 12,
@@ -12,6 +13,14 @@ namespace LudumDare54
         SmallAsteroid2 = 16,
         SmallAsteroid3 = 17,
         SmallAsteroid4 = 18,
+        
+        BigGravy1 = 20,
+        MiddleGravy1 = 21,
+        MiddleGravy2 = 22,
+        SmallGravy1 = 23,
+        SmallGravy2 = 24,
+        SmallGravy3 = 25,
+        
         SmallTurret1 = 30,
         SmallTurret2 = 31,
         SmallTurret3 = 32,

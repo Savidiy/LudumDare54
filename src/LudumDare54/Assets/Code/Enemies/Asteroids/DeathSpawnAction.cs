@@ -29,7 +29,7 @@ namespace LudumDare54
 
         public void Invoke()
         {
-            Vector3 startPosition = _shipBehaviour.transform.position;
+            Vector3 startPosition = _shipBehaviour.RotateRoot.position;
             Vector3 lastAttackVector = _shipHealth.LastAttackVector;
             float attackRotation = CalcAttackRotation(lastAttackVector);
 

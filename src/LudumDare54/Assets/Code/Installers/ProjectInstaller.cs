@@ -17,6 +17,7 @@ namespace LudumDare54
         [Required] public AsteroidLibrary AsteroidLibrary;
         [Required] public TurretLibrary TurretLibrary;
         [Required] public StarFieldSettings StarFieldSettings;
+        [Required] public GravyLibrary GravyLibrary;
 
         public override void InstallBindings()
         {
@@ -32,6 +33,7 @@ namespace LudumDare54
             Container.BindInstance(AsteroidLibrary);
             Container.BindInstance(TurretLibrary);
             Container.BindInstance(StarFieldSettings);
+            Container.BindInstance(GravyLibrary);
 
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<ProgressProvider>().AsSingle();

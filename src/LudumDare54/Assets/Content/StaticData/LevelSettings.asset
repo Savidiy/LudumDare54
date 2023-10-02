@@ -24,10 +24,10 @@ MonoBehaviour:
   LevelQueue:
   - LevelId: Tutor1
   - LevelId: Tutor2
-  - LevelId: Tutor3
   - LevelId: Turret1
   - LevelId: Turret2
   - LevelId: Turret3
   - LevelId: Turret4
   - LevelId: Turret5
   - LevelId: Turret6
+  - LevelId: Gravy1

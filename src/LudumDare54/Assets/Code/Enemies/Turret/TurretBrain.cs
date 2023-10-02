@@ -31,6 +31,7 @@ namespace LudumDare54
             _heroShipHolder = heroShipHolder;
             _args = args;
             _isRightRotation = Random.value > 0.5f;
+            _shotCooldown = Random.value * _args.TurretStatsData.BurstCooldown;
         }
 
         public void UpdateTimer(float deltaTime)
