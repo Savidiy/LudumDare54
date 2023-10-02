@@ -10,11 +10,11 @@ namespace LudumDare54
 
         public WinGameApplicationState(WinGameWindow winGameWindow, ProgressProvider progressProvider,
             HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
-            Radar radar, BulletMoveInvoker bulletMoveInvoker, BulletCleaner bulletCleaner, 
+            Radar radar, BulletMoveInvoker bulletMoveInvoker, BulletCleaner bulletCleaner,
             ShipHealthTicker shipHealthTicker, BulletLifeTimeUpdater bulletLifeTimeUpdater, StarField starField)
         {
             _progressProvider = progressProvider;
-            
+
             _activatables.Add(winGameWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
@@ -28,13 +28,13 @@ namespace LudumDare54
 
         public void Enter()
         {
-            _progressProvider.ResetProgress();
-            
             for (var index = 0; index < _activatables.Count; index++)
             {
                 IActivatable activatable = _activatables[index];
                 activatable.Activate();
             }
+
+            _progressProvider.ResetProgress();
         }
 
         public void Exit()

@@ -8,13 +8,16 @@ namespace LudumDare54
         private readonly IEventInvoker _eventInvoker;
         private readonly HeroShipHolder _heroShipHolder;
         private readonly EnemiesHolder _enemiesHolder;
+        private readonly ProgressProvider _progressProvider;
         private IDisposable _updateSubscribe;
 
-        public ShipCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder)
+        public ShipCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
+            ProgressProvider progressProvider)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
+            _progressProvider = progressProvider;
         }
 
         public void Activate()
@@ -41,6 +44,7 @@ namespace LudumDare54
 
                 if (HasCollision(heroShip, ship))
                 {
+                    _progressProvider.Progress.BumperHitCount++;
                     TakeCollisionDamage(heroShip, ship);
                     TakeCollisionDamage(ship, heroShip);
                 }

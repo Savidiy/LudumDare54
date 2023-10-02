@@ -17,15 +17,9 @@ namespace LudumDare54
             _progressSettings = progressSettings;
             _serializer = new Serializer<Progress>();
             if (PlayerPrefs.HasKey(PROGRESS_KEY))
-            {
-                string json = PlayerPrefs.GetString(PROGRESS_KEY);
-                Progress = _serializer.Deserialize(json);
-                HasProgress = true;
-            }
+                LoadProgress();
             else
-            {
                 Progress = CreateDefaultProgress();
-            }
         }
 
         private Progress CreateDefaultProgress()
@@ -53,6 +47,13 @@ namespace LudumDare54
         {
             string json = _serializer.Serialize(Progress);
             PlayerPrefs.SetString(PROGRESS_KEY, json);
+            HasProgress = true;
+        }
+
+        public void LoadProgress()
+        {
+            string json = PlayerPrefs.GetString(PROGRESS_KEY);
+            Progress = _serializer.Deserialize(json);
             HasProgress = true;
         }
     }

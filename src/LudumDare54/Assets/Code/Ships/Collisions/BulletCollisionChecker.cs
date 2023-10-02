@@ -9,15 +9,17 @@ namespace LudumDare54
         private readonly HeroShipHolder _heroShipHolder;
         private readonly EnemiesHolder _enemiesHolder;
         private readonly BulletHolder _bulletHolder;
+        private readonly ProgressProvider _progressProvider;
         private IDisposable _updateSubscribe;
 
         public BulletCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
-            BulletHolder bulletHolder)
+            BulletHolder bulletHolder, ProgressProvider progressProvider)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
             _bulletHolder = bulletHolder;
+            _progressProvider = progressProvider;
         }
 
         public void Activate()
@@ -38,6 +40,7 @@ namespace LudumDare54
                 IBullet bullet = _bulletHolder.Bullets[index];
                 if (bullet.IsHeroBullet && HasCollisionWithEnemy(bullet, out Ship enemy))
                 {
+                    _progressProvider.Progress.BulletHitCount++;
                     TakeDamage(enemy, bullet);
                     _bulletHolder.RemoveAt(index);
                 }

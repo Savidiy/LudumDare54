@@ -11,12 +11,14 @@ namespace LudumDare54
         private readonly EnemiesHolder _enemiesHolder;
         private readonly BulletHolder _bulletHolder;
         private readonly StarField _starField;
+        private readonly ProgressProvider _progressProvider;
 
         public LoadingLevelApplicationState(ApplicationStateMachine applicationStateMachine, LevelDataProvider levelDataProvider,
             HeroShipHolder heroShipHolder, ShipFactory shipFactory, EnemiesHolder enemiesHolder, BulletHolder bulletHolder,
-            StarField starField)
+            StarField starField, ProgressProvider progressProvider)
         {
             _starField = starField;
+            _progressProvider = progressProvider;
             _applicationStateMachine = applicationStateMachine;
             _levelDataProvider = levelDataProvider;
             _heroShipHolder = heroShipHolder;
@@ -27,14 +29,24 @@ namespace LudumDare54
 
         public void Enter()
         {
-            CleanUp();
+            LoadProgressPartially();
+            CleanUpLevel();
             CreateHero();
             CreateEnemies();
             CreateStars();
             _applicationStateMachine.EnterToState<GameLoopApplicationState>();
         }
 
-        private void CleanUp()
+        private void LoadProgressPartially()
+        {
+            int deathCount = _progressProvider.Progress.HeroDeathCount;
+            int bumperHitCount = _progressProvider.Progress.BumperHitCount;
+            _progressProvider.LoadProgress();
+            _progressProvider.Progress.HeroDeathCount = deathCount;
+            _progressProvider.Progress.BumperHitCount = bumperHitCount;
+        }
+
+        private void CleanUpLevel()
         {
             _enemiesHolder.Clear();
             _heroShipHolder.Clear();

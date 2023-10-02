@@ -23,5 +23,5 @@ MonoBehaviour:
     SerializationNodes: []
   StartLevel: 0
   TestMode: 0
-  TestStartLevel: 8
+  TestStartLevel: 0
   TestInvulnerability: 0

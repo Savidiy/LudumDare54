@@ -6,16 +6,18 @@ namespace LudumDare54
     public sealed class LoseLevelApplicationState : IState, IStateWithExit, IApplicationState
     {
         private readonly HeroShipHolder _heroShipHolder;
+        private readonly ProgressProvider _progressProvider;
         private readonly List<IActivatable> _activatables = new();
 
         public LoseLevelApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
             LoseLevelWindow loseLevelWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
             BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
             BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, HeroShipHolder heroShipHolder,
-            ShipCollisionChecker shipCollisionChecker, StarField starField)
+            ShipCollisionChecker shipCollisionChecker, StarField starField, ProgressProvider progressProvider)
         {
             _heroShipHolder = heroShipHolder;
-            
+            _progressProvider = progressProvider;
+
             _activatables.Add(loseLevelWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
@@ -34,6 +36,7 @@ namespace LudumDare54
         public void Enter()
         {
             _heroShipHolder.Clear();
+            _progressProvider.Progress.HeroDeathCount++;
             
             for (var index = 0; index < _activatables.Count; index++)
             {

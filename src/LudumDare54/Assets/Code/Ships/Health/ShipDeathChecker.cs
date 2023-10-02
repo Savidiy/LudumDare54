@@ -6,12 +6,14 @@ namespace LudumDare54
     {
         private readonly IEventInvoker _eventInvoker;
         private readonly EnemiesHolder _enemiesHolder;
+        private readonly ProgressProvider _progressProvider;
         private IDisposable _updateSubscribe;
 
-        public ShipDeathChecker(IEventInvoker eventInvoker, EnemiesHolder enemiesHolder)
+        public ShipDeathChecker(IEventInvoker eventInvoker, EnemiesHolder enemiesHolder, ProgressProvider progressProvider)
         {
             _eventInvoker = eventInvoker;
             _enemiesHolder = enemiesHolder;
+            _progressProvider = progressProvider;
         }
 
         public void Activate()
@@ -32,6 +34,7 @@ namespace LudumDare54
                 Ship ship = _enemiesHolder.Ships[index];
                 if (ship.Health.IsDead)
                 {
+                    _progressProvider.Progress.EnemiesKillCount++;
                     _enemiesHolder.RemoveAt(index);
                     ship.DeathAction.Invoke();
                 }
