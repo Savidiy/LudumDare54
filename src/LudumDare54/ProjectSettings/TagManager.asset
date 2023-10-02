@@ -47,7 +47,10 @@ TagManager:
   - name: Bullets
     uniqueID: 3332967183
     locked: 0
-  - name: Enemies
+  - name: Turrets
+    uniqueID: 2963920287
+    locked: 0
+  - name: Asteroids
     uniqueID: 2433903321
     locked: 0
   - name: Hero

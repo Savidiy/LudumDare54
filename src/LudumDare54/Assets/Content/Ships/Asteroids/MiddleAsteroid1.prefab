@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1861063975
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 1801263428120863714, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -188,9 +188,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 6033272754309734490}
-  Gun: {fileID: 7313115907959562382}
+  GunBehaviour: {fileID: 0}
   Collider: {fileID: 6949765357040206971}
   ShipHighlighter: {fileID: 8882638604318236838}
+  BlinkGameObjects: []
 --- !u!114 &8882638604318236838
 MonoBehaviour:
   m_ObjectHideFlags: 0
