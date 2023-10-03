@@ -11,13 +11,15 @@ namespace LudumDare54
         private readonly ProgressSettings _progressSettings;
         private readonly EnemiesHolder _enemiesHolder;
         private readonly IEventInvoker _eventInvoker;
+        private readonly SoundPlayer _soundPlayer;
         private CompositeDisposable _subscriptions;
 
         public HudWindow(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine, HeroShipHolder heroShipHolder,
-            ProgressSettings progressSettings, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker)
+            ProgressSettings progressSettings, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker, SoundPlayer soundPlayer)
         {
             _enemiesHolder = enemiesHolder;
             _eventInvoker = eventInvoker;
+            _soundPlayer = soundPlayer;
             _hudBehaviour = hudBehaviour;
             _applicationStateMachine = applicationStateMachine;
             _heroShipHolder = heroShipHolder;
@@ -62,6 +64,7 @@ namespace LudumDare54
 
         private void OnKillAllClick()
         {
+            _soundPlayer.PlayClick();
             _enemiesHolder.Clear();
         }
 
@@ -74,6 +77,7 @@ namespace LudumDare54
 
         private void OnRestartClick()
         {
+            _soundPlayer.PlayClick();
             _applicationStateMachine.EnterToState<LoadingLevelApplicationState>();
         }
     }

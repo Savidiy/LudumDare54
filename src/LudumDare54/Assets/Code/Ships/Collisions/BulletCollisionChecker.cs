@@ -10,16 +10,18 @@ namespace LudumDare54
         private readonly EnemiesHolder _enemiesHolder;
         private readonly BulletHolder _bulletHolder;
         private readonly ProgressProvider _progressProvider;
+        private readonly SoundPlayer _soundPlayer;
         private IDisposable _updateSubscribe;
 
         public BulletCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
-            BulletHolder bulletHolder, ProgressProvider progressProvider)
+            BulletHolder bulletHolder, ProgressProvider progressProvider, SoundPlayer soundPlayer)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
             _bulletHolder = bulletHolder;
             _progressProvider = progressProvider;
+            _soundPlayer = soundPlayer;
         }
 
         public void Activate()
@@ -52,11 +54,12 @@ namespace LudumDare54
             }
         }
 
-        private static void TakeDamage(Ship ship, IBullet bullet)
+        private void TakeDamage(Ship ship, IBullet bullet)
         {
             Vector3 attackVector = bullet.Position - ship.Position;
             ship.Health.TakeDamage(bullet.Damage, attackVector);
             ship.ShipHighlighter.Flash();
+            _soundPlayer.PlayOnce(ship.ShipSounds.HurtSoundId);
         }
 
         private bool HasCollisionWithHero(IBullet bullet, out Ship ship)

@@ -9,11 +9,13 @@ namespace LudumDare54
         private ApplicationStateMachine _applicationStateMachine;
         private ProgressSettings _progressSettings;
         private ProgressProvider _progressProvider;
+        private MusicPlayer _musicPlayer;
 
         [Inject]
         public void Construct(ApplicationStateMachine applicationStateMachine, List<IApplicationState> applicationStates,
-            ProgressSettings progressSettings, ProgressProvider progressProvider)
+            ProgressSettings progressSettings, ProgressProvider progressProvider, MusicPlayer musicPlayer)
         {
+            _musicPlayer = musicPlayer;
             _progressProvider = progressProvider;
             _progressSettings = progressSettings;
             _applicationStateMachine = applicationStateMachine;
@@ -31,6 +33,7 @@ namespace LudumDare54
             }
 #endif
 
+            _musicPlayer.PlayMusic();
             _applicationStateMachine.EnterToState<MainMenuApplicationState>();
         }
     }

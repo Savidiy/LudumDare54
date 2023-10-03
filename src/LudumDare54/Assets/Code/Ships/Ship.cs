@@ -17,9 +17,11 @@ namespace LudumDare54
         public IShipCollider ShipCollider { get; }
         public ShipHighlighter ShipHighlighter { get; }
         public IDeathAction DeathAction { get; }
+        public ShipSounds ShipSounds { get; }
 
         public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipShooter shipShooter,
-            IShipCollider shipCollider, ShipHighlighter shipHighlighter, IShipHealth health, IDeathAction deathAction)
+            IShipCollider shipCollider, ShipHighlighter shipHighlighter, IShipHealth health, IDeathAction deathAction,
+            ShipSounds shipSounds)
         {
             ShipMover = shipMover;
             ShipShooter = shipShooter;
@@ -27,6 +29,7 @@ namespace LudumDare54
             ShipHighlighter = shipHighlighter;
             Health = health;
             DeathAction = deathAction;
+            ShipSounds = shipSounds;
             _behaviour = behaviour;
             _transform = _behaviour.transform;
         }

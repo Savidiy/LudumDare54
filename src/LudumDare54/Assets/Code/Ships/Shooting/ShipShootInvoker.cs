@@ -10,17 +10,19 @@ namespace LudumDare54
         private readonly EnemiesHolder _enemiesHolder;
         private readonly BulletFactory _bulletFactory;
         private readonly BulletHolder _bulletHolder;
+        private readonly SoundPlayer _soundPlayer;
         private readonly List<BulletData> _bulletDataBuffer = new();
         private IDisposable _updateSubscribe;
 
         public ShipShootInvoker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
-            BulletFactory bulletFactory, BulletHolder bulletHolder)
+            BulletFactory bulletFactory, BulletHolder bulletHolder, SoundPlayer soundPlayer)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
             _bulletFactory = bulletFactory;
             _bulletHolder = bulletHolder;
+            _soundPlayer = soundPlayer;
         }
 
         public void Activate()
@@ -54,7 +56,10 @@ namespace LudumDare54
             
             _bulletDataBuffer.Clear();
             if (shooter.IsWantShoot())
+            {
                 shooter.Shoot(_bulletDataBuffer);
+                _soundPlayer.PlayOnce(ship.ShipSounds.ShootSoundId);
+            }
 
             for (var index = 0; index < _bulletDataBuffer.Count; index++)
             {

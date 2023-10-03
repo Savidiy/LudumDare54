@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(InputSettings), menuName = "Static Data/" + nameof(InputSettings), order = 0)]
+    [CreateAssetMenu(fileName = nameof(InputSettings), menuName = "Static Data/" + nameof(InputSettings))]
     public sealed class InputSettings : AutoSaveScriptableObject
     {
         public KeyCode[] Left;

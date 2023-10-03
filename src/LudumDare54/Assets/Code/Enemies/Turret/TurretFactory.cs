@@ -36,8 +36,10 @@ namespace LudumDare54
 
             var collider = new SimpleCollider(shipBehaviour);
             IDeathAction deathAction = new NullDeathAction();
+            var shipSounds = new ShipSounds(statsData.ShootSoundId, statsData.HurtSoundId);
 
-            return new Ship(shipBehaviour, turretBrain, turretBrain, collider, shipHighlighter, shipHealth, deathAction);
+            return new Ship(shipBehaviour, turretBrain, turretBrain, collider, shipHighlighter, shipHealth, deathAction,
+                shipSounds);
         }
     }
 }

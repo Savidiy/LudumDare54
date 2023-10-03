@@ -36,8 +36,10 @@ namespace LudumDare54
             var nullShooter = new NullShooter();
             var collider = new SimpleCollider(shipBehaviour);
             IDeathAction deathAction = CreateDeathAction(shipBehaviour, gravyStatsStaticData, shipHealth);
+            var shipSounds = new ShipSounds(SoundIdData.Empty, gravyStatsStaticData.HurtSoundId);
 
-            return new Ship(shipBehaviour, gravyMover, nullShooter, collider, shipHighlighter, shipHealth, deathAction);
+            return new Ship(shipBehaviour, gravyMover, nullShooter, collider, shipHighlighter, shipHealth, deathAction,
+                shipSounds);
         }
 
         private IDeathAction CreateDeathAction(ShipBehaviour shipBehaviour, GravyStatsStaticData stats,

@@ -3,6 +3,18 @@ using UnityEngine;
 
 namespace LudumDare54
 {
+    public sealed class HeroShooterArgs
+    {
+        public GunBehaviour GunBehaviour { get; }
+        public HeroStats HeroStats { get; }
+
+        public HeroShooterArgs(GunBehaviour gunBehaviour, HeroStats heroStats)
+        {
+            GunBehaviour = gunBehaviour;
+            HeroStats = heroStats;
+        }
+    }
+
     public sealed class HeroShooter : IShipShooter, IHasTemperature
     {
         private readonly GunBehaviour _gunBehaviour;
@@ -13,10 +25,10 @@ namespace LudumDare54
         private float _temperature;
         private float _coolingPauseTimer;
 
-        public HeroShooter(GunBehaviour gunBehaviour, HeroStats heroStats, InputProvider inputProvider)
+        public HeroShooter(HeroShooterArgs args, InputProvider inputProvider)
         {
-            _gunBehaviour = gunBehaviour;
-            _heroStats = heroStats;
+            _gunBehaviour = args.GunBehaviour;
+            _heroStats = args.HeroStats;
             _inputProvider = inputProvider;
         }
 

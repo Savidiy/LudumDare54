@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(BulletLibrary), menuName = "Static Data/" + nameof(BulletLibrary), order = 0)]
+    [CreateAssetMenu(fileName = nameof(BulletLibrary), menuName = "Static Data/" + nameof(BulletLibrary))]
     public sealed class BulletLibrary : AutoSaveScriptableObject
     {
         public List<BulletStaticData> Datas = new();

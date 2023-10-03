@@ -9,15 +9,19 @@ namespace LudumDare54
         private readonly HeroShipHolder _heroShipHolder;
         private readonly EnemiesHolder _enemiesHolder;
         private readonly ProgressProvider _progressProvider;
+        private readonly SoundPlayer _soundPlayer;
+        private readonly SoundSettings _soundSettings;
         private IDisposable _updateSubscribe;
 
         public ShipCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
-            ProgressProvider progressProvider)
+            ProgressProvider progressProvider, SoundPlayer soundPlayer, SoundSettings soundSettings)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
             _progressProvider = progressProvider;
+            _soundPlayer = soundPlayer;
+            _soundSettings = soundSettings;
         }
 
         public void Activate()
@@ -44,6 +48,7 @@ namespace LudumDare54
 
                 if (HasCollision(heroShip, ship))
                 {
+                    _soundPlayer.PlayOnce(_soundSettings.HeroRammingSoundId);
                     _progressProvider.Progress.BumperHitCount++;
                     TakeCollisionDamage(heroShip, ship);
                     TakeCollisionDamage(ship, heroShip);

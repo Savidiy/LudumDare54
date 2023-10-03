@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(HeroSettings), menuName = "Static Data/" + nameof(HeroSettings), order = 0)]
+    [CreateAssetMenu(fileName = nameof(HeroSettings), menuName = "Static Data/" + nameof(HeroSettings))]
     public sealed class HeroSettings : AutoSaveScriptableObject
     {
         public ShipBehaviour ShipBehaviourPrefab;

@@ -6,8 +6,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(AsteroidLibrary), menuName = "Static Data/" + nameof(AsteroidLibrary),
-        order = 0)]
+    [CreateAssetMenu(fileName = nameof(AsteroidLibrary), menuName = "Static Data/" + nameof(AsteroidLibrary))]
     public sealed class AsteroidLibrary : AutoSaveScriptableObject
     {
         [ListDrawerSettings(ListElementLabelName = "@this")]
@@ -46,6 +45,7 @@ namespace LudumDare54
         public float ForwardSpeed;
         public int StartHealth;
         public int SelfDamageFromCollision;
+        [InlineProperty] public SoundIdData HurtSoundId;
 
         [Title("Death Spawn")]
         public int MinSpawnCount;

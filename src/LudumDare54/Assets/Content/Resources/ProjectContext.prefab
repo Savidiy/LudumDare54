@@ -87,3 +87,5 @@ MonoBehaviour:
   TurretLibrary: {fileID: 11400000, guid: fd72b6bdafd7ede44b0587b53770e70b, type: 2}
   StarFieldSettings: {fileID: 11400000, guid: 43c9fc3280bb9ea4085fb0a7fa4ef3ce, type: 2}
   GravyLibrary: {fileID: 11400000, guid: 54a35d98293082f42908778a17934746, type: 2}
+  SoundLibrary: {fileID: 11400000, guid: 0ce91034a67bc2b4bb45512caa0f294d, type: 2}
+  SoundSettings: {fileID: 11400000, guid: cc93b1365c8bc6a4eaf190d1f8c6522f, type: 2}

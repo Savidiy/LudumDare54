@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(LevelSettings), menuName = "Static Data/" + nameof(LevelSettings), order = 0)]
+    [CreateAssetMenu(fileName = nameof(LevelSettings), menuName = "Static Data/" + nameof(LevelSettings))]
     public sealed class LevelSettings : AutoSaveScriptableObject
     {
         public List<LevelIdField> LevelQueue = new();

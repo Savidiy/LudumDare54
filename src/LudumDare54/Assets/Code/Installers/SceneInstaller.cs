@@ -62,6 +62,10 @@ namespace LudumDare54
             Container.Bind<WinGameWindow>().AsSingle();
             Container.Bind<LoseLevelWindow>().AsSingle();
             Container.Bind<MainMenuWindow>().AsSingle();
+            
+            Container.Bind<SoundVolumeProvider>().AsSingle();
+            Container.Bind<SoundPlayer>().AsSingle();
+            Container.Bind<MusicPlayer>().AsSingle();
         }
     }
 }

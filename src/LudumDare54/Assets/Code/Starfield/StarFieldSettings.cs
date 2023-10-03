@@ -4,8 +4,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(StarFieldSettings), menuName = "Static Data/" + nameof(StarFieldSettings),
-        order = 0)]
+    [CreateAssetMenu(fileName = nameof(StarFieldSettings), menuName = "Static Data/" + nameof(StarFieldSettings))]
     public sealed class StarFieldSettings : AutoSaveScriptableObject
     {
         public List<StarBehaviour> StarPrefabs = new();

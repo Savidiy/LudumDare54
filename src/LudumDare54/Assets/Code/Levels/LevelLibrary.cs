@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(LevelLibrary), menuName = "Static Data/" + nameof(LevelLibrary), order = 0)]
+    [CreateAssetMenu(fileName = nameof(LevelLibrary), menuName = "Static Data/" + nameof(LevelLibrary))]
     public sealed class LevelLibrary : AutoSaveScriptableObject
     {
         [SerializeField, ListDrawerSettings(ListElementLabelName = "@this")]

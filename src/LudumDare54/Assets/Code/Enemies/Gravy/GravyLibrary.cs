@@ -6,8 +6,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(GravyLibrary), menuName = "Static Data/" + nameof(GravyLibrary),
-        order = 0)]
+    [CreateAssetMenu(fileName = nameof(GravyLibrary), menuName = "Static Data/" + nameof(GravyLibrary))]
     public sealed class GravyLibrary : AutoSaveScriptableObject
     {
         [ListDrawerSettings(ListElementLabelName = "@this")]
@@ -49,6 +48,7 @@ namespace LudumDare54
         public float OutsideRotationPeriod;
         public float OutsideRotationDistance;
         public float OutsideRotationDelay = 1;
+        [InlineProperty] public SoundIdData HurtSoundId;
 
         [Title("Death Spawn")]
         public int MinSpawnCount;

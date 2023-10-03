@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(RadarSettings), menuName = "Static Data/" + nameof(RadarSettings), order = 0)]
+    [CreateAssetMenu(fileName = nameof(RadarSettings), menuName = "Static Data/" + nameof(RadarSettings))]
     public sealed class RadarSettings : AutoSaveScriptableObject
     {
         public RadarPointBehaviour RadarPointPrefab;

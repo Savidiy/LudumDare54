@@ -8,5 +8,7 @@ namespace LudumDare54
         public Button StartButton;
         public Button ContinueButton;
         public Button ResetProgressButton;
+        public Slider MusicVolumeSlider;
+        public Slider SoundVolumeSlider;
     }
 }

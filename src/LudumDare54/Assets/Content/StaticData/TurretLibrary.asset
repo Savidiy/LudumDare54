@@ -38,6 +38,10 @@ MonoBehaviour:
       AlarmDuration: 1
       HasAimAngle: 0
       AimAngleDegree: 1
+      ShootSoundId:
+        SoundId: shoot
+      HurtSoundId:
+        SoundId: hurt6
   - ShipType: 31
     ShipBehaviourPrefab: {fileID: 9167964614219745351, guid: 1b0344300e4319c429ed9ca7e2108950, type: 3}
     Stats:
@@ -54,6 +58,10 @@ MonoBehaviour:
       AlarmDuration: 2
       HasAimAngle: 1
       AimAngleDegree: 5
+      ShootSoundId:
+        SoundId: shoot
+      HurtSoundId:
+        SoundId: hurt6
   - ShipType: 32
     ShipBehaviourPrefab: {fileID: 381143952565608754, guid: 731b08c91df1ae44c8c4338a2cdf934c, type: 3}
     Stats:
@@ -70,3 +78,7 @@ MonoBehaviour:
       AlarmDuration: 2
       HasAimAngle: 1
       AimAngleDegree: 5
+      ShootSoundId:
+        SoundId: shoot
+      HurtSoundId:
+        SoundId: hurt6

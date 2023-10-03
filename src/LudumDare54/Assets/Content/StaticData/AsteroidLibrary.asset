@@ -29,6 +29,8 @@ MonoBehaviour:
       ForwardSpeed: 0.3
       StartHealth: 2
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt4
       MinSpawnCount: 0
       DeathSpawnStaticData:
       - ShipType: 11
@@ -62,6 +64,8 @@ MonoBehaviour:
       ForwardSpeed: 0.35
       StartHealth: 2
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt4
       MinSpawnCount: 2
       DeathSpawnStaticData:
       - ShipType: 15
@@ -91,6 +95,8 @@ MonoBehaviour:
       ForwardSpeed: 0.35
       StartHealth: 2
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt4
       MinSpawnCount: 2
       DeathSpawnStaticData:
       - ShipType: 15
@@ -120,6 +126,8 @@ MonoBehaviour:
       ForwardSpeed: 0.4
       StartHealth: 1
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
   - ShipType: 16
@@ -129,6 +137,8 @@ MonoBehaviour:
       ForwardSpeed: 0.4
       StartHealth: 1
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
   - ShipType: 17
@@ -138,6 +148,8 @@ MonoBehaviour:
       ForwardSpeed: 0.4
       StartHealth: 1
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
   - ShipType: 18
@@ -147,5 +159,7 @@ MonoBehaviour:
       ForwardSpeed: 0.4
       StartHealth: 1
       SelfDamageFromCollision: 5
+      HurtSoundId:
+        SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []

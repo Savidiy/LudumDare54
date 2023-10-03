@@ -18,6 +18,8 @@ namespace LudumDare54
         [Required] public TurretLibrary TurretLibrary;
         [Required] public StarFieldSettings StarFieldSettings;
         [Required] public GravyLibrary GravyLibrary;
+        [Required] public SoundLibrary SoundLibrary;
+        [Required] public SoundSettings SoundSettings;
 
         public override void InstallBindings()
         {
@@ -34,6 +36,8 @@ namespace LudumDare54
             Container.BindInstance(TurretLibrary);
             Container.BindInstance(StarFieldSettings);
             Container.BindInstance(GravyLibrary);
+            Container.BindInstance(SoundLibrary);
+            Container.BindInstance(SoundSettings);
 
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<ProgressProvider>().AsSingle();

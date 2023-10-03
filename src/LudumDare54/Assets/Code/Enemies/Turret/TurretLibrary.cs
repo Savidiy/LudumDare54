@@ -6,8 +6,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    [CreateAssetMenu(fileName = nameof(TurretLibrary), menuName = "Static Data/" + nameof(TurretLibrary),
-        order = 0)]
+    [CreateAssetMenu(fileName = nameof(TurretLibrary), menuName = "Static Data/" + nameof(TurretLibrary))]
     public sealed class TurretLibrary : AutoSaveScriptableObject
     {
         [SerializeField, ListDrawerSettings(ListElementLabelName = "@this")]
@@ -55,5 +54,8 @@ namespace LudumDare54
         public float AlarmDuration = 1;
         public bool HasAimAngle;
         public float AimAngleDegree = 1;
+
+        [InlineProperty] public SoundIdData ShootSoundId;
+        [InlineProperty] public SoundIdData HurtSoundId;
     }
 }

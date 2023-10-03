@@ -8,13 +8,17 @@ namespace LudumDare54
         private readonly InputProvider _inputProvider;
         private readonly IEventInvoker _eventInvoker;
         private readonly ApplicationStateMachine _applicationStateMachine;
+        private readonly SoundPlayer _soundPlayer;
+        private readonly SoundSettings _soundSettings;
         private CompositeDisposable _subscriptions;
 
         public LoseLevelWindow(LoseLevelBehaviour loseLevelBehaviour, InputProvider inputProvider, IEventInvoker eventInvoker,
-            ApplicationStateMachine applicationStateMachine)
+            ApplicationStateMachine applicationStateMachine, SoundPlayer soundPlayer, SoundSettings soundSettings)
         {
             _eventInvoker = eventInvoker;
             _applicationStateMachine = applicationStateMachine;
+            _soundPlayer = soundPlayer;
+            _soundSettings = soundSettings;
             _inputProvider = inputProvider;
             _loseLevelBehaviour = loseLevelBehaviour;
             _loseLevelBehaviour.gameObject.SetActive(false);
@@ -22,6 +26,7 @@ namespace LudumDare54
 
         public void Activate()
         {
+            _soundPlayer.PlayOnce(_soundSettings.LoseLevelSoundId);
             _loseLevelBehaviour.gameObject.SetActive(true);
             _subscriptions?.Dispose();
             _subscriptions = new CompositeDisposable();
@@ -48,11 +53,13 @@ namespace LudumDare54
 
         private void ReturnToMenu()
         {
+            _soundPlayer.PlayClick();
             _applicationStateMachine.EnterToState<MainMenuApplicationState>();
         }
 
         private void RestartLevel()
         {
+            _soundPlayer.PlayClick();
             _applicationStateMachine.EnterToState<LoadingLevelApplicationState>();
         }
     }
