@@ -9,13 +9,14 @@ namespace LudumDare54
         private readonly List<IActivatable> _activatables = new();
 
         public WinGameApplicationState(WinGameWindow winGameWindow, ProgressProvider progressProvider,
-            HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
+            HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker, HudWindow hudWindow, 
             Radar radar, BulletMoveInvoker bulletMoveInvoker, BulletCleaner bulletCleaner,
             ShipHealthTicker shipHealthTicker, BulletLifeTimeUpdater bulletLifeTimeUpdater, StarField starField)
         {
             _progressProvider = progressProvider;
 
             _activatables.Add(winGameWindow);
+            _activatables.Add(hudWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
             _activatables.Add(radar);

@@ -13,12 +13,13 @@ namespace LudumDare54
             LoseLevelWindow loseLevelWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
             BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
             BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, HeroShipHolder heroShipHolder,
-            ShipCollisionChecker shipCollisionChecker, StarField starField, ProgressProvider progressProvider)
+            ShipCollisionChecker shipCollisionChecker, StarField starField, ProgressProvider progressProvider, HudWindow hudWindow)
         {
             _heroShipHolder = heroShipHolder;
             _progressProvider = progressProvider;
 
             _activatables.Add(loseLevelWindow);
+            _activatables.Add(hudWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
             _activatables.Add(radar);

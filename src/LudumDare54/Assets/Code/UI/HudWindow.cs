@@ -12,14 +12,17 @@ namespace LudumDare54
         private readonly EnemiesHolder _enemiesHolder;
         private readonly IEventInvoker _eventInvoker;
         private readonly SoundPlayer _soundPlayer;
+        private readonly Radar _radar;
         private CompositeDisposable _subscriptions;
 
         public HudWindow(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine, HeroShipHolder heroShipHolder,
-            ProgressSettings progressSettings, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker, SoundPlayer soundPlayer)
+            ProgressSettings progressSettings, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker, SoundPlayer soundPlayer,
+            Radar radar)
         {
             _enemiesHolder = enemiesHolder;
             _eventInvoker = eventInvoker;
             _soundPlayer = soundPlayer;
+            _radar = radar;
             _hudBehaviour = hudBehaviour;
             _applicationStateMachine = applicationStateMachine;
             _heroShipHolder = heroShipHolder;
@@ -53,6 +56,7 @@ namespace LudumDare54
 
             _hudBehaviour.TemperatureBar.fillAmount = progress;
             _hudBehaviour.TemperatureBar.color = GetTemperatureBarColor(progress);
+            _hudBehaviour.RadarBehaviour.SetLightProgress(_radar.RadarProgress);
         }
 
         private Color GetTemperatureBarColor(float progress)

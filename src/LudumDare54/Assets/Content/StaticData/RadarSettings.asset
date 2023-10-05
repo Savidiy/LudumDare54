@@ -21,6 +21,10 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  RadarPointPrefab: {fileID: 4875745027101229353, guid: 24146de05bc62e94da23d3d5c6468af8, type: 3}
-  Scale: 0.02
-  MinOffset: 0.18
+  TurnOnSpeed: 10
+  TurnOffSpeed: 6
+  RadarLightData:
+  - Angles: {x: -30, y: 60}
+  - Angles: {x: -60, y: 30}
+  - Angles: {x: -210, y: -50}
+  - Angles: {x: 50, y: 210}

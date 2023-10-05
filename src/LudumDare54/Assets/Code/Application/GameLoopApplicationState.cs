@@ -8,6 +8,7 @@ namespace LudumDare54
         private readonly SoundPlayer _soundPlayer;
         private readonly SoundSettings _soundSettings;
         private readonly List<IActivatable> _activatables = new();
+        private readonly Radar _radar;
 
         public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
             HudWindow hudWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
@@ -16,6 +17,7 @@ namespace LudumDare54
             ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider, StarField starField, SoundPlayer soundPlayer,
             SoundSettings soundSettings)
         {
+            _radar = radar;
             _soundPlayer = soundPlayer;
             _soundSettings = soundSettings;
 
@@ -39,6 +41,7 @@ namespace LudumDare54
         public void Enter()
         {
             _soundPlayer.PlayOnce(_soundSettings.StartLevelSoundId);
+            _radar.ClearProgress();
             
             for (var index = 0; index < _activatables.Count; index++)
             {
