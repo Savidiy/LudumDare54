@@ -56,6 +56,8 @@ namespace LudumDare54
             Container.Bind<HeroCameraTracker>().AsSingle();
             Container.Bind<CameraProvider>().AsSingle();
             Container.Bind<HudWindow>().AsSingle();
+            Container.Bind<HealthViewFactory>().AsSingle();
+            Container.Bind<AssetProvider>().AsSingle();
 
             Container.Bind<WinLoseChecker>().AsSingle();
             Container.Bind<WinLevelWindow>().AsSingle();

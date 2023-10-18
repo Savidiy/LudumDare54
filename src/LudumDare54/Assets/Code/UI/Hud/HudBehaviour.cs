@@ -12,5 +12,6 @@ namespace LudumDare54
         public Color MiddleTemperatureColor;
         public Color MaxTemperatureColor;
         public RadarBehaviour RadarBehaviour;
+        public HealthPointsBehaviour HealthPointsBehaviour;
     }
 }

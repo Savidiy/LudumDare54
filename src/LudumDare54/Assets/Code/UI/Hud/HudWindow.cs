@@ -1,4 +1,5 @@
 ﻿using UniRx;
+using Zenject;
 using Color = UnityEngine.Color;
 
 namespace LudumDare54
@@ -13,11 +14,12 @@ namespace LudumDare54
         private readonly IEventInvoker _eventInvoker;
         private readonly SoundPlayer _soundPlayer;
         private readonly Radar _radar;
+        private readonly HealthPointsView _healthPointsView;
         private CompositeDisposable _subscriptions;
 
         public HudWindow(HudBehaviour hudBehaviour, ApplicationStateMachine applicationStateMachine, HeroShipHolder heroShipHolder,
             ProgressSettings progressSettings, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker, SoundPlayer soundPlayer,
-            Radar radar)
+            Radar radar, IInstantiator instantiator)
         {
             _enemiesHolder = enemiesHolder;
             _eventInvoker = eventInvoker;
@@ -30,6 +32,8 @@ namespace LudumDare54
             _hudBehaviour.gameObject.SetActive(false);
             _hudBehaviour.RestartButton.gameObject.SetActive(false);
             _hudBehaviour.KillAllButton.gameObject.SetActive(false);
+            
+            _healthPointsView = instantiator.Instantiate<HealthPointsView>(new object[] {hudBehaviour.HealthPointsBehaviour});
         }
 
         public void Activate()
@@ -45,6 +49,7 @@ namespace LudumDare54
             _subscriptions.Add(_hudBehaviour.RestartButton.SubscribeClick(OnRestartClick));
             _subscriptions.Add(_hudBehaviour.KillAllButton.SubscribeClick(OnKillAllClick));
             _subscriptions.Add(_eventInvoker.Subscribe(UnityEventType.Update, OnUpdate));
+            _healthPointsView.ResetHealth();
         }
 
         private void OnUpdate()
@@ -57,6 +62,7 @@ namespace LudumDare54
             _hudBehaviour.TemperatureBar.fillAmount = progress;
             _hudBehaviour.TemperatureBar.color = GetTemperatureBarColor(progress);
             _hudBehaviour.RadarBehaviour.SetLightProgress(_radar.RadarProgress);
+            _healthPointsView.UpdateHealth();
         }
 
         private Color GetTemperatureBarColor(float progress)

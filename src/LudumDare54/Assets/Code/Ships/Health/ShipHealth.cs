@@ -8,6 +8,7 @@ namespace LudumDare54
 
         public Vector3 LastAttackVector { get; private set; }
         public int Health => _health;
+        public int MaxHealth { get; }
         public bool IsAlive => _health > 0;
         public bool IsDead => !IsAlive;
         public IShipDamage SelfDamageFromCollision { get; }
@@ -15,6 +16,7 @@ namespace LudumDare54
         public ShipHealth(int maxHealth, int selfDamageFromCollision)
         {
             _health = maxHealth;
+            MaxHealth = maxHealth;
             SelfDamageFromCollision = new SimpleDamage(selfDamageFromCollision);
         }
 

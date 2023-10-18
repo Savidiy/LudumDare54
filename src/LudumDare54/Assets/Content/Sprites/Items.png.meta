@@ -880,7 +880,7 @@ TextureImporter:
         width: 17
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -901,7 +901,7 @@ TextureImporter:
         width: 17
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -909,6 +909,48 @@ TextureImporter:
       bones: []
       spriteID: 8ed0beef98b4d05489366baf8132559d
       internalID: 786251977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiveOn
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 956
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6178c724acc2da1489c574b0bf6392d3
+      internalID: -174242473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiveOff
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 956
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90d5e6f20be19546a6f042d79e910bb
+      internalID: -1776685209
       vertices: []
       indices: 
       edges: []
@@ -943,6 +985,8 @@ TextureImporter:
       Items_7: 1466983914
       Items_8: 866415061
       Items_9: -993514259
+      LiveOff: -1776685209
+      LiveOn: -174242473
       MetalChunk: -488721925442295091
       MiddleAsteroid1: 1801263428120863714
       MiddleAsteroid2: -64745353

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b979cc6a704b229e6f1978b0eb882c, type: 3}
+  m_Name: HudHealthSettings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  ActiveHearth: {fileID: -174242473, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  InactiveHearth: {fileID: -1776685209, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  FadeInDuration: 0.1
+  FadeInEase: 1
+  FadeMiddleDuration: 0
+  FadeOutDuration: 0.1
+  FadeOutEase: 1

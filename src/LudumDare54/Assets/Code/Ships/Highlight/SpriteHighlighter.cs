@@ -6,7 +6,7 @@ namespace LudumDare54
 {
     public sealed class SpriteHighlighter : MonoBehaviour
     {
-        private static readonly int WhitePercentProperty = Shader.PropertyToID("_WhitePercent");
+        public static readonly int WhitePercentProperty = Shader.PropertyToID("_WhitePercent");
 
         [SerializeField] private SpriteRenderer[] SpriteRenderers;
 

@@ -14,6 +14,7 @@ namespace LudumDare54
 
         public Vector3 LastAttackVector { get; private set; }
         public int Health => _health;
+        public int MaxHealth { get; }
         public bool IsAlive => _health > 0;
         public bool IsDead => !IsAlive;
         public IShipDamage SelfDamageFromCollision { get; }
@@ -24,6 +25,7 @@ namespace LudumDare54
             _heroSettings = heroSettings;
             _progressSettings = progressSettings;
             _health = heroSettings.StartHealth;
+            MaxHealth = heroSettings.StartHealth;
             _blinkGameObjects = shipBehaviour.BlinkGameObjects;
             SelfDamageFromCollision = new SimpleDamage(heroSettings.SelfDamageFromCollision);
             StartInvulnerable(_heroSettings.StartLevelInvulnerabilityTime);
