@@ -9,7 +9,7 @@ namespace LudumDare54
         private readonly HeroShipHolder _heroShipHolder;
         private readonly List<HealthView> _hearthViews = new();
         private int _maxHealth;
-        private int _currentHealth = -1;
+        private int _currentHealth;
 
         public HealthPointsView(HealthPointsBehaviour behaviour, HealthViewFactory healthViewFactory,
             HeroShipHolder heroShipHolder)

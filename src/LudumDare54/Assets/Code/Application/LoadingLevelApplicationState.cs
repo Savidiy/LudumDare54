@@ -12,10 +12,11 @@ namespace LudumDare54
         private readonly BulletHolder _bulletHolder;
         private readonly StarField _starField;
         private readonly ProgressProvider _progressProvider;
+        private readonly HudWindow _hudWindow;
 
         public LoadingLevelApplicationState(ApplicationStateMachine applicationStateMachine, LevelDataProvider levelDataProvider,
             HeroShipHolder heroShipHolder, ShipFactory shipFactory, EnemiesHolder enemiesHolder, BulletHolder bulletHolder,
-            StarField starField, ProgressProvider progressProvider)
+            StarField starField, ProgressProvider progressProvider, HudWindow hudWindow)
         {
             _starField = starField;
             _progressProvider = progressProvider;
@@ -25,6 +26,7 @@ namespace LudumDare54
             _shipFactory = shipFactory;
             _enemiesHolder = enemiesHolder;
             _bulletHolder = bulletHolder;
+            _hudWindow = hudWindow;
         }
 
         public void Enter()
@@ -34,6 +36,7 @@ namespace LudumDare54
             CreateHero();
             CreateEnemies();
             CreateStars();
+            _hudWindow.ResetHud();
             _applicationStateMachine.EnterToState<GameLoopApplicationState>();
         }
 

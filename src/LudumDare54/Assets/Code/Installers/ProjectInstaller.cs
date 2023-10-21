@@ -20,7 +20,6 @@ namespace LudumDare54
         [Required] public GravyLibrary GravyLibrary;
         [Required] public SoundLibrary SoundLibrary;
         [Required] public SoundSettings SoundSettings;
-        [Required] public HudHealthSettings HudHealthSettings;
 
         public override void InstallBindings()
         {
@@ -39,7 +38,6 @@ namespace LudumDare54
             Container.BindInstance(GravyLibrary);
             Container.BindInstance(SoundLibrary);
             Container.BindInstance(SoundSettings);
-            Container.BindInstance(HudHealthSettings);
 
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<ProgressProvider>().AsSingle();

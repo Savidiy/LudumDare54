@@ -1,43 +1,42 @@
-﻿namespace LudumDare54
+﻿using UnityEngine;
+
+namespace LudumDare54
 {
     public class HealthView
     {
-        private static int WhitePercentProperty => SpriteHighlighter.WhitePercentProperty;
+        private readonly HealthBehaviour _behaviour;
+        private readonly Vector3 _sizeRootStartLocalScale;
+
+        private float _animationTime;
+
         public bool IsActive { get; private set; }
 
-        private readonly HealthBehaviour _behaviour;
-        private readonly HudHealthSettings _settings;
-        private float _colorProgress = 1f;
-
-        public HealthView(HealthBehaviour behaviour, HudHealthSettings settings)
+        public HealthView(HealthBehaviour behaviour)
         {
-            _settings = settings;
             _behaviour = behaviour;
         }
 
         public void InstantActivate()
         {
-            _behaviour.Image.sprite = _settings.ActiveHearth;
+            _behaviour.PlayableDirector.Stop();
+            _behaviour.OnImage.SetActive(true);
+            _behaviour.OffImage.SetActive(false);
+            _behaviour.WhiteImage.SetActive(false);
             _behaviour.gameObject.SetActive(true);
             IsActive = true;
         }
 
         public void ShowLostHealth()
         {
-            _behaviour.Image.sprite = _settings.InactiveHearth;
+            _behaviour.PlayableDirector.Play();
             IsActive = false;
         }
 
         public void Hide()
         {
+            _behaviour.PlayableDirector.Stop();
             _behaviour.gameObject.SetActive(false);
             IsActive = false;
-        }
-
-        private void SetProgress(float progress)
-        {
-            _colorProgress = progress;
-            _behaviour.Image.SetAlpha(progress);
         }
     }
 }

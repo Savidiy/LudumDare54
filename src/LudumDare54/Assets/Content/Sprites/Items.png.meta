@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LiveOn
+      name: HealthOn
       rect:
         serializedVersion: 2
         x: 208
@@ -922,7 +922,7 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -935,10 +935,31 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LiveOff
+      name: HealthOff
       rect:
         serializedVersion: 2
         x: 213
+        y: 956
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90d5e6f20be19546a6f042d79e910bb
+      internalID: -1776685209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthWhite
+      rect:
+        serializedVersion: 2
+        x: 218
         y: 956
         width: 4
         height: 4
@@ -949,8 +970,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c90d5e6f20be19546a6f042d79e910bb
-      internalID: -1776685209
+      spriteID: 9463a0ae2ff2473439fab0edd4b5aa3c
+      internalID: 701116453
       vertices: []
       indices: 
       edges: []
@@ -970,6 +991,9 @@ TextureImporter:
       BigGravy: 337027506
       Bullet: -374711799
       Gun: 4337684191699249041
+      HealthOff: -1776685209
+      HealthOn: -174242473
+      HealthWhite: 701116453
       Items_0: -374048483
       Items_1: 2120665859
       Items_10: -226643986
@@ -985,8 +1009,6 @@ TextureImporter:
       Items_7: 1466983914
       Items_8: 866415061
       Items_9: -993514259
-      LiveOff: -1776685209
-      LiveOn: -174242473
       MetalChunk: -488721925442295091
       MiddleAsteroid1: 1801263428120863714
       MiddleAsteroid2: -64745353

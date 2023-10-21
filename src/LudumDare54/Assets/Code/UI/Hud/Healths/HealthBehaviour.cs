@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Playables;
 
 namespace LudumDare54
 {
     public class HealthBehaviour : MonoBehaviour
     {
-        public Image Image;
+        public PlayableDirector PlayableDirector;
+        public GameObject OnImage;
+        public GameObject OffImage;
+        public GameObject WhiteImage;
     }
 }

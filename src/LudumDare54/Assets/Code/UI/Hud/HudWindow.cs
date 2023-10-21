@@ -32,7 +32,7 @@ namespace LudumDare54
             _hudBehaviour.gameObject.SetActive(false);
             _hudBehaviour.RestartButton.gameObject.SetActive(false);
             _hudBehaviour.KillAllButton.gameObject.SetActive(false);
-            
+
             _healthPointsView = instantiator.Instantiate<HealthPointsView>(new object[] {hudBehaviour.HealthPointsBehaviour});
         }
 
@@ -49,6 +49,10 @@ namespace LudumDare54
             _subscriptions.Add(_hudBehaviour.RestartButton.SubscribeClick(OnRestartClick));
             _subscriptions.Add(_hudBehaviour.KillAllButton.SubscribeClick(OnKillAllClick));
             _subscriptions.Add(_eventInvoker.Subscribe(UnityEventType.Update, OnUpdate));
+        }
+
+        public void ResetHud()
+        {
             _healthPointsView.ResetHealth();
         }
 
