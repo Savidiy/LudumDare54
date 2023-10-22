@@ -37,9 +37,10 @@ namespace LudumDare54
             var collider = new SimpleCollider(shipBehaviour);
             IDeathAction deathAction = CreateDeathAction(shipBehaviour, asteroidStatsStaticData, shipHealth);
             var shipSounds = new ShipSounds(SoundIdData.Empty, asteroidStatsStaticData.HurtSoundId);
+            var simpleDeathSetup = new SimpleDeathSetup(shipBehaviour.transform);
 
             return new Ship(shipBehaviour, asteroidMover, nullShooter, collider, shipHighlighter, shipHealth, deathAction,
-                shipSounds);
+                shipSounds, simpleDeathSetup);
         }
 
         private IDeathAction CreateDeathAction(ShipBehaviour shipBehaviour, AsteroidStatsStaticData stats,

@@ -15,7 +15,7 @@ namespace LudumDare54
             BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
             BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, WinLoseChecker winLoseChecker,
             ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider, StarField starField, SoundPlayer soundPlayer,
-            SoundSettings soundSettings)
+            SoundSettings soundSettings, EffectUpdater effectUpdater)
         {
             _radar = radar;
             _soundPlayer = soundPlayer;
@@ -36,6 +36,7 @@ namespace LudumDare54
             _activatables.Add(shipDeathChecker);
             _activatables.Add(winLoseChecker);
             _activatables.Add(starField);
+            _activatables.Add(effectUpdater);
         }
 
         public void Enter()

@@ -13,10 +13,11 @@ namespace LudumDare54
         private readonly StarField _starField;
         private readonly ProgressProvider _progressProvider;
         private readonly HudWindow _hudWindow;
+        private readonly EffectStarter _effectStarter;
 
         public LoadingLevelApplicationState(ApplicationStateMachine applicationStateMachine, LevelDataProvider levelDataProvider,
             HeroShipHolder heroShipHolder, ShipFactory shipFactory, EnemiesHolder enemiesHolder, BulletHolder bulletHolder,
-            StarField starField, ProgressProvider progressProvider, HudWindow hudWindow)
+            StarField starField, ProgressProvider progressProvider, HudWindow hudWindow, EffectStarter effectStarter)
         {
             _starField = starField;
             _progressProvider = progressProvider;
@@ -27,6 +28,7 @@ namespace LudumDare54
             _enemiesHolder = enemiesHolder;
             _bulletHolder = bulletHolder;
             _hudWindow = hudWindow;
+            _effectStarter = effectStarter;
         }
 
         public void Enter()
@@ -55,6 +57,7 @@ namespace LudumDare54
             _heroShipHolder.Clear();
             _bulletHolder.Clear();
             _starField.ClearStars();
+            _effectStarter.CleanUp();
         }
 
         private void CreateHero()

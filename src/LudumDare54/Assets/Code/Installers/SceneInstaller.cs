@@ -44,6 +44,7 @@ namespace LudumDare54
             Container.Bind<ShipDeathChecker>().AsSingle();
             Container.Bind<ShipHealthTicker>().AsSingle();
             Container.Bind<ShipCollisionChecker>().AsSingle();
+            Container.Bind<ShipDamageExecutor>().AsSingle();
 
             Container.Bind<BulletHolder>().AsSingle();
             Container.Bind<BulletFactory>().AsSingle();
@@ -68,6 +69,8 @@ namespace LudumDare54
             Container.Bind<SoundVolumeProvider>().AsSingle();
             Container.Bind<SoundPlayer>().AsSingle();
             Container.Bind<MusicPlayer>().AsSingle();
+            
+            EffectInstaller.Install(Container);
         }
     }
 }

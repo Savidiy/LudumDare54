@@ -56,6 +56,9 @@ TagManager:
   - name: Hero
     uniqueID: 2549520459
     locked: 0
+  - name: Effects
+    uniqueID: 709766893
+    locked: 0
   - name: Radar
     uniqueID: 794511429
     locked: 0

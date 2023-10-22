@@ -89,4 +89,5 @@ MonoBehaviour:
   GravyLibrary: {fileID: 11400000, guid: 54a35d98293082f42908778a17934746, type: 2}
   SoundLibrary: {fileID: 11400000, guid: 0ce91034a67bc2b4bb45512caa0f294d, type: 2}
   SoundSettings: {fileID: 11400000, guid: cc93b1365c8bc6a4eaf190d1f8c6522f, type: 2}
-  HudHealthSettings: {fileID: 11400000, guid: e68bc6ec35385d6438cc7fb26963a00f, type: 2}
+  EffectLibrary: {fileID: 11400000, guid: a45dfb6f91a3bae4b9be1251e12b10fa, type: 2}
+  EffectSettings: {fileID: 11400000, guid: d9292029c89bc94429f36142fa1e85f9, type: 2}

@@ -11,10 +11,12 @@ namespace LudumDare54
         private readonly ProgressProvider _progressProvider;
         private readonly SoundPlayer _soundPlayer;
         private readonly SoundSettings _soundSettings;
+        private readonly ShipDamageExecutor _shipDamageExecutor;
         private IDisposable _updateSubscribe;
 
         public ShipCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
-            ProgressProvider progressProvider, SoundPlayer soundPlayer, SoundSettings soundSettings)
+            ProgressProvider progressProvider, SoundPlayer soundPlayer, SoundSettings soundSettings,
+            ShipDamageExecutor shipDamageExecutor)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
@@ -22,6 +24,7 @@ namespace LudumDare54
             _progressProvider = progressProvider;
             _soundPlayer = soundPlayer;
             _soundSettings = soundSettings;
+            _shipDamageExecutor = shipDamageExecutor;
         }
 
         public void Activate()
@@ -56,12 +59,11 @@ namespace LudumDare54
             }
         }
 
-        private static void TakeCollisionDamage(Ship defender, Ship attacker)
+        private void TakeCollisionDamage(Ship defender, Ship attacker)
         {
             Vector3 attackVector = attacker.Position - defender.Position;
             IShipDamage damage = defender.Health.SelfDamageFromCollision;
-            defender.Health.TakeDamage(damage, attackVector);
-            defender.ShipHighlighter.Flash();
+            _shipDamageExecutor.MakeDamage(defender, damage, attackVector);
         }
 
         private static bool HasCollision(Ship shipA, Ship shipB)

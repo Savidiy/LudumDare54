@@ -12,7 +12,6 @@ namespace LudumDare54
         private float _invulnerableTimer;
         private float _blinkTimer;
 
-        public Vector3 LastAttackVector { get; private set; }
         public int Health => _health;
         public int MaxHealth { get; }
         public bool IsAlive => _health > 0;
@@ -33,7 +32,6 @@ namespace LudumDare54
 
         public void TakeDamage(IShipDamage damage, Vector3 attackVector)
         {
-            LastAttackVector = attackVector;
             int damageValue = damage.Damage;
 #if UNITY_EDITOR
             if (_progressSettings.TestInvulnerability)
