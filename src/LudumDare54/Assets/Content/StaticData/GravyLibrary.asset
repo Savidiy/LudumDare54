@@ -60,6 +60,7 @@ MonoBehaviour:
         SpawnChance: 5
         MinMaxAngleRandom: {x: 88.16327, y: 180}
         PositionOffset: 0.15
+      DeathExplosionType: 2
   - ShipType: 21
     ShipBehaviourPrefab: {fileID: 4234165464232685675, guid: 00a4306cd69f14b4ca2bebd68c4a0568, type: 3}
     Stats:
@@ -94,6 +95,7 @@ MonoBehaviour:
         SpawnChance: 25
         MinMaxAngleRandom: {x: 124.89794, y: 319.59186}
         PositionOffset: 0.1
+      DeathExplosionType: 2
   - ShipType: 22
     ShipBehaviourPrefab: {fileID: 6655195671727941076, guid: ef83e374e70ac134690cf2f27dd50ea3, type: 3}
     Stats:
@@ -128,6 +130,7 @@ MonoBehaviour:
         SpawnChance: 25
         MinMaxAngleRandom: {x: 124.89794, y: 319.59186}
         PositionOffset: 0.1
+      DeathExplosionType: 2
   - ShipType: 23
     ShipBehaviourPrefab: {fileID: 5085175224699464742, guid: 35ebb0851805773418c0d557b69bace9, type: 3}
     Stats:
@@ -142,6 +145,7 @@ MonoBehaviour:
         SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
+      DeathExplosionType: 1
   - ShipType: 24
     ShipBehaviourPrefab: {fileID: 1941011775630499774, guid: 9b6afda40ddfe0b4e8cde505663b1253, type: 3}
     Stats:
@@ -156,6 +160,7 @@ MonoBehaviour:
         SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
+      DeathExplosionType: 1
   - ShipType: 25
     ShipBehaviourPrefab: {fileID: 2266976687210469471, guid: 4817ec622935cc64e84bcdfce967a6b3, type: 3}
     Stats:
@@ -170,3 +175,4 @@ MonoBehaviour:
         SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
+      DeathExplosionType: 1

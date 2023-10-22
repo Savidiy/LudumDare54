@@ -12,11 +12,12 @@ namespace LudumDare54
         private readonly ProgressProvider _progressProvider;
         private readonly SoundPlayer _soundPlayer;
         private readonly ShipDamageExecutor _shipDamageExecutor;
+        private readonly EffectStarter _effectStarter;
         private IDisposable _updateSubscribe;
 
         public BulletCollisionChecker(IEventInvoker eventInvoker, HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder,
             BulletHolder bulletHolder, ProgressProvider progressProvider, SoundPlayer soundPlayer,
-            ShipDamageExecutor shipDamageExecutor)
+            ShipDamageExecutor shipDamageExecutor, EffectStarter effectStarter)
         {
             _eventInvoker = eventInvoker;
             _heroShipHolder = heroShipHolder;
@@ -25,6 +26,7 @@ namespace LudumDare54
             _progressProvider = progressProvider;
             _soundPlayer = soundPlayer;
             _shipDamageExecutor = shipDamageExecutor;
+            _effectStarter = effectStarter;
         }
 
         public void Activate()
@@ -63,6 +65,9 @@ namespace LudumDare54
             IShipDamage bulletDamage = bullet.Damage;
             _shipDamageExecutor.MakeDamage(ship, bulletDamage, attackVector);
             _soundPlayer.PlayOnce(ship.ShipSounds.HurtSoundId);
+
+            if (ship.Health.IsAlive)
+                _effectStarter.ShowEffect(EffectType.SmallExplosion, bullet.Position);
         }
 
         private bool HasCollisionWithHero(IBullet bullet, out Ship ship)

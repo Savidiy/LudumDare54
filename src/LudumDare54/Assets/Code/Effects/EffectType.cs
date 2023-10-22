@@ -2,7 +2,8 @@
 {
     public enum EffectType
     {
-        SmallExplosion = 0,
-        BigExplosion = 1,
+        None = 0,
+        SmallExplosion = 1,
+        BigExplosion = 2,
     }
 }

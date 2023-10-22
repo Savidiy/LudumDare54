@@ -22,12 +22,39 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EffectData:
-  - EffectType: 0
-    AnimationData:
-      Speed: 1
-      DefaultFrameDuration: 0.1
-      Frames: []
   - EffectType: 1
+    AnimationData:
+      Speed: 1.2
+      DefaultFrameDuration: 0.05
+      Frames:
+      - Sprite: {fileID: 1559324346, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: -1524158941, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: 2094934822, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: -1591789445, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: -1151527653, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: -1464012608, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: 103315374, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: -1116060820, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+      - Sprite: {fileID: 61896779, guid: 0b1939c690ecfcd44a585c7c0a5672c5, type: 3}
+        UseCustomDuration: 0
+        CustomDuration: 0.1
+  - EffectType: 2
     AnimationData:
       Speed: 1
       DefaultFrameDuration: 0.05

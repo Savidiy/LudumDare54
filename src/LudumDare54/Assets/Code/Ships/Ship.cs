@@ -18,11 +18,11 @@ namespace LudumDare54
         public ShipHighlighter ShipHighlighter { get; }
         public IDeathAction DeathAction { get; }
         public ShipSounds ShipSounds { get; }
-        public IDeathSettings DeathSetup { get; }
+        public IDeathSetup DeathSetup { get; }
 
         public Ship(ShipBehaviour behaviour, IShipMover shipMover, IShipShooter shipShooter,
             IShipCollider shipCollider, ShipHighlighter shipHighlighter, IShipHealth health, IDeathAction deathAction,
-            ShipSounds shipSounds, IDeathSettings deathSetup)
+            ShipSounds shipSounds, IDeathSetup deathSetup)
         {
             ShipMover = shipMover;
             ShipShooter = shipShooter;

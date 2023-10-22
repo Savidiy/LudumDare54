@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace LudumDare54
 {
-    public interface IDeathSettings
+    public interface IDeathSetup
     {
         bool HasDeathEffect { get; }
         EffectType EffectType { get; }

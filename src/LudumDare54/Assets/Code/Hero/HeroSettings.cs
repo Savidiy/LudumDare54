@@ -34,5 +34,8 @@ namespace LudumDare54
 
         [Min(0)] public float AfterDamageInvulnerabilityTime = 1f;
         [Min(0)] public float BlinkPeriod = 0.2f;
+        
+        [Title("Explosions")]
+        public EffectType DeathExplosionType = EffectType.BigExplosion;
     }
 }

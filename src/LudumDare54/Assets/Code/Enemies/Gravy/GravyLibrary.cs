@@ -54,5 +54,6 @@ namespace LudumDare54
         public int MinSpawnCount;
 
         public List<DeathSpawnStaticData> DeathSpawnStaticData = new();
+        public EffectType DeathExplosionType;
     }
 }

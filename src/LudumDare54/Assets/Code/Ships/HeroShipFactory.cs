@@ -41,7 +41,7 @@ namespace LudumDare54
             var collider = new SimpleCollider(shipBehaviour);
             var nullDeathAction = new NullDeathAction();
             var shipSounds = new ShipSounds(_soundSettings.HeroShootSoundId, _soundSettings.HeroHurtSoundId);
-            var simpleDeathSetup = new SimpleDeathSetup(shipBehaviour.transform);
+            var simpleDeathSetup = new SimpleDeathSetup(shipBehaviour.transform, _heroSettings.DeathExplosionType);
 
             return new Ship(shipBehaviour, heroMover, heroShooter, collider, shipHighlighter, shipHealth, nullDeathAction,
                 shipSounds, simpleDeathSetup);

@@ -57,5 +57,6 @@ namespace LudumDare54
 
         [InlineProperty] public SoundIdData ShootSoundId;
         [InlineProperty] public SoundIdData HurtSoundId;
+        public EffectType DeathExplosionType;
     }
 }
