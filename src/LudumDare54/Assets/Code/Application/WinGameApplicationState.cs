@@ -12,7 +12,7 @@ namespace LudumDare54
             HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker, HudWindow hudWindow,
             Radar radar, BulletMoveInvoker bulletMoveInvoker, BulletCleaner bulletCleaner,
             ShipHealthTicker shipHealthTicker, BulletLifeTimeUpdater bulletLifeTimeUpdater, StarField starField,
-            EffectUpdater effectUpdater)
+            EffectUpdater effectUpdater, ShipShootInvoker shipShootInvoker)
         {
             _progressProvider = progressProvider;
 
@@ -20,6 +20,7 @@ namespace LudumDare54
             _activatables.Add(hudWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
+            _activatables.Add(shipShootInvoker);
             _activatables.Add(radar);
             _activatables.Add(bulletMoveInvoker);
             _activatables.Add(bulletLifeTimeUpdater);

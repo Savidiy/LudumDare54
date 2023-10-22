@@ -11,7 +11,8 @@ namespace LudumDare54
         public WinLevelApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
             WinLevelWindow winLevelWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, HudWindow hudWindow,
             BulletCleaner bulletCleaner, ShipHealthTicker shipHealthTicker, ProgressProvider progressProvider,
-            BulletLifeTimeUpdater bulletLifeTimeUpdater, StarField starField, EffectUpdater effectUpdater)
+            BulletLifeTimeUpdater bulletLifeTimeUpdater, StarField starField, EffectUpdater effectUpdater,
+            ShipShootInvoker shipShootInvoker)
         {
             _progressProvider = progressProvider;
             
@@ -19,6 +20,7 @@ namespace LudumDare54
             _activatables.Add(winLevelWindow);
             _activatables.Add(heroCameraPlayerTracker);
             _activatables.Add(shipMoveInvoker);
+            _activatables.Add(shipShootInvoker);
             _activatables.Add(radar);
             _activatables.Add(bulletMoveInvoker);
             _activatables.Add(bulletLifeTimeUpdater);
