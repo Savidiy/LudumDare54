@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 912ecdef16fc4a24d8a0a9360f1af2f1
+guid: 0564219cffecfde4d9fbd4f6d6269ac3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 0
@@ -87,7 +87,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 0
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638336741390230781
+  platformSettingsDirtyTick: 638336740703587529
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,58 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Explosions_Frame_0
+  - name: Ships_Frame_0
     originalName: 
-    pivot: {x: 0.47222227, y: -0.22580643}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 213
-      width: 36
-      height: 31
-    spriteID: 32692050f42177f41a21ee426330bc4f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 213}
-  - name: Explosions_Frame_1
-    originalName: 
-    pivot: {x: 0.48780486, y: -0.11428572}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 48
-      width: 41
-      height: 35
-    spriteID: a533dc5b5c2fe4645b646346ac6709e7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 48}
-  - name: Explosions_Frame_2
-    originalName: 
-    pivot: {x: 0.48837212, y: -0.11111112}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 43
-      height: 36
-    spriteID: 880db65e0119a3d41b7387ad386f058e
+      width: 28
+      height: 28
+    spriteID: 8a7e8b428229d1e4aa8e81fdf9100e63
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,178 +139,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Explosions_Frame_6
+  - name: Ships_Frame_1
     originalName: 
-    pivot: {x: 0.52380955, y: -0.1764706}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 91
-      width: 42
-      height: 34
-    spriteID: 854c4ff2e2bf72a4eba45a97e25dc4bf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 91}
-  - name: Explosions_Frame_7
-    originalName: 
-    pivot: {x: 0.4615385, y: -0.1875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 133
-      width: 39
-      height: 32
-    spriteID: 0a9664b9aec325b4d8cca7bfb973b125
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 133}
-  - name: Explosions_Frame_8
-    originalName: 
-    pivot: {x: 0.4736842, y: -0.1875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 173
-      width: 38
-      height: 32
-    spriteID: 2f2f9bd67a31216439d9c37c9182f15d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 173}
-  - name: Explosions_Frame_9
-    originalName: 
-    pivot: {x: 0.44117647, y: -0.2}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 55
-      y: 4
-      width: 34
-      height: 30
-    spriteID: afe2a5e51c3403d44848f3154cd8dbc9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 55, y: 4}
-  - name: Explosions_Frame_0
-    originalName: 
-    pivot: {x: 0.49999997, y: -1.9000001}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 55
-      y: 124
-      width: 10
-      height: 10
-    spriteID: 8883542317cd11e4aa5de68a8f079a4d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 55, y: 124}
-  - name: Explosions_Frame_1
-    originalName: 
-    pivot: {x: 0.49999997, y: -1.6363637}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 55
-      y: 105
-      width: 10
-      height: 11
-    spriteID: 1995e4340157d0b418724ba34a289d08
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 55, y: 105}
-  - name: Explosions_Frame_2
-    originalName: 
-    pivot: {x: 0.4545455, y: -0.5909091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 91
-      y: 171
-      width: 22
-      height: 22
-    spriteID: 5e1a4b34d7e19ca48b318fb89ad8ba6e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 91, y: 171}
-  - name: Explosions_Frame_11
-    originalName: 
-    pivot: {x: 0.48, y: -0.37037036}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 97
-      y: 4
-      width: 25
-      height: 27
-    spriteID: a98cebe9ac42df345a0e897c72cc65b7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 97, y: 4}
-  - name: Explosions_Frame_12
-    originalName: 
-    pivot: {x: 0.50000006, y: -0.2580645}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 55
-      y: 42
+      y: 40
       width: 28
-      height: 31
-    spriteID: 8326b2119da39ef408d606210dbf7e07
+      height: 28
+    spriteID: 995a8af31e7b10f46b40df7c20dbc2ed
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -358,19 +158,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 55, y: 42}
-  - name: Explosions_Frame_13
+    uvTransform: {x: 4, y: 40}
+  - name: Ships_Frame_2
     originalName: 
-    pivot: {x: 0.48387095, y: -0.61904764}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 91
+      x: 4
       y: 76
-      width: 31
-      height: 21
-    spriteID: f6376404726bda6439a5b847476bfbe5
+      width: 28
+      height: 28
+    spriteID: de4286f6c60abae4785605e83d0725fa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -378,19 +178,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 91, y: 76}
-  - name: Explosions_Frame_14
+    uvTransform: {x: 4, y: 76}
+  - name: Ships_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.54545456}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 91
-      y: 201
-      width: 22
-      height: 22
-    spriteID: 106da8ce59c610740bfdd26211297bea
+      x: 4
+      y: 112
+      width: 28
+      height: 28
+    spriteID: b10683cd370b2f24e9f03447884a0ba4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -398,19 +198,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 91, y: 201}
-  - name: Explosions_Frame_15
+    uvTransform: {x: 4, y: 112}
+  - name: Ships_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: -0.44}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 91
-      y: 138
-      width: 24
-      height: 25
-    spriteID: 225b2ce9e3c55da4d8a312e54e63687e
+      x: 4
+      y: 148
+      width: 28
+      height: 28
+    spriteID: b53b62e86379749479f83f8943fb3789
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -418,19 +218,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 91, y: 138}
-  - name: Explosions_Frame_16
+    uvTransform: {x: 4, y: 148}
+  - name: Ships_Frame_5
     originalName: 
-    pivot: {x: 0.5199999, y: -0.44}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 91
-      y: 105
-      width: 25
-      height: 25
-    spriteID: 3d95db6f97cdfd248a9c6f3b147a166e
+      x: 4
+      y: 184
+      width: 28
+      height: 28
+    spriteID: db11f55f2680fc642868d55221b3a959
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -438,19 +238,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 91, y: 105}
-  - name: Explosions_Frame_17
+    uvTransform: {x: 4, y: 184}
+  - name: Ships_Frame_6
     originalName: 
-    pivot: {x: 0.43750003, y: -0.9375}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 91
-      y: 231
-      width: 16
-      height: 16
-    spriteID: 0aef1cfafcc98f540983a174b82382d4
+      x: 4
+      y: 220
+      width: 28
+      height: 28
+    spriteID: 30274b6700bfb2d4da0fe361a143b3bb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -458,19 +258,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 91, y: 231}
-  - name: Explosions_Frame_18
+    uvTransform: {x: 4, y: 220}
+  - name: Ships_Frame_7
     originalName: 
-    pivot: {x: 0.43750003, y: -0.9375}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 55
-      y: 81
-      width: 16
-      height: 16
-    spriteID: 33c847302be551d478899ec9a1033416
+      x: 40
+      y: 4
+      width: 28
+      height: 28
+    spriteID: ace755011eeec844ebafe14376792e11
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -478,19 +278,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 55, y: 81}
-  - name: Explosions_Frame_2
+    uvTransform: {x: 40, y: 4}
+  - name: Ships_Frame_8
     originalName: 
-    pivot: {x: 0.4666667, y: -0.3846154}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 91
-      y: 42
-      width: 30
-      height: 26
-    spriteID: 14ead79d40b4db54daf1a0e038e3c55a
+      x: 40
+      y: 40
+      width: 28
+      height: 28
+    spriteID: 94fcf5aedf4006748969dd94243e4b21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -498,168 +298,284 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 91, y: 42}
+    uvTransform: {x: 40, y: 40}
+  - name: Ships_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 76
+      width: 28
+      height: 28
+    spriteID: 488b18f096072e64aa8190472ac2a8e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 76}
+  - name: Ships_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 112
+      width: 28
+      height: 28
+    spriteID: 4357fcbf6da0ff646977ed7e7d7cc648
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 112}
+  - name: Ships_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 148
+      width: 28
+      height: 28
+    spriteID: c8c0450194ebedf4893582251ab5a15a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 148}
+  - name: Ships_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 184
+      width: 28
+      height: 28
+    spriteID: 1dbda7ae1d0dc704e873219b64b01f17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 184}
+  - name: Ships_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 220
+      width: 28
+      height: 28
+    spriteID: 6c9025f3f68a415489f64651d6b45b37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 220}
+  - name: Ships_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 28
+      height: 28
+    spriteID: 4aec1f87177234648b72a00c889cda1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Ships_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 40
+      width: 28
+      height: 28
+    spriteID: ea32030bf8aa0c24c8fbe239af40dc83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 40}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1083024906
-    name: Explosions
+    guid: -755315559
+    name: Ships
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Explosions_Frame_3
+    - name: Ships_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 8a7e8b428229d1e4aa8e81fdf9100e63
+    - name: Ships_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 995a8af31e7b10f46b40df7c20dbc2ed
+    - name: Ships_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: de4286f6c60abae4785605e83d0725fa
+    - name: Ships_Frame_3
       frameIndex: 3
       cellRect:
-        x: 7
-        y: 7
-        width: 36
-        height: 31
-      spriteId: 32692050f42177f41a21ee426330bc4f
-    - name: Explosions_Frame_4
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: b10683cd370b2f24e9f03447884a0ba4
+    - name: Ships_Frame_4
       frameIndex: 4
       cellRect:
-        x: 4
-        y: 4
-        width: 41
-        height: 35
-      spriteId: a533dc5b5c2fe4645b646346ac6709e7
-    - name: Explosions_Frame_5
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: b53b62e86379749479f83f8943fb3789
+    - name: Ships_Frame_5
       frameIndex: 5
       cellRect:
-        x: 3
-        y: 4
-        width: 43
-        height: 36
-      spriteId: 880db65e0119a3d41b7387ad386f058e
-    - name: Explosions_Frame_6
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: db11f55f2680fc642868d55221b3a959
+    - name: Ships_Frame_6
       frameIndex: 6
       cellRect:
         x: 2
-        y: 6
-        width: 42
-        height: 34
-      spriteId: 854c4ff2e2bf72a4eba45a97e25dc4bf
-    - name: Explosions_Frame_7
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 30274b6700bfb2d4da0fe361a143b3bb
+    - name: Ships_Frame_7
       frameIndex: 7
       cellRect:
-        x: 6
-        y: 6
-        width: 39
-        height: 32
-      spriteId: 0a9664b9aec325b4d8cca7bfb973b125
-    - name: Explosions_Frame_8
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: ace755011eeec844ebafe14376792e11
+    - name: Ships_Frame_8
       frameIndex: 8
       cellRect:
-        x: 6
-        y: 6
-        width: 38
-        height: 32
-      spriteId: 2f2f9bd67a31216439d9c37c9182f15d
-    - name: Explosions_Frame_9
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 94fcf5aedf4006748969dd94243e4b21
+    - name: Ships_Frame_9
       frameIndex: 9
       cellRect:
-        x: 9
-        y: 6
-        width: 34
-        height: 30
-      spriteId: afe2a5e51c3403d44848f3154cd8dbc9
-    - name: Explosions_Frame_10
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 488b18f096072e64aa8190472ac2a8e8
+    - name: Ships_Frame_10
       frameIndex: 10
       cellRect:
-        x: 19
-        y: 19
-        width: 10
-        height: 10
-      spriteId: 8883542317cd11e4aa5de68a8f079a4d
-    - name: Explosions_Frame_11
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 4357fcbf6da0ff646977ed7e7d7cc648
+    - name: Ships_Frame_11
       frameIndex: 11
       cellRect:
-        x: 19
-        y: 18
-        width: 10
-        height: 11
-      spriteId: 1995e4340157d0b418724ba34a289d08
-    - name: Explosions_Frame_12
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: c8c0450194ebedf4893582251ab5a15a
+    - name: Ships_Frame_12
       frameIndex: 12
       cellRect:
-        x: 14
-        y: 13
-        width: 22
-        height: 22
-      spriteId: 5e1a4b34d7e19ca48b318fb89ad8ba6e
-    - name: Explosions_Frame_13
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 1dbda7ae1d0dc704e873219b64b01f17
+    - name: Ships_Frame_13
       frameIndex: 13
       cellRect:
-        x: 12
-        y: 10
-        width: 25
-        height: 27
-      spriteId: a98cebe9ac42df345a0e897c72cc65b7
-    - name: Explosions_Frame_14
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 6c9025f3f68a415489f64651d6b45b37
+    - name: Ships_Frame_14
       frameIndex: 14
       cellRect:
-        x: 10
-        y: 8
+        x: 2
+        y: 2
         width: 28
-        height: 31
-      spriteId: 8326b2119da39ef408d606210dbf7e07
-    - name: Explosions_Frame_15
+        height: 28
+      spriteId: 4aec1f87177234648b72a00c889cda1c
+    - name: Ships_Frame_15
       frameIndex: 15
       cellRect:
-        x: 9
-        y: 13
-        width: 31
-        height: 21
-      spriteId: f6376404726bda6439a5b847476bfbe5
-    - name: Explosions_Frame_16
-      frameIndex: 16
-      cellRect:
-        x: 13
-        y: 12
-        width: 22
-        height: 22
-      spriteId: 106da8ce59c610740bfdd26211297bea
-    - name: Explosions_Frame_17
-      frameIndex: 17
-      cellRect:
-        x: 12
-        y: 11
-        width: 24
-        height: 25
-      spriteId: 225b2ce9e3c55da4d8a312e54e63687e
-    - name: Explosions_Frame_18
-      frameIndex: 18
-      cellRect:
-        x: 11
-        y: 11
-        width: 25
-        height: 25
-      spriteId: 3d95db6f97cdfd248a9c6f3b147a166e
-    - name: Explosions_Frame_0
-      frameIndex: 0
-      cellRect:
-        x: 17
-        y: 15
-        width: 16
-        height: 16
-      spriteId: 0aef1cfafcc98f540983a174b82382d4
-    - name: Explosions_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 17
-        y: 15
-        width: 16
-        height: 16
-      spriteId: 33c847302be551d478899ec9a1033416
-    - name: Explosions_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 10
-        y: 10
-        width: 30
-        height: 26
-      spriteId: 14ead79d40b4db54daf1a0e038e3c55a
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: ea32030bf8aa0c24c8fbe239af40dc83
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -720,4 +636,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 48, y: 48}
+  canvasSize: {x: 32, y: 32}

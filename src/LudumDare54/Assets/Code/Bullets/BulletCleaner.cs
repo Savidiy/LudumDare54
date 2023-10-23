@@ -33,8 +33,6 @@ namespace LudumDare54
                 if (!bullet.IsAlive)
                     _bulletHolder.RemoveAt(index);
             }
-            
-            
         }
     }
 }

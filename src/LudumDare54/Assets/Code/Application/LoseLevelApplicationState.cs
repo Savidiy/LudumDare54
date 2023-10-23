@@ -9,31 +9,19 @@ namespace LudumDare54
         private readonly ProgressProvider _progressProvider;
         private readonly List<IActivatable> _activatables = new();
 
-        public LoseLevelApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
-            LoseLevelWindow loseLevelWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
-            BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
-            BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, HeroShipHolder heroShipHolder,
-            ShipCollisionChecker shipCollisionChecker, StarField starField, ProgressProvider progressProvider, HudWindow hudWindow,
-            EffectUpdater effectUpdater)
+        public LoseLevelApplicationState(LoseLevelWindow loseLevelWindow, BulletCollisionChecker bulletCollisionChecker,
+            ShipDeathChecker shipDeathChecker, HeroShipHolder heroShipHolder, ShipCollisionChecker shipCollisionChecker,
+            ProgressProvider progressProvider, HudWindow hudWindow, CoreSystemsActivator coreSystemsActivator)
         {
             _heroShipHolder = heroShipHolder;
             _progressProvider = progressProvider;
 
+            _activatables.Add(coreSystemsActivator);
             _activatables.Add(loseLevelWindow);
             _activatables.Add(hudWindow);
-            _activatables.Add(heroCameraPlayerTracker);
-            _activatables.Add(shipMoveInvoker);
-            _activatables.Add(radar);
-            _activatables.Add(shipShootInvoker);
-            _activatables.Add(shipCollisionChecker);
-            _activatables.Add(bulletMoveInvoker);
             _activatables.Add(bulletCollisionChecker);
-            _activatables.Add(bulletLifeTimeUpdater);
-            _activatables.Add(bulletCleaner);
-            _activatables.Add(shipHealthTicker);
             _activatables.Add(shipDeathChecker);
-            _activatables.Add(starField);
-            _activatables.Add(effectUpdater);
+            _activatables.Add(shipCollisionChecker);
         }
 
         public void Enter()

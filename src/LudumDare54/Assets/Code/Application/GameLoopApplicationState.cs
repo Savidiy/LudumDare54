@@ -10,33 +10,24 @@ namespace LudumDare54
         private readonly List<IActivatable> _activatables = new();
         private readonly Radar _radar;
 
-        public GameLoopApplicationState(HeroCameraTracker heroCameraPlayerTracker, ShipMoveInvoker shipMoveInvoker,
+        public GameLoopApplicationState(HeroCameraTracker heroCameraTracker, ShipMoveInvoker shipMoveInvoker,
             HudWindow hudWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
             BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
             BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, WinLoseChecker winLoseChecker,
             ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider, StarField starField, SoundPlayer soundPlayer,
-            SoundSettings soundSettings, EffectUpdater effectUpdater)
+            SoundSettings soundSettings, EffectUpdater effectUpdater, CoreSystemsActivator coreSystemsActivator)
         {
             _radar = radar;
             _soundPlayer = soundPlayer;
             _soundSettings = soundSettings;
 
             _activatables.Add(inputProvider);
-            _activatables.Add(heroCameraPlayerTracker);
-            _activatables.Add(shipMoveInvoker);
             _activatables.Add(hudWindow);
-            _activatables.Add(radar);
-            _activatables.Add(shipShootInvoker);
             _activatables.Add(shipCollisionChecker);
-            _activatables.Add(bulletMoveInvoker);
             _activatables.Add(bulletCollisionChecker);
-            _activatables.Add(bulletLifeTimeUpdater);
-            _activatables.Add(bulletCleaner);
-            _activatables.Add(shipHealthTicker);
             _activatables.Add(shipDeathChecker);
             _activatables.Add(winLoseChecker);
-            _activatables.Add(starField);
-            _activatables.Add(effectUpdater);
+            _activatables.Add(coreSystemsActivator);
         }
 
         public void Enter()

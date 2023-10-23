@@ -46,5 +46,14 @@ namespace LudumDare54
         {
             _transform.position += shift;
         }
+
+        public void SetSunIllumination(float normalizedLightDirection)
+        {
+            for (var index = 0; index < _behaviour.IlluminatedRenderers.Length; index++)
+            {
+                IlluminatedRenderer renderer = _behaviour.IlluminatedRenderers[index];
+                renderer.SetSprite(normalizedLightDirection);
+            }
+        }
     }
 }

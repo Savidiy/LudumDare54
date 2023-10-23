@@ -27,6 +27,7 @@ namespace LudumDare54
             Container.BindInterfacesTo<WinGameApplicationState>().AsSingle();
 
             Container.Bind<LevelDataProvider>().AsSingle();
+            Container.Bind<CoreSystemsActivator>().AsSingle();
             
             Container.Bind<ShipFactory>().AsSingle();
             Container.BindInterfacesTo<HeroShipFactory>().AsSingle();
@@ -45,6 +46,7 @@ namespace LudumDare54
             Container.Bind<ShipHealthTicker>().AsSingle();
             Container.Bind<ShipCollisionChecker>().AsSingle();
             Container.Bind<ShipDamageExecutor>().AsSingle();
+            Container.Bind<SunIlluminationUpdater>().AsSingle();
 
             Container.Bind<BulletHolder>().AsSingle();
             Container.Bind<BulletFactory>().AsSingle();
