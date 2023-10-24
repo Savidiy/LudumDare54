@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1536752525511537121}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.001, y: -0.001, z: 0}
+  m_LocalPosition: {x: -0.001, y: 0.0531, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85,7 +85,8 @@ MonoBehaviour:
   ShipHighlighter: {fileID: 6399273807541670204}
   BlinkGameObjects:
   - {fileID: 2338634209666335586}
-  IlluminatedRenderers: []
+  IlluminatedRenderers:
+  - {fileID: 5717786363494661001}
 --- !u!114 &6399273807541670204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +126,7 @@ GameObject:
   - component: {fileID: 6922517628837279316}
   - component: {fileID: 4122237730651734839}
   - component: {fileID: 8214909502483184553}
+  - component: {fileID: 5717786363494661001}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -188,7 +190,7 @@ SpriteRenderer:
   m_SortingLayerID: -828978523
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2120665859, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  m_Sprite: {fileID: 985771852, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -237,7 +239,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.28}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -245,14 +247,46 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.032925013, y: -0.004418686}
-      - {x: -0.036089227, y: -0.0024399757}
-      - {x: -0.073212005, y: 0.115352474}
-      - {x: -0.11366172, y: 0.117873676}
-      - {x: -0.12464747, y: -0.10390497}
-      - {x: -0.10396622, y: -0.12269084}
-      - {x: 0.10551727, y: -0.1222869}
-      - {x: 0.1283488, y: -0.102409646}
-      - {x: 0.10817306, y: 0.117705755}
-      - {x: 0.07576285, y: 0.12015734}
+    - - {x: 0.023902204, y: 0.044454865}
+      - {x: -0.023306912, y: 0.044929776}
+      - {x: -0.025842257, y: 0.07625362}
+      - {x: -0.06178057, y: 0.060729217}
+      - {x: -0.08103723, y: -0.05277571}
+      - {x: -0.03479135, y: -0.06554637}
+      - {x: -0.027835088, y: -0.031804714}
+      - {x: 0.025815781, y: -0.032058798}
+      - {x: 0.03616915, y: -0.063672945}
+      - {x: 0.086994246, y: -0.051280394}
+      - {x: 0.063059, y: 0.059057493}
+      - {x: 0.025385503, y: 0.075795196}
   m_UseDelaunayMesh: 0
+--- !u!114 &5717786363494661001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2338634209666335586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91930592d9804e3584f117378255592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShipSprites:
+  - {fileID: 671339510, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1434468901, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 1644429247, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1638342888, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 1582903876, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -796037389, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1178708931, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 1152749639, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 954395772, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1402202738, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 77294599, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1779658889, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -226863790, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 1895743789, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -699522278, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -617009767, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  ShipSpriteRenderer: {fileID: 4122237730651734839}

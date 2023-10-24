@@ -254,7 +254,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1745446837
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 2126882620, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -305,7 +305,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3, y: 0.3}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -339,20 +339,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShipSprites:
-  - {fileID: -4925448337817528618, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -3955315786042260600, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -3694011042877506897, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 499465489112947978, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 6297714342272184862, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 8829943371061541346, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 1022233529555787676, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 1582096262700788101, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -364411600643877447, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -2042357130742720995, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 8391758544891252999, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -195884183769270546, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 5494400214622144353, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -4092489191976149785, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: 8405065620779318965, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
-  - {fileID: -6960008114802772240, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 146177458, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1645188399, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 944291833, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 2095839823, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1079809637, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -653507751, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 1787656335, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1951814514, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 12811775, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1311826717, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1308614493, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1456579373, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 1070324766, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 538837726, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: -1694802438, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
+  - {fileID: 797003476, guid: 6ee33b1b567ab2b489eb332fd65051f6, type: 3}
   ShipSpriteRenderer: {fileID: 4050531735457695177}
