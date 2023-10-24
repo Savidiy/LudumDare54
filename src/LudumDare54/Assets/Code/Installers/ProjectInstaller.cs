@@ -22,6 +22,7 @@ namespace LudumDare54
         [Required] public SoundLibrary SoundLibrary;
         [Required] public SoundSettings SoundSettings;
         [Required] public EffectLibrary EffectLibrary;
+        [Required] public SmallShipsSettings SmallShipsSettings;
 
         public override void InstallBindings()
         {
@@ -41,6 +42,7 @@ namespace LudumDare54
             Container.BindInstance(SoundLibrary);
             Container.BindInstance(SoundSettings);
             Container.BindInstance(EffectLibrary);
+            Container.BindInstance(SmallShipsSettings);
 
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<ProgressProvider>().AsSingle();

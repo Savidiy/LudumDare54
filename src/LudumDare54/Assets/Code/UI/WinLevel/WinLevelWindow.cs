@@ -10,15 +10,18 @@ namespace LudumDare54
         private readonly ApplicationStateMachine _applicationStateMachine;
         private readonly SoundPlayer _soundPlayer;
         private readonly SoundSettings _soundSettings;
+        private readonly ProgressProvider _progressProvider;
         private CompositeDisposable _subscriptions;
 
         public WinLevelWindow(WinLevelBehaviour winLevelBehaviour, InputProvider inputProvider, IEventInvoker eventInvoker,
-            ApplicationStateMachine applicationStateMachine, SoundPlayer soundPlayer, SoundSettings soundSettings)
+            ApplicationStateMachine applicationStateMachine, SoundPlayer soundPlayer, SoundSettings soundSettings,
+            ProgressProvider progressProvider)
         {
             _eventInvoker = eventInvoker;
             _applicationStateMachine = applicationStateMachine;
             _soundPlayer = soundPlayer;
             _soundSettings = soundSettings;
+            _progressProvider = progressProvider;
             _inputProvider = inputProvider;
             _winLevelBehaviour = winLevelBehaviour;
             _winLevelBehaviour.gameObject.SetActive(false);
@@ -27,6 +30,7 @@ namespace LudumDare54
         public void Activate()
         {
             _soundPlayer.PlayOnce(_soundSettings.WinLevelSoundId);
+            _winLevelBehaviour.LevelNameText.text = $"Level {_progressProvider.Progress.CurrentLevelIndex} completed!";
             _winLevelBehaviour.gameObject.SetActive(true);
             _subscriptions?.Dispose();
             _subscriptions = new CompositeDisposable();

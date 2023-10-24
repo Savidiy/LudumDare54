@@ -1,4 +1,5 @@
-﻿using Sirenix.OdinInspector;
+﻿#if UNITY_EDITOR
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace LudumDare54
@@ -13,12 +14,17 @@ namespace LudumDare54
             transform.rotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
         }
 
-        public float RandomDistance = 4f;
-        
         [Button]
         private void RandomPosition()
         {
-            float half = RandomDistance/2;
+            var levelEditor = GetComponentInParent<LevelEditor>();
+            if (levelEditor == null)
+            {
+                Debug.LogError("No LevelEditor found");
+                return;
+            }
+            
+            float half = levelEditor.LevelWidth / 2f;
             transform.position = new Vector3(Random.Range(-half, half), Random.Range(-half, half), 0);
         }
         
@@ -28,3 +34,4 @@ namespace LudumDare54
         }
     }
 }
+#endif

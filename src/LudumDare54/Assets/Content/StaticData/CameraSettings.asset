@@ -21,4 +21,4 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  HeroOffset: {x: 0, y: 0.6, z: -10}
+  HeroOffset: {x: 0, y: 0.7, z: -10}

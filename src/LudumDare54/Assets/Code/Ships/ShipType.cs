@@ -24,6 +24,8 @@ namespace LudumDare54
         SmallTurret1 = 30,
         SmallTurret2 = 31,
         SmallTurret3 = 32,
+        
+        StupidCircleDude = 40,
     }
     
     public static class ShipTypeExtension

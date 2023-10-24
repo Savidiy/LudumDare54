@@ -34,3 +34,7 @@ MonoBehaviour:
     BulletPrefab: {fileID: 6095704002184616489, guid: 64b1a278b60e5e24ca04ae4fd28e9221, type: 3}
     BulletSpeed: 1.1
     BulletLifeTime: 1.5
+  - BulletId: StupidCircleDudeBullet
+    BulletPrefab: {fileID: 6095704002184616489, guid: 64b1a278b60e5e24ca04ae4fd28e9221, type: 3}
+    BulletSpeed: 1.4
+    BulletLifeTime: 1.8

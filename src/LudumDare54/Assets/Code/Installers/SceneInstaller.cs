@@ -35,6 +35,7 @@ namespace LudumDare54
             Container.BindInterfacesTo<AsteroidFactory>().AsSingle();
             Container.BindInterfacesTo<TurretFactory>().AsSingle();
             Container.BindInterfacesTo<GravyFactory>().AsSingle();
+            Container.BindInterfacesTo<SmallShipsFactory>().AsSingle();
 
             Container.Bind<HeroShipHolder>().AsSingle();
             Container.Bind<EnemiesHolder>().AsSingle();

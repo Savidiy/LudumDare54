@@ -37,13 +37,11 @@ namespace LudumDare54
         {
             LevelStaticData levelStaticData = _levelDataProvider.GetCurrentLevel();
             float width = levelStaticData.Width;
-            float height = levelStaticData.Height;
-            float halfHeight = height / 2;
             float halfWidth = width / 2;
 
             for (int i = 0; i < _starFieldSettings.StarCount; i++)
             {
-                var starPosition = new Vector3(Random.Range(-halfWidth, halfWidth), Random.Range(-halfHeight, halfHeight), 0f);
+                var starPosition = new Vector3(Random.Range(-halfWidth, halfWidth), Random.Range(-halfWidth, halfWidth), 0f);
                 StarBehaviour starPrefab = GetRandom(_starFieldSettings.StarPrefabs);
                 StarBehaviour star = Object.Instantiate(starPrefab, starPosition, Quaternion.identity, _starRoot);
                 Color[] colors = GetRandom(_starFieldSettings.StarColors);
@@ -132,12 +130,11 @@ namespace LudumDare54
 
             LevelStaticData levelStaticData = _levelDataProvider.GetCurrentLevel();
             float width = levelStaticData.Width;
-            float height = levelStaticData.Height;
 
             for (var index = 0; index < _stars.Count; index++)
             {
                 StarBehaviour starBehaviour = _stars[index];
-                _limitedSpaceChecker.CorrectPosition(starBehaviour, shipPosition, width, height);
+                _limitedSpaceChecker.CorrectPosition(starBehaviour, shipPosition, width);
             }
         }
 

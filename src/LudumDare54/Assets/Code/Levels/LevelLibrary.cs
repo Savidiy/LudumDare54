@@ -49,7 +49,6 @@ namespace LudumDare54
         public string LevelId = "";
         public List<SpawnPointStaticData> SpawnPoints = new();
         public float Width = 4;
-        public float Height = 4;
 
         public override string ToString()
         {

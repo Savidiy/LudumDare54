@@ -53,6 +53,9 @@ TagManager:
   - name: Asteroids
     uniqueID: 2433903321
     locked: 0
+  - name: Ships
+    uniqueID: 3465988773
+    locked: 0
   - name: Hero
     uniqueID: 2549520459
     locked: 0

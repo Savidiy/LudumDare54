@@ -15,7 +15,6 @@ namespace LudumDare54
         private ValueDropdownList<string> LevelIds => OdinLevelIdsProvider.LevelIds;
         private string _currentLevelId;
         [Min(1)] public float LevelWidth = 2;
-        [Min(1)] public float LevelHeight = 2;
 
         private bool _isShowedNewLevelNameTextField;
         [ShowIf(nameof(_isShowedNewLevelNameTextField))] public string NewLevelId;
@@ -78,7 +77,6 @@ namespace LudumDare54
                 return;
 
             LevelWidth = levelStaticData.Width;
-            LevelHeight = levelStaticData.Height;
 
             SpawnPointEditor[] spawnPointEditors = GetComponentsInChildren<SpawnPointEditor>(includeInactive: true);
             var index = 0;
@@ -108,7 +106,6 @@ namespace LudumDare54
                 return;
 
             levelStaticData.Width = LevelWidth;
-            levelStaticData.Height = LevelHeight;
             levelStaticData.SpawnPoints.Clear();
             foreach (SpawnPointEditor spawnPointEditor in GetComponentsInChildren<SpawnPointEditor>())
             {

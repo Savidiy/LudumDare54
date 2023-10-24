@@ -34,7 +34,6 @@ MonoBehaviour:
       Rotation: {x: 0, y: 0, z: 193.23361}
       ShipType: 16
     Width: 5
-    Height: 5
   - LevelId: Tutor2
     SpawnPoints:
     - Position: {x: 0.8, y: 1.73, z: 0}
@@ -53,7 +52,6 @@ MonoBehaviour:
       Rotation: {x: -0, y: -0, z: 123}
       ShipType: 23
     Width: 5
-    Height: 5
   - LevelId: Tutor3
     SpawnPoints:
     - Position: {x: 1.17, y: 0.87, z: 0}
@@ -84,7 +82,6 @@ MonoBehaviour:
       Rotation: {x: 0, y: 0, z: 309.01288}
       ShipType: 18
     Width: 6
-    Height: 6
   - LevelId: Turret1
     SpawnPoints:
     - Position: {x: -0.56, y: 0.87, z: 0}
@@ -106,7 +103,6 @@ MonoBehaviour:
       Rotation: {x: 0, y: 0, z: 322.5877}
       ShipType: 30
     Width: 6
-    Height: 6
   - LevelId: Turret2
     SpawnPoints:
     - Position: {x: -1.4961243, y: 1.187563, z: 0}
@@ -137,7 +133,6 @@ MonoBehaviour:
       Rotation: {x: -0, y: -0, z: 16.450129}
       ShipType: 30
     Width: 5
-    Height: 5
   - LevelId: Turret3
     SpawnPoints:
     - Position: {x: -1.5503968, y: -0.5699744, z: 0}
@@ -161,11 +156,19 @@ MonoBehaviour:
     - Position: {x: 0.18, y: -1.29, z: 0}
       Rotation: {x: 0, y: 0, z: 269}
       ShipType: 30
+    - Position: {x: -1.1387274, y: -2.3527713, z: 0}
+      Rotation: {x: 0, y: 0, z: 269}
+      ShipType: 30
+    - Position: {x: 0.6314558, y: -0.68515563, z: 0}
+      Rotation: {x: 0, y: 0, z: 269}
+      ShipType: 30
     - Position: {x: -2.2277756, y: 1.2576537, z: 0}
       Rotation: {x: -0, y: -0, z: 112}
       ShipType: 31
+    - Position: {x: -1.82, y: -1.03, z: 0}
+      Rotation: {x: 0, y: 0, z: 255}
+      ShipType: 40
     Width: 5
-    Height: 5
   - LevelId: Turret4
     SpawnPoints:
     - Position: {x: -0.76, y: 0.337, z: 0}
@@ -207,8 +210,16 @@ MonoBehaviour:
     - Position: {x: -0.17, y: -3.29, z: 0}
       Rotation: {x: -0, y: -0, z: 39}
       ShipType: 30
+    - Position: {x: -2.851449, y: -2.058896, z: 0}
+      Rotation: {x: -0, y: -0, z: 39}
+      ShipType: 40
+    - Position: {x: 2.0350292, y: -0.6836796, z: 0}
+      Rotation: {x: -0, y: -0, z: 46}
+      ShipType: 40
+    - Position: {x: -2.51, y: 1.22, z: 0}
+      Rotation: {x: -0, y: -0, z: 20.000002}
+      ShipType: 40
     Width: 6
-    Height: 6
   - LevelId: Turret5
     SpawnPoints:
     - Position: {x: 3, y: -4, z: 0}
@@ -229,17 +240,11 @@ MonoBehaviour:
     - Position: {x: -0.57, y: -0.65, z: 0}
       Rotation: {x: -0, y: -0, z: 12.781745}
       ShipType: 17
-    - Position: {x: -1.8, y: -1.24, z: 0}
-      Rotation: {x: 0, y: 0, z: 333}
-      ShipType: 25
     - Position: {x: 0, y: 2, z: 0}
       Rotation: {x: 0, y: 0, z: 256}
       ShipType: 31
     - Position: {x: 1, y: -2, z: 0}
       Rotation: {x: -0, y: -0, z: 133}
-      ShipType: 31
-    - Position: {x: 0.67, y: -2.29, z: 0}
-      Rotation: {x: -0, y: -0, z: 165.91759}
       ShipType: 31
     - Position: {x: 1.33, y: -2.46, z: 0}
       Rotation: {x: -0, y: -0, z: 50.465084}
@@ -254,7 +259,7 @@ MonoBehaviour:
       Rotation: {x: -0, y: -0, z: 158}
       ShipType: 32
     - Position: {x: -3.14, y: 2.54, z: 0}
-      Rotation: {x: -0, y: -0, z: 28.000002}
+      Rotation: {x: -0, y: -0, z: 28.000004}
       ShipType: 32
     - Position: {x: -3.23, y: 2.18, z: 0}
       Rotation: {x: 0, y: 0, z: 182}
@@ -265,8 +270,16 @@ MonoBehaviour:
     - Position: {x: -3.95, y: 1.44, z: 0}
       Rotation: {x: -0, y: -0, z: 64}
       ShipType: 32
+    - Position: {x: 1.3864493, y: 0.5886335, z: 0}
+      Rotation: {x: -0, y: -0, z: 51}
+      ShipType: 40
+    - Position: {x: -0.37441897, y: -1.106245, z: 0}
+      Rotation: {x: -0, y: -0, z: 3.9999995}
+      ShipType: 40
+    - Position: {x: -3.26, y: -1.55, z: 0}
+      Rotation: {x: -0, y: -0, z: 2}
+      ShipType: 40
     Width: 7
-    Height: 7
   - LevelId: Turret6
     SpawnPoints:
     - Position: {x: 0.76, y: 1.67, z: 0}
@@ -290,9 +303,6 @@ MonoBehaviour:
     - Position: {x: 2.379006, y: -0.7848444, z: 0}
       Rotation: {x: -0, y: -0, z: 171}
       ShipType: 15
-    - Position: {x: 2.9754782, y: 3.1861954, z: 0}
-      Rotation: {x: -0, y: -0, z: 33}
-      ShipType: 18
     - Position: {x: -3.1685915, y: 0.6495452, z: 0}
       Rotation: {x: -0, y: -0, z: 141}
       ShipType: 17
@@ -328,9 +338,44 @@ MonoBehaviour:
       ShipType: 30
     - Position: {x: 0.09480238, y: -1.9543366, z: 0}
       Rotation: {x: -0, y: -0, z: 154}
-      ShipType: 30
+      ShipType: 40
+    - Position: {x: 2.9754782, y: 3.1861954, z: 0}
+      Rotation: {x: -0, y: -0, z: 33}
+      ShipType: 40
     - Position: {x: -2.8041, y: 1.1682051, z: 0}
       Rotation: {x: -0, y: -0, z: 130}
-      ShipType: 30
+      ShipType: 40
     Width: 6.5
-    Height: 6.5
+  - LevelId: SmallShips1
+    SpawnPoints:
+    - Position: {x: -1.4950097, y: -2.340345, z: 0}
+      Rotation: {x: -0, y: -0, z: 141}
+      ShipType: 21
+    - Position: {x: -0.44982934, y: 2.0252109, z: 0}
+      Rotation: {x: 0, y: 0, z: 332}
+      ShipType: 12
+    - Position: {x: -1.6464357, y: -1.7311578, z: 0}
+      Rotation: {x: -0, y: -0, z: 68}
+      ShipType: 15
+    - Position: {x: -2.0910125, y: -2.1956835, z: 0}
+      Rotation: {x: 0, y: 0, z: 230.00002}
+      ShipType: 30
+    - Position: {x: -2.4404006, y: -0.8069763, z: 0}
+      Rotation: {x: 0, y: 0, z: 269}
+      ShipType: 30
+    - Position: {x: -2.66, y: 0.46, z: 0}
+      Rotation: {x: -0, y: -0, z: 149}
+      ShipType: 40
+    - Position: {x: 0.02, y: -2.14, z: 0}
+      Rotation: {x: -0, y: 0, z: 5.0831623}
+      ShipType: 40
+    - Position: {x: -0.76, y: 1.03, z: 0}
+      Rotation: {x: 0, y: 0, z: 322}
+      ShipType: 40
+    - Position: {x: 1.25, y: -1.56, z: 0}
+      Rotation: {x: 0, y: 0, z: 255}
+      ShipType: 40
+    - Position: {x: -2.42, y: 1.71, z: 0}
+      Rotation: {x: -0, y: -0, z: 84.5788}
+      ShipType: 40
+    Width: 6.5

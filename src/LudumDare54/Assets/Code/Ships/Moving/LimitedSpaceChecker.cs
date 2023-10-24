@@ -26,11 +26,10 @@ namespace LudumDare54
             Vector3 anchorPosition = heroShip.Position;
             LevelStaticData levelStaticData = _levelDataProvider.GetCurrentLevel();
             float width = levelStaticData.Width;
-            float height = levelStaticData.Height;
             for (var index = 0; index < _enemiesHolder.Ships.Count; index++)
             {
                 Ship ship = _enemiesHolder.Ships[index];
-                CorrectPosition(ship, anchorPosition, width, height);
+                CorrectPosition(ship, anchorPosition, width);
             }
         }
 
@@ -42,16 +41,16 @@ namespace LudumDare54
             Vector3 anchorPosition = heroShip.Position;
             LevelStaticData levelStaticData = _levelDataProvider.GetCurrentLevel();
             float width = levelStaticData.Width;
-            float height = levelStaticData.Height;
             for (var index = 0; index < _bulletHolder.Bullets.Count; index++)
             {
                 IBullet bullet = _bulletHolder.Bullets[index];
-                CorrectPosition(bullet, anchorPosition, width, height);
+                CorrectPosition(bullet, anchorPosition, width);
             }
         }
 
-        public void CorrectPosition(ICanShiftPosition ship, Vector3 anchorPosition, float width, float height)
+        public void CorrectPosition(ICanShiftPosition ship, Vector3 anchorPosition, float width)
         {
+            float height = width;
             Vector3 position = ship.Position;
             Vector3 direction = position - anchorPosition;
             float halfWidth = width / 2f;
