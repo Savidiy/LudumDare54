@@ -46,7 +46,7 @@ namespace Savidiy.Utils
         {
             string prefixKey = PrefixKey(key);
             string data = loadData(prefixKey, defaultValue.ToString(CultureInfo.InvariantCulture));
-            return data == string.Empty && float.TryParse(prefixKey, out float result)
+            return data != string.Empty && float.TryParse(prefixKey, out float result)
                 ? result
                 : defaultValue;
         }
