@@ -42,11 +42,11 @@ namespace Savidiy.Utils
                 : defaultValue;
         }
 
-        public float GetFloat(string key, float defaultValue = 0)
+        public float GetFloat(string key, float defaultValue = 0f)
         {
             string prefixKey = PrefixKey(key);
             string data = loadData(prefixKey, string.Empty);
-            return data != string.Empty && float.TryParse(data, out float result)
+            return data != string.Empty && float.TryParse(data, NumberStyles.Any, CultureInfo.InvariantCulture, out float result)
                 ? result
                 : defaultValue;
         }
