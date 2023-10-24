@@ -36,8 +36,8 @@ namespace Savidiy.Utils
         public int GetInt(string key, int defaultValue = 0)
         {
             string prefixKey = PrefixKey(key);
-            string data = loadData(prefixKey, defaultValue.ToString());
-            return data != string.Empty && int.TryParse(prefixKey, out int result)
+            string data = loadData(prefixKey, string.Empty);
+            return data != string.Empty && int.TryParse(data, out int result)
                 ? result
                 : defaultValue;
         }
@@ -45,8 +45,8 @@ namespace Savidiy.Utils
         public float GetFloat(string key, float defaultValue = 0)
         {
             string prefixKey = PrefixKey(key);
-            string data = loadData(prefixKey, defaultValue.ToString(CultureInfo.InvariantCulture));
-            return data != string.Empty && float.TryParse(prefixKey, out float result)
+            string data = loadData(prefixKey, string.Empty);
+            return data != string.Empty && float.TryParse(data, out float result)
                 ? result
                 : defaultValue;
         }
