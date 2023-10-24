@@ -439,6 +439,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 76, y: 40}
+  - name: Ships_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 76
+      width: 28
+      height: 28
+    spriteID: adbf66d13d539a14f8d28db68f62755e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 76}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -576,6 +596,14 @@ ScriptedImporter:
         width: 28
         height: 28
       spriteId: ea32030bf8aa0c24c8fbe239af40dc83
+    - name: Ships_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: adbf66d13d539a14f8d28db68f62755e
     linkedCells: []
     parentIndex: -1
   platformSettings:
