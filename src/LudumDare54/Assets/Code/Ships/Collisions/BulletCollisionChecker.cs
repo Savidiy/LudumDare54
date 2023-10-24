@@ -64,9 +64,7 @@ namespace LudumDare54
             Vector3 attackVector = bullet.Position - ship.Position;
             IShipDamage bulletDamage = bullet.Damage;
             _shipDamageExecutor.MakeDamage(ship, bulletDamage, attackVector);
-
-            if (ship.Health.IsAlive)
-                _effectStarter.ShowEffect(EffectType.SmallExplosion, bullet.Position);
+            _effectStarter.ShowEffect(EffectType.SmallExplosion, bullet.Position);
         }
 
         private bool HasCollisionWithHero(IBullet bullet, out Ship ship)

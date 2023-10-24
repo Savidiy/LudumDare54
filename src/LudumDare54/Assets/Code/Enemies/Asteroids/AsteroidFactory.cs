@@ -28,16 +28,16 @@ namespace LudumDare54
             ShipBehaviour shipBehaviour = Object.Instantiate(shipBehaviourPrefab, position, rotation);
             shipBehaviour.name = shipType.ToStringCached();
 
-            AsteroidStatsStaticData asteroidStatsStaticData = asteroidStaticData.Stats;
+            AsteroidStatsStaticData stats = asteroidStaticData.Stats;
             var shipHighlighter = new ShipHighlighter(shipBehaviour.ShipHighlighter, _highlightSettings);
-            var shipHealth = new ShipHealth(asteroidStatsStaticData.StartHealth, asteroidStatsStaticData.SelfDamageFromCollision);
+            var shipHealth = new ShipHealth(stats.StartHealth, stats.SelfDamageFromCollision);
 
-            var asteroidMover = new AsteroidMover(shipBehaviour, asteroidStatsStaticData);
+            var asteroidMover = new AsteroidMover(shipBehaviour, stats);
             var nullShooter = new NullShooter();
             var collider = new SimpleCollider(shipBehaviour);
-            IDeathAction deathAction = CreateDeathAction(shipBehaviour, asteroidStatsStaticData, shipHealth);
-            var shipSounds = new ShipSounds(SoundIdData.Empty, asteroidStatsStaticData.HurtSoundId);
-            var simpleDeathSetup = new SimpleDeathSetup(shipBehaviour.transform, asteroidStatsStaticData.DeathExplosionType);
+            IDeathAction deathAction = CreateDeathAction(shipBehaviour, stats, shipHealth);
+            var shipSounds = new ShipSounds(SoundIdData.Empty, stats.HurtSoundId);
+            var simpleDeathSetup = new SimpleDeathSetup(shipBehaviour.transform, stats.DeathExplosionType);
 
             return new Ship(shipBehaviour, asteroidMover, nullShooter, collider, shipHighlighter, shipHealth, deathAction,
                 shipSounds, simpleDeathSetup);

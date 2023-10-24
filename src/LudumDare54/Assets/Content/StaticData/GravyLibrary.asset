@@ -145,7 +145,7 @@ MonoBehaviour:
         SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
-      DeathExplosionType: 1
+      DeathExplosionType: 0
   - ShipType: 24
     ShipBehaviourPrefab: {fileID: 1941011775630499774, guid: 9b6afda40ddfe0b4e8cde505663b1253, type: 3}
     Stats:
@@ -160,7 +160,7 @@ MonoBehaviour:
         SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
-      DeathExplosionType: 1
+      DeathExplosionType: 0
   - ShipType: 25
     ShipBehaviourPrefab: {fileID: 2266976687210469471, guid: 4817ec622935cc64e84bcdfce967a6b3, type: 3}
     Stats:
@@ -175,4 +175,4 @@ MonoBehaviour:
         SoundId: hurt1
       MinSpawnCount: 0
       DeathSpawnStaticData: []
-      DeathExplosionType: 1
+      DeathExplosionType: 0

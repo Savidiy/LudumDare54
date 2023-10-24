@@ -6,7 +6,7 @@ namespace LudumDare54
     {
         private readonly Transform _transform;
 
-        public bool HasDeathEffect { get; } = true;
+        public bool HasDeathEffect { get; }
         public EffectType EffectType { get; }
         public Vector3 Position => _transform.position;
 
@@ -14,6 +14,7 @@ namespace LudumDare54
         {
             _transform = transform;
             EffectType = effectType;
+            HasDeathEffect = effectType != EffectType.None;
         }
     }
 }
