@@ -54,7 +54,6 @@ namespace LudumDare54
                 if (!HasCollision(heroShip, ship))
                     continue;
 
-                _soundPlayer.PlayOnce(_soundSettings.HeroRammingSoundId);
                 _progressProvider.Progress.BumperHitCount++;
                 TakeCollisionDamage(heroShip, ship);
                 TakeCollisionDamage(ship, heroShip);

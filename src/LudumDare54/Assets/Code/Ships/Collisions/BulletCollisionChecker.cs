@@ -64,7 +64,6 @@ namespace LudumDare54
             Vector3 attackVector = bullet.Position - ship.Position;
             IShipDamage bulletDamage = bullet.Damage;
             _shipDamageExecutor.MakeDamage(ship, bulletDamage, attackVector);
-            _soundPlayer.PlayOnce(ship.ShipSounds.HurtSoundId);
 
             if (ship.Health.IsAlive)
                 _effectStarter.ShowEffect(EffectType.SmallExplosion, bullet.Position);
