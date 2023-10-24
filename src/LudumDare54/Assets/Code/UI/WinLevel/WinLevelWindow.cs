@@ -44,9 +44,6 @@ namespace LudumDare54
 
         private void OnUpdate()
         {
-            if (_inputProvider.IsMenuDown())
-                ReturnToMenu();
-
             if (_inputProvider.IsAnyFireDown())
                 NextLevel();
         }

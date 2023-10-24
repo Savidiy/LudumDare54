@@ -28,6 +28,7 @@ namespace LudumDare54
 
             Container.Bind<LevelDataProvider>().AsSingle();
             Container.Bind<CoreSystemsActivator>().AsSingle();
+            Container.Bind<MainMenuInvoker>().AsSingle();
             
             Container.Bind<ShipFactory>().AsSingle();
             Container.BindInterfacesTo<HeroShipFactory>().AsSingle();

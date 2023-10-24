@@ -10,12 +10,10 @@ namespace LudumDare54
         private readonly List<IActivatable> _activatables = new();
         private readonly Radar _radar;
 
-        public GameLoopApplicationState(HeroCameraTracker heroCameraTracker, ShipMoveInvoker shipMoveInvoker,
-            HudWindow hudWindow, Radar radar, BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker,
-            BulletCleaner bulletCleaner, BulletCollisionChecker bulletCollisionChecker, ShipHealthTicker shipHealthTicker,
-            BulletLifeTimeUpdater bulletLifeTimeUpdater, ShipDeathChecker shipDeathChecker, WinLoseChecker winLoseChecker,
-            ShipCollisionChecker shipCollisionChecker, InputProvider inputProvider, StarField starField, SoundPlayer soundPlayer,
-            SoundSettings soundSettings, EffectUpdater effectUpdater, CoreSystemsActivator coreSystemsActivator)
+        public GameLoopApplicationState(HudWindow hudWindow, Radar radar, BulletCollisionChecker bulletCollisionChecker,
+            ShipDeathChecker shipDeathChecker, WinLoseChecker winLoseChecker, ShipCollisionChecker shipCollisionChecker,
+            InputProvider inputProvider, SoundPlayer soundPlayer, SoundSettings soundSettings,
+            CoreSystemsActivator coreSystemsActivator)
         {
             _radar = radar;
             _soundPlayer = soundPlayer;

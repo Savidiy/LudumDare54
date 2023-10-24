@@ -24,6 +24,8 @@ namespace LudumDare54
 
         private void Awake()
         {
+            _musicPlayer.PlayMusic();
+
 #if UNITY_EDITOR
             if (_progressSettings.TestMode)
             {
@@ -33,7 +35,6 @@ namespace LudumDare54
             }
 #endif
 
-            _musicPlayer.PlayMusic();
             _applicationStateMachine.EnterToState<MainMenuApplicationState>();
         }
     }

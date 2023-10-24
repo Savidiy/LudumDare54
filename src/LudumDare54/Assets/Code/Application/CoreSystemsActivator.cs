@@ -9,7 +9,7 @@ namespace LudumDare54
         public CoreSystemsActivator(HeroCameraTracker heroCameraTracker, ShipMoveInvoker shipMoveInvoker, Radar radar,
             BulletMoveInvoker bulletMoveInvoker, ShipShootInvoker shipShootInvoker, BulletCleaner bulletCleaner,
             ShipHealthTicker shipHealthTicker, BulletLifeTimeUpdater bulletLifeTimeUpdater, StarField starField,
-            EffectUpdater effectUpdater, SunIlluminationUpdater sunIlluminationUpdater)
+            EffectUpdater effectUpdater, SunIlluminationUpdater sunIlluminationUpdater, MainMenuInvoker mainMenuInvoker)
         {
             _activatables.Add(heroCameraTracker);
             _activatables.Add(shipMoveInvoker);
@@ -22,6 +22,7 @@ namespace LudumDare54
             _activatables.Add(starField);
             _activatables.Add(effectUpdater);
             _activatables.Add(sunIlluminationUpdater);
+            _activatables.Add(mainMenuInvoker);
         }
 
         public void Activate()
