@@ -1,3 +1,4 @@
+using Savidiy.Utils;
 using Sirenix.OdinInspector;
 using Zenject;
 
@@ -44,6 +45,7 @@ namespace LudumDare54
             Container.Bind<IEventInvoker>().To<UnityEventInvoker>().AsSingle();
             Container.Bind<ProgressProvider>().AsSingle();
             Container.Bind<ProgressStorage>().AsSingle();
+            PlayerPrefsServiceInstaller.Install(Container);
         }
     }
 }
