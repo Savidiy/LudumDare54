@@ -21,6 +21,7 @@ namespace LudumDare54
         public int ShootDamage = 1;
         public int StartHealth;
         public int SelfDamageFromCollision;
+        public float BulletClearOffset = 10f;
         
         [Title("Overheat")]
         public float SingleShootTemperature;
