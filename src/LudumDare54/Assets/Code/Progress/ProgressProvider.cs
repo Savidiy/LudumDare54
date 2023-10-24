@@ -1,35 +1,31 @@
-using Savidiy.Utils;
-using UnityEngine;
-
 namespace LudumDare54
 {
     public sealed class ProgressProvider
     {
-        private const string PROGRESS_KEY = "Progress";
-        private readonly Serializer<Progress> _serializer;
         private readonly ProgressSettings _progressSettings;
-        
+        private readonly ProgressStorage _progressStorage;
+
         public bool HasProgress { get; private set; }
         public Progress Progress { get; private set; }
 
-        public ProgressProvider(ProgressSettings progressSettings)
+        public ProgressProvider(ProgressSettings progressSettings, ProgressStorage progressStorage)
         {
+            _progressStorage = progressStorage;
             _progressSettings = progressSettings;
-            _serializer = new Serializer<Progress>();
-            if (PlayerPrefs.HasKey(PROGRESS_KEY))
-                LoadProgress();
-            else
-                Progress = CreateDefaultProgress();
+            HasProgress = _progressStorage.HasProgress();
+            Progress = HasProgress
+                ? _progressStorage.LoadProgress()
+                : CreateDefaultProgress();
         }
 
         private Progress CreateDefaultProgress()
         {
             int startLevel = _progressSettings.StartLevel;
 #if UNITY_EDITOR
-            if(_progressSettings.TestMode)
+            if (_progressSettings.TestMode)
                 startLevel = _progressSettings.TestStartLevel;
 #endif
-            
+
             return new Progress()
             {
                 CurrentLevelIndex = startLevel,
@@ -39,21 +35,19 @@ namespace LudumDare54
         public void ResetProgress()
         {
             Progress = CreateDefaultProgress();
-            SaveProgress();
+            _progressStorage.SaveProgress(Progress);
             HasProgress = false;
         }
 
         public void SaveProgress()
         {
-            string json = _serializer.Serialize(Progress);
-            PlayerPrefs.SetString(PROGRESS_KEY, json);
+            _progressStorage.SaveProgress(Progress);
             HasProgress = true;
         }
 
         public void LoadProgress()
         {
-            string json = PlayerPrefs.GetString(PROGRESS_KEY);
-            Progress = _serializer.Deserialize(json);
+            Progress = _progressStorage.LoadProgress();
             HasProgress = true;
         }
     }
