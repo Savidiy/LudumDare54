@@ -1,10 +1,11 @@
-﻿using UniRx;
-using UnityEngine;
+﻿using Savidiy.Utils;
+using UniRx;
 
 namespace LudumDare54
 {
     public class SoundVolumeProvider
     {
+        private readonly IPlayerPrefsService _playerPrefsService;
         private readonly ReactiveProperty<float> _musicVolume = new();
         private readonly ReactiveProperty<float> _soundVolume = new();
 
@@ -14,23 +15,22 @@ namespace LudumDare54
         public IReadOnlyReactiveProperty<float> MusicVolume => _musicVolume;
         public IReadOnlyReactiveProperty<float> SoundVolume => _soundVolume;
 
-        public SoundVolumeProvider(SoundSettings soundSettings)
+        public SoundVolumeProvider(SoundSettings soundSettings, IPlayerPrefsService playerPrefsService)
         {
-            _musicVolume.Value = PlayerPrefs.GetFloat(MUSIC_VOLUME_KEY, soundSettings.DefaultMusicVolume);
-            _soundVolume.Value = PlayerPrefs.GetFloat(SOUND_VOLUME_KEY, soundSettings.DefaultSoundVolume);
+            _playerPrefsService = playerPrefsService;
+            _musicVolume.Value = _playerPrefsService.GetFloat(MUSIC_VOLUME_KEY, soundSettings.DefaultMusicVolume);
+            _soundVolume.Value = _playerPrefsService.GetFloat(SOUND_VOLUME_KEY, soundSettings.DefaultSoundVolume);
         }
 
         public void SetMusicVolume(float volume)
         {
-            PlayerPrefs.SetFloat(MUSIC_VOLUME_KEY, volume);
-            PlayerPrefs.Save();
+            _playerPrefsService.SetFloat(MUSIC_VOLUME_KEY, volume);
             _musicVolume.Value = volume;
         }
 
         public void SetSoundVolume(float volume)
         {
-            PlayerPrefs.SetFloat(SOUND_VOLUME_KEY, volume);
-            PlayerPrefs.Save();
+            _playerPrefsService.SetFloat(SOUND_VOLUME_KEY, volume);
             _soundVolume.Value = volume;
         }
     }
