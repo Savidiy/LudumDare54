@@ -964,7 +964,7 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -972,6 +972,69 @@ TextureImporter:
       bones: []
       spriteID: 9463a0ae2ff2473439fab0edd4b5aa3c
       internalID: 701116453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 984
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e2405920eb9964294ff2699f0b8d67
+      internalID: -1910466782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 984
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1638553d5168439469e543862b6525c9
+      internalID: -1386036860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 985
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6880573a8548a741af15f92452c1d58
+      internalID: 1745849217
       vertices: []
       indices: 
       edges: []
@@ -1023,6 +1086,9 @@ TextureImporter:
       SmallGravy1: -1894111192
       SmallGravy2: 946168116
       SmallGravy3: -1858162424
+      Star1: 1745849217
+      Star2: -1386036860
+      Star3: -1910466782
       White: -1971482128
       radar_off: 786251977
       radar_on: 514430704

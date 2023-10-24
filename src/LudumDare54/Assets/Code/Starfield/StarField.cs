@@ -16,6 +16,8 @@ namespace LudumDare54
         private readonly Transform _starRoot;
         private readonly List<StarBehaviour> _stars = new();
 
+        private float _starBlinkTimer;
+        private int _blinkIndex;
         private Vector3 _previousHeroShipPosition;
         private IDisposable _updateSubscribe;
 
@@ -44,11 +46,11 @@ namespace LudumDare54
                 var starPosition = new Vector3(Random.Range(-halfWidth, halfWidth), Random.Range(-halfHeight, halfHeight), 0f);
                 StarBehaviour starPrefab = GetRandom(_starFieldSettings.StarPrefabs);
                 StarBehaviour star = Object.Instantiate(starPrefab, starPosition, Quaternion.identity, _starRoot);
-                Color starColor = GetRandom(_starFieldSettings.StarColors);
-                star.SpriteRenderer.color = starColor;
+                Color[] colors = GetRandom(_starFieldSettings.StarColors);
                 float minStarMoveMultiplier = _starFieldSettings.MinStarMoveMultiplier;
                 float maxStarMoveMultiplier = _starFieldSettings.MaxStarMoveMultiplier;
-                star.MoveMultiplier = Random.Range(minStarMoveMultiplier, maxStarMoveMultiplier);
+                float moveMultiplier = Random.Range(minStarMoveMultiplier, maxStarMoveMultiplier);
+                star.Initialize(colors, moveMultiplier);
                 _stars.Add(star);
             }
         }
@@ -75,6 +77,34 @@ namespace LudumDare54
         private T GetRandom<T>(List<T> list) => list[Random.Range(0, list.Count)];
 
         private void OnUpdate()
+        {
+            BlinkStars();
+            MoveStars();
+        }
+
+        private void BlinkStars()
+        {
+            if (_starFieldSettings.StarBlinkPeriod <= 0)
+                return;
+
+            _starBlinkTimer += Time.deltaTime;
+
+            while (_starBlinkTimer > _starFieldSettings.StarBlinkPeriod)
+            {
+                _starBlinkTimer -= _starFieldSettings.StarBlinkPeriod;
+                StarBehaviour starBehaviour = _stars[_blinkIndex];
+                starBehaviour.SetRandomColor();
+
+                _blinkIndex++;
+                if (_blinkIndex >= _stars.Count)
+                {
+                    _blinkIndex = 0;
+                    Shuffle(_stars);
+                }
+            }
+        }
+
+        private void MoveStars()
         {
             if (!_heroShipHolder.TryGetHeroShip(out Ship ship))
                 return;
@@ -108,6 +138,16 @@ namespace LudumDare54
             {
                 StarBehaviour starBehaviour = _stars[index];
                 _limitedSpaceChecker.CorrectPosition(starBehaviour, shipPosition, width, height);
+            }
+        }
+
+        private void Shuffle(List<StarBehaviour> stars)
+        {
+            int count = stars.Count;
+            for (var i = 0; i < count; i++)
+            {
+                int index = Random.Range(i, count);
+                (stars[i], stars[index]) = (stars[index], stars[i]);
             }
         }
     }
