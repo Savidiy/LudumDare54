@@ -10,6 +10,7 @@ namespace LudumDare54
         private readonly EnemiesHolder _enemiesHolder;
         private readonly IEventInvoker _eventInvoker;
         private readonly RadarSettings _radarSettings;
+        private readonly CameraProvider _cameraProvider;
         private readonly float[] _radarProgress;
         private readonly bool[] _hasEnemyAtAngle;
 
@@ -18,12 +19,13 @@ namespace LudumDare54
         public IReadOnlyList<float> RadarProgress => _radarProgress;
 
         public Radar(HeroShipHolder heroShipHolder, EnemiesHolder enemiesHolder, IEventInvoker eventInvoker,
-            RadarSettings radarSettings)
+            RadarSettings radarSettings, CameraProvider cameraProvider)
         {
             _heroShipHolder = heroShipHolder;
             _enemiesHolder = enemiesHolder;
             _eventInvoker = eventInvoker;
             _radarSettings = radarSettings;
+            _cameraProvider = cameraProvider;
             _radarProgress = new float[_radarSettings.RadarLightData.Count];
             _hasEnemyAtAngle = new bool[_radarSettings.RadarLightData.Count];
         }
@@ -71,6 +73,9 @@ namespace LudumDare54
                 Ship enemyShip = _enemiesHolder.Ships[index];
 
                 Vector3 shipPosition = enemyShip.Position;
+                if (IsOnScreen(shipPosition))
+                    continue;
+
                 Vector3 direction = shipPosition - heroShipPosition;
                 float directionX = direction.x;
                 float directionY = direction.y;
@@ -86,6 +91,12 @@ namespace LudumDare54
 
                 CheckAnglesData(hasEnemyAtAngle, angle, angle2, angle3);
             }
+        }
+
+        private bool IsOnScreen(Vector3 shipPosition)
+        {
+            Vector3 viewportPoint = _cameraProvider.Camera.WorldToViewportPoint(shipPosition);
+            return viewportPoint.x is > 0 and < 1 && viewportPoint.y is > 0 and < 1;
         }
 
         private void CheckAnglesData(bool[] hasEnemyAtAngle, float angle, float angle2, float angle3)
