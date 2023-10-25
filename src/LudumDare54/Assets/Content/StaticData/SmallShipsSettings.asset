@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   StupidCircleDudeData:
     ShipBehaviourPrefab: {fileID: 4508973321464391647, guid: 9d0334da6cb232944b3885068a8e9116, type: 3}
-    Stats:
+    CommonData:
       StartHealth: 3
       SelfDamageFromCollision: 1
       ShootSoundId:
@@ -31,6 +31,7 @@ MonoBehaviour:
       HurtSoundId:
         SoundId: hurt1
       DeathExplosionType: 2
+    Stats:
       ForwardSpeed: 0.35
       MinRotateSpeed: 50
       MaxRotateSpeed: 100
@@ -41,3 +42,19 @@ MonoBehaviour:
       ForwardMoveAfterShootCooldown: 0.45
       BulletId: StupidCircleDudeBullet
       BulletDamage: 1
+  SimpleRunnerData:
+    ShipBehaviourPrefab: {fileID: 3139961216299725046, guid: 8749548cdf3a9c74ea2a02bf002f8416, type: 3}
+    CommonData:
+      StartHealth: 1
+      SelfDamageFromCollision: 1
+      ShootSoundId:
+        SoundId: 
+      HurtSoundId:
+        SoundId: hurt1
+      DeathExplosionType: 2
+    Stats:
+      DefaultSpeed: 0.8
+      MinRotateSpeed: 50
+      MaxRotateSpeed: 100
+      MinThinkingCooldown: 0.6
+      MaxThinkingCooldown: 1.5
