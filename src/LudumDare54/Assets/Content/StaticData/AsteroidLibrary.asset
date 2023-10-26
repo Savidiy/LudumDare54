@@ -25,7 +25,7 @@ MonoBehaviour:
   - ShipType: 10
     ShipBehaviourPrefab: {fileID: 6796599943734146372, guid: 3dbcae213bce2394ab4fb175036b2cc1, type: 3}
     Stats:
-      RotationSpeed: 20
+      RotationSpeed: 12
       ForwardSpeed: 0.3
       StartHealth: 2
       SelfDamageFromCollision: 5

@@ -10,7 +10,7 @@ namespace LudumDare54
         private readonly Transform _transform;
 
         public Vector3 Position => _transform.position;
-        public Quaternion Rotation => _transform.rotation;
+        public Quaternion Rotation => _behaviour.RotateRoot.rotation;
         public IShipMover ShipMover { get; }
         public IShipShooter ShipShooter { get; }
         public IShipHealth Health { get; }
