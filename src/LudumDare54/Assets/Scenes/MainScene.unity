@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 508221190}
   - component: {fileID: 508221191}
   m_Layer: 0
-  m_Name: Spawn - boostedrunner
+  m_Name: Spawn - simplerunner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508221189}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
@@ -890,7 +890,7 @@ GameObject:
   - component: {fileID: 833849872}
   - component: {fileID: 833849873}
   m_Layer: 0
-  m_Name: Spawn - boostedrunner
+  m_Name: Spawn - simplerunner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833849871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
@@ -1779,7 +1779,7 @@ GameObject:
   - component: {fileID: 2025484568}
   - component: {fileID: 2025484569}
   m_Layer: 0
-  m_Name: Spawn - boostedrunner
+  m_Name: Spawn - simplerunner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025484567}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 

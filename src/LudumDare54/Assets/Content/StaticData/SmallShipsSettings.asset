@@ -54,7 +54,7 @@ MonoBehaviour:
       DeathExplosionType: 2
     Stats:
       DefaultSpeed: 0.8
-      MinRotateSpeed: 50
-      MaxRotateSpeed: 100
+      MinRotateSpeed: 70
+      MaxRotateSpeed: 120
       MinThinkingCooldown: 0.6
       MaxThinkingCooldown: 1.5
