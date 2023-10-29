@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -1861063975
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1399798828, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  m_Sprite: {fileID: 582298914, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +124,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.48}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -132,24 +132,20 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.072860815, y: 0.0995892}
-      - {x: -0.09874612, y: 0.09411107}
-      - {x: -0.12596658, y: 0.055282634}
-      - {x: -0.12927566, y: -0.007051792}
-      - {x: -0.15475185, y: -0.04762322}
-      - {x: -0.15712704, y: -0.113435686}
-      - {x: -0.12700838, y: -0.1545541}
-      - {x: -0.030682184, y: -0.18447006}
-      - {x: 0.01694458, y: -0.18296656}
-      - {x: 0.0941637, y: -0.123581}
-      - {x: 0.106257126, y: -0.08302616}
-      - {x: 0.15538423, y: -0.024360206}
-      - {x: 0.16635408, y: 0.016320532}
-      - {x: 0.16657817, y: 0.0726514}
-      - {x: 0.12766278, y: 0.16796285}
-      - {x: 0.078961425, y: 0.17607038}
-      - {x: -0.029822955, y: 0.14812186}
-      - {x: -0.056950383, y: 0.12952302}
+    - - {x: -0.10949667, y: 0.06295335}
+      - {x: -0.11880861, y: -0.008818217}
+      - {x: -0.14777361, y: -0.044157524}
+      - {x: -0.1453263, y: -0.105706304}
+      - {x: -0.035043593, y: -0.15219563}
+      - {x: 0.0029880684, y: -0.15330897}
+      - {x: 0.067995235, y: -0.11311361}
+      - {x: 0.08881149, y: -0.04639032}
+      - {x: 0.13357717, y: 0.0052973833}
+      - {x: 0.13495193, y: 0.07563571}
+      - {x: 0.08807279, y: 0.15377364}
+      - {x: 0.05628209, y: 0.15339103}
+      - {x: 0.023948286, y: 0.13638173}
+      - {x: -0.047355283, y: 0.12865074}
   m_UseDelaunayMesh: 0
 --- !u!114 &46126689359697026
 MonoBehaviour:
@@ -196,6 +192,38 @@ MonoBehaviour:
   - {fileID: 1786168999, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   - {fileID: -928323432, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   - {fileID: 1141932044, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1399798828, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -113337307, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -26133323, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -381173752, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1105188017, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 2063254168, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1916444266, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -294641267, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 436113334, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1116366472, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -142800015, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 140084079, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1355894437, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1944970443, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 395782847, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1528078579, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 154963106, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 979524022, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 246302971, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -722333881, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1979358033, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1160391993, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -188374095, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1811824001, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1007061716, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1143273634, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1580796831, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1865870246, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1901069244, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 400124824, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1747196939, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -655789624, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   ShipSpriteRenderer: {fileID: 643822347433939809}
 --- !u!1 &3840617278724576760
 GameObject:

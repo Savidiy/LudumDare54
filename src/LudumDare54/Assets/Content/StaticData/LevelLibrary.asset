@@ -26,7 +26,7 @@ MonoBehaviour:
     SpawnPoints:
     - Position: {x: 1.883, y: -0.766, z: 0}
       Rotation: {x: -0, y: -0, z: 28.340378}
-      ShipType: 11
+      ShipType: 10
     - Position: {x: -1.1, y: 0.605, z: 0}
       Rotation: {x: 0, y: 0, z: 276.291}
       ShipType: 12
@@ -41,7 +41,7 @@ MonoBehaviour:
       ShipType: 50
     - Position: {x: 1.8236817, y: 1.3893967, z: 0}
       Rotation: {x: 0, y: 0, z: 230.00002}
-      ShipType: 50
+      ShipType: 40
     Width: 5
   - LevelId: Tutor2
     SpawnPoints:
