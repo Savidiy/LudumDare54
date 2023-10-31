@@ -890,7 +890,7 @@ GameObject:
   - component: {fileID: 833849872}
   - component: {fileID: 833849873}
   m_Layer: 0
-  m_Name: Spawn - simplerunner
+  m_Name: Spawn - stupidcircledude
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 50
+  ShipType: 40
 --- !u!1001 &905674868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1388,7 +1388,7 @@ GameObject:
   - component: {fileID: 1404080529}
   - component: {fileID: 1404080530}
   m_Layer: 0
-  m_Name: Spawn - middleasteroid1
+  m_Name: Spawn - bigasteroid1
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf1b64b2f294383a37c3e15f65f23aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShipType: 11
+  ShipType: 10
 --- !u!1001 &1468834122
 PrefabInstance:
   m_ObjectHideFlags: 0

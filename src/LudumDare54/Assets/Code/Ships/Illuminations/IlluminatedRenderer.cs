@@ -1,4 +1,5 @@
-﻿using Sirenix.OdinInspector;
+﻿using System;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace LudumDare54
@@ -11,6 +12,12 @@ namespace LudumDare54
         private static readonly int BShadowSpriteCoord = Shader.PropertyToID("_BShadowSpriteCoord");
         private static readonly int BaseSpriteCoord = Shader.PropertyToID("_BaseSpriteCoord");
         private static readonly int WeightA = Shader.PropertyToID("_WeightA");
+
+        private void OnValidate()
+        {
+            if (ShipSpriteRenderer == null)
+                ShipSpriteRenderer = GetComponent<SpriteRenderer>();
+        }
 
         public void SetSprite(float normalizedLightDirection)
         {

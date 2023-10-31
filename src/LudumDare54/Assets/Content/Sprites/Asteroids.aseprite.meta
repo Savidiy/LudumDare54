@@ -1421,15 +1421,15 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Asteroids_Frame_65
     originalName: 
-    pivot: {x: 0.5, y: -0.28}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 4
+      x: 243
+      y: 490
       width: 22
-      height: 25
+      height: 17
     spriteID: 2e594378557721044bdd761b9511f89e
     spriteBone: []
     spriteOutline: []
@@ -1438,18 +1438,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 4}
+    uvTransform: {x: 243, y: 490}
   - name: Asteroids_Frame_66
     originalName: 
-    pivot: {x: 0.5, y: -0.28}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 37
+      x: 273
+      y: 301
       width: 22
-      height: 25
+      height: 17
     spriteID: 1576d0d10d3de3044afc547e25b94188
     spriteBone: []
     spriteOutline: []
@@ -1458,18 +1458,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 37}
+    uvTransform: {x: 273, y: 301}
   - name: Asteroids_Frame_67
     originalName: 
-    pivot: {x: 0.5, y: -0.2916667}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 103
+      x: 273
+      y: 326
       width: 22
-      height: 24
+      height: 17
     spriteID: f07c6f88307668b429c6434c61c4b26b
     spriteBone: []
     spriteOutline: []
@@ -1478,18 +1478,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 103}
+    uvTransform: {x: 273, y: 326}
   - name: Asteroids_Frame_68
     originalName: 
-    pivot: {x: 0.5, y: -0.2916667}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 135
+      x: 273
+      y: 351
       width: 22
-      height: 24
+      height: 17
     spriteID: 25721f52dee75e240a015e022d4c43a8
     spriteBone: []
     spriteOutline: []
@@ -1498,18 +1498,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 135}
+    uvTransform: {x: 273, y: 351}
   - name: Asteroids_Frame_69
     originalName: 
-    pivot: {x: 0.5, y: -0.30434784}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 327
+      x: 273
+      y: 376
       width: 22
-      height: 23
+      height: 17
     spriteID: a240560955ad219439c0b3f81200816d
     spriteBone: []
     spriteOutline: []
@@ -1518,18 +1518,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 327}
+    uvTransform: {x: 273, y: 376}
   - name: Asteroids_Frame_70
     originalName: 
-    pivot: {x: 0.52380955, y: -0.30434784}
+    pivot: {x: 0.52380955, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 185
+      x: 363
+      y: 329
       width: 21
-      height: 23
+      height: 17
     spriteID: 824c52a1c743e6648aa62f51ffc79f1c
     spriteBone: []
     spriteOutline: []
@@ -1538,18 +1538,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 185}
+    uvTransform: {x: 363, y: 329}
   - name: Asteroids_Frame_71
     originalName: 
-    pivot: {x: 0.52380955, y: -0.3181818}
+    pivot: {x: 0.52380955, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 216
+      x: 363
+      y: 354
       width: 21
-      height: 22
+      height: 17
     spriteID: c7e2b7dbb88fcd749b98c1fbae0ed952
     spriteBone: []
     spriteOutline: []
@@ -1558,18 +1558,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 216}
+    uvTransform: {x: 363, y: 354}
   - name: Asteroids_Frame_72
     originalName: 
-    pivot: {x: 0.5, y: -0.33333334}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 246
+      x: 273
+      y: 401
       width: 22
-      height: 21
+      height: 17
     spriteID: 0a3d4ac999c02784ab5d43d671896519
     spriteBone: []
     spriteOutline: []
@@ -1578,18 +1578,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 246}
+    uvTransform: {x: 273, y: 401}
   - name: Asteroids_Frame_73
     originalName: 
-    pivot: {x: 0.5, y: -0.35}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 381
+      x: 273
+      y: 426
       width: 22
-      height: 20
+      height: 17
     spriteID: 20c9683e98114154ab0aeb9036db908a
     spriteBone: []
     spriteOutline: []
@@ -1598,18 +1598,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 381}
+    uvTransform: {x: 273, y: 426}
   - name: Asteroids_Frame_74
     originalName: 
-    pivot: {x: 0.47826087, y: -0.36842105}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 276
-      y: 4
-      width: 23
-      height: 19
+      x: 273
+      y: 451
+      width: 22
+      height: 17
     spriteID: 3410f869b97843545baf9ff86efc1ef8
     spriteBone: []
     spriteOutline: []
@@ -1618,18 +1618,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 276, y: 4}
+    uvTransform: {x: 273, y: 451}
   - name: Asteroids_Frame_75
     originalName: 
-    pivot: {x: 0.45833334, y: -0.3888889}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 307
-      y: 4
-      width: 24
-      height: 18
+      x: 273
+      y: 476
+      width: 22
+      height: 17
     spriteID: 8df037247a510eb4eb3b81e973e4fc0f
     spriteBone: []
     spriteOutline: []
@@ -1638,17 +1638,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 307, y: 4}
+    uvTransform: {x: 273, y: 476}
   - name: Asteroids_Frame_76
     originalName: 
-    pivot: {x: 0.44, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
+      x: 303
       y: 4
-      width: 25
+      width: 22
       height: 17
     spriteID: accb35fad3b155940baba4f39b080b46
     spriteBone: []
@@ -1658,17 +1658,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 4}
+    uvTransform: {x: 303, y: 4}
   - name: Asteroids_Frame_77
     originalName: 
-    pivot: {x: 0.44, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
+      x: 303
       y: 29
-      width: 25
+      width: 22
       height: 17
     spriteID: bdc326bea7161e1488f101a1f1d1240c
     spriteBone: []
@@ -1678,17 +1678,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 29}
+    uvTransform: {x: 303, y: 29}
   - name: Asteroids_Frame_78
     originalName: 
-    pivot: {x: 0.42307693, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 181
-      width: 26
+      x: 303
+      y: 54
+      width: 22
       height: 17
     spriteID: fce49ca736e31114489bd1acd35795c1
     spriteBone: []
@@ -1698,17 +1698,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 181}
+    uvTransform: {x: 303, y: 54}
   - name: Asteroids_Frame_79
     originalName: 
-    pivot: {x: 0.42307693, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 206
-      width: 26
+      x: 303
+      y: 79
+      width: 22
       height: 17
     spriteID: 5d8e30318761e0449a7245d3f1d6e73d
     spriteBone: []
@@ -1718,17 +1718,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 206}
+    uvTransform: {x: 303, y: 79}
   - name: Asteroids_Frame_80
     originalName: 
-    pivot: {x: 0.4074074, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 4
-      width: 27
+      x: 303
+      y: 104
+      width: 22
       height: 17
     spriteID: 8777aeaa02aa7824f8803fa3eadaa895
     spriteBone: []
@@ -1738,17 +1738,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 4}
+    uvTransform: {x: 303, y: 104}
   - name: Asteroids_Frame_81
     originalName: 
-    pivot: {x: 0.4074074, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 29
-      width: 27
+      x: 303
+      y: 129
+      width: 22
       height: 17
     spriteID: e007859b520a32a498159434d5ed89dd
     spriteBone: []
@@ -1758,17 +1758,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 29}
+    uvTransform: {x: 303, y: 129}
   - name: Asteroids_Frame_82
     originalName: 
-    pivot: {x: 0.4074074, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 54
-      width: 27
+      x: 303
+      y: 154
+      width: 22
       height: 17
     spriteID: e81e015de7d5c5b4693005f3ed4ce56a
     spriteBone: []
@@ -1778,17 +1778,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 54}
+    uvTransform: {x: 303, y: 154}
   - name: Asteroids_Frame_83
     originalName: 
-    pivot: {x: 0.42307693, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 231
-      width: 26
+      x: 303
+      y: 179
+      width: 22
       height: 17
     spriteID: 83a31746279f61d42a93992fde9b166b
     spriteBone: []
@@ -1798,17 +1798,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 231}
+    uvTransform: {x: 303, y: 179}
   - name: Asteroids_Frame_84
     originalName: 
-    pivot: {x: 0.42307693, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 256
-      width: 26
+      x: 303
+      y: 204
+      width: 22
       height: 17
     spriteID: 4eaef1815c9f35e4b9a79678b0803afd
     spriteBone: []
@@ -1818,17 +1818,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 256}
+    uvTransform: {x: 303, y: 204}
   - name: Asteroids_Frame_85
     originalName: 
-    pivot: {x: 0.44, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 54
-      width: 25
+      x: 303
+      y: 229
+      width: 22
       height: 17
     spriteID: f53df0746c4178045bcefb3cb666844c
     spriteBone: []
@@ -1838,17 +1838,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 54}
+    uvTransform: {x: 303, y: 229}
   - name: Asteroids_Frame_86
     originalName: 
-    pivot: {x: 0.44, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 79
-      width: 25
+      x: 303
+      y: 254
+      width: 22
       height: 17
     spriteID: 9ba4ad489f9fb2a4ab3b4313fe379baf
     spriteBone: []
@@ -1858,17 +1858,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 79}
+    uvTransform: {x: 303, y: 254}
   - name: Asteroids_Frame_87
     originalName: 
-    pivot: {x: 0.45833334, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 256
-      width: 24
+      x: 303
+      y: 279
+      width: 22
       height: 17
     spriteID: e5dc7f8a413f7e34bb3e80b64890b0b7
     spriteBone: []
@@ -1878,18 +1878,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 256}
+    uvTransform: {x: 303, y: 279}
   - name: Asteroids_Frame_88
     originalName: 
-    pivot: {x: 0.47826087, y: -0.33333334}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 204
-      width: 23
-      height: 18
+      x: 303
+      y: 304
+      width: 22
+      height: 17
     spriteID: 4feca162bfd651d4aac965c7e6e29006
     spriteBone: []
     spriteOutline: []
@@ -1898,18 +1898,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 204}
+    uvTransform: {x: 303, y: 304}
   - name: Asteroids_Frame_89
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 362
+      x: 303
+      y: 329
       width: 22
-      height: 19
+      height: 17
     spriteID: 6076581d158d5ba46b4a26477c638f04
     spriteBone: []
     spriteOutline: []
@@ -1918,18 +1918,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 362}
+    uvTransform: {x: 303, y: 329}
   - name: Asteroids_Frame_90
     originalName: 
-    pivot: {x: 0.5, y: -0.2}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 409
+      x: 303
+      y: 354
       width: 22
-      height: 20
+      height: 17
     spriteID: c3fcb9acdb5f52446a7ef3b2f808378a
     spriteBone: []
     spriteOutline: []
@@ -1938,18 +1938,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 409}
+    uvTransform: {x: 303, y: 354}
   - name: Asteroids_Frame_91
     originalName: 
-    pivot: {x: 0.5, y: -0.14285715}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 275
+      x: 303
+      y: 379
       width: 22
-      height: 21
+      height: 17
     spriteID: e4bbacd8dd02edc409ad805c033af05d
     spriteBone: []
     spriteOutline: []
@@ -1958,18 +1958,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 275}
+    uvTransform: {x: 303, y: 379}
   - name: Asteroids_Frame_92
     originalName: 
-    pivot: {x: 0.5, y: -0.09090909}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 35
+      x: 303
+      y: 404
       width: 22
-      height: 22
+      height: 17
     spriteID: 36f800759c6571d409409edc9702bf22
     spriteBone: []
     spriteOutline: []
@@ -1978,18 +1978,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 35}
+    uvTransform: {x: 303, y: 404}
   - name: Asteroids_Frame_93
     originalName: 
-    pivot: {x: 0.5, y: -0.09090909}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 65
+      x: 303
+      y: 429
       width: 22
-      height: 22
+      height: 17
     spriteID: 531ff53aeaa22974ea39d091e4cdeb86
     spriteBone: []
     spriteOutline: []
@@ -1998,18 +1998,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 65}
+    uvTransform: {x: 303, y: 429}
   - name: Asteroids_Frame_94
     originalName: 
-    pivot: {x: 0.5, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 358
+      x: 303
+      y: 454
       width: 22
-      height: 23
+      height: 17
     spriteID: 79ab2012c9c21304aa312bcab240c9ad
     spriteBone: []
     spriteOutline: []
@@ -2018,18 +2018,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 358}
+    uvTransform: {x: 303, y: 454}
   - name: Asteroids_Frame_95
     originalName: 
-    pivot: {x: 0.5, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 389
+      x: 303
+      y: 479
       width: 22
-      height: 23
+      height: 17
     spriteID: b8baf5dcba4158c4485a1b6c961db4d1
     spriteBone: []
     spriteOutline: []
@@ -2038,18 +2038,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 389}
+    uvTransform: {x: 303, y: 479}
   - name: Asteroids_Frame_96
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 167
+      x: 333
+      y: 4
       width: 22
-      height: 24
+      height: 17
     spriteID: ff8c5fc4e6de88446937da496f363ebc
     spriteBone: []
     spriteOutline: []
@@ -2058,18 +2058,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 167}
+    uvTransform: {x: 333, y: 4}
   - name: Asteroids_Frame_97
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 199
+      x: 333
+      y: 29
       width: 22
-      height: 24
+      height: 17
     spriteID: 05abcfdfcdc5df24da6d5ad792174216
     spriteBone: []
     spriteOutline: []
@@ -2078,18 +2078,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 199}
+    uvTransform: {x: 333, y: 29}
   - name: Asteroids_Frame_98
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 231
+      x: 333
+      y: 54
       width: 22
-      height: 24
+      height: 17
     spriteID: 7fca0cbb72e83574b85a49cd790ed2f9
     spriteBone: []
     spriteOutline: []
@@ -2098,18 +2098,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 231}
+    uvTransform: {x: 333, y: 54}
   - name: Asteroids_Frame_99
     originalName: 
-    pivot: {x: 0.5, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 420
+      x: 333
+      y: 79
       width: 22
-      height: 23
+      height: 17
     spriteID: afdc4ccb00f3b4841a665a877a9e7ffc
     spriteBone: []
     spriteOutline: []
@@ -2118,18 +2118,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 420}
+    uvTransform: {x: 333, y: 79}
   - name: Asteroids_Frame_100
     originalName: 
-    pivot: {x: 0.5, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 451
+      x: 333
+      y: 104
       width: 22
-      height: 23
+      height: 17
     spriteID: eca25fc34d435cf4db5732c06f451dfa
     spriteBone: []
     spriteOutline: []
@@ -2138,18 +2138,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 451}
+    uvTransform: {x: 333, y: 104}
   - name: Asteroids_Frame_101
     originalName: 
-    pivot: {x: 0.5, y: -0.09090909}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 95
+      x: 333
+      y: 129
       width: 22
-      height: 22
+      height: 17
     spriteID: 51414858eabfa584e9aaff35add21828
     spriteBone: []
     spriteOutline: []
@@ -2158,18 +2158,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 95}
+    uvTransform: {x: 333, y: 129}
   - name: Asteroids_Frame_102
     originalName: 
-    pivot: {x: 0.5, y: -0.09090909}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 125
+      x: 333
+      y: 154
       width: 22
-      height: 22
+      height: 17
     spriteID: fa687a64c9cb352478441bfb0327d9b7
     spriteBone: []
     spriteOutline: []
@@ -2178,18 +2178,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 125}
+    uvTransform: {x: 333, y: 154}
   - name: Asteroids_Frame_103
     originalName: 
-    pivot: {x: 0.5, y: -0.14285715}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 304
+      x: 333
+      y: 179
       width: 22
-      height: 21
+      height: 17
     spriteID: d7246f173e146f94dbdd27682f5ecc4c
     spriteBone: []
     spriteOutline: []
@@ -2198,18 +2198,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 304}
+    uvTransform: {x: 333, y: 179}
   - name: Asteroids_Frame_104
     originalName: 
-    pivot: {x: 0.5, y: -0.2}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 437
+      x: 333
+      y: 204
       width: 22
-      height: 20
+      height: 17
     spriteID: 0de48aaffce29cb48bfc548b2a0e8912
     spriteBone: []
     spriteOutline: []
@@ -2218,18 +2218,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 437}
+    uvTransform: {x: 333, y: 204}
   - name: Asteroids_Frame_105
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 389
+      x: 333
+      y: 229
       width: 22
-      height: 19
+      height: 17
     spriteID: 0b9db41fab171b345b6b80691f061b8c
     spriteBone: []
     spriteOutline: []
@@ -2238,18 +2238,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 389}
+    uvTransform: {x: 333, y: 229}
   - name: Asteroids_Frame_106
     originalName: 
-    pivot: {x: 0.5217391, y: -0.33333334}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 230
-      width: 23
-      height: 18
+      x: 333
+      y: 254
+      width: 22
+      height: 17
     spriteID: e075e9373da441545b4c46cf660af4a9
     spriteBone: []
     spriteOutline: []
@@ -2258,17 +2258,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 230}
+    uvTransform: {x: 333, y: 254}
   - name: Asteroids_Frame_107
     originalName: 
-    pivot: {x: 0.5416667, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 281
-      width: 24
+      x: 333
+      y: 279
+      width: 22
       height: 17
     spriteID: e5df0fe30d9e51b499c21fcb7fc23f37
     spriteBone: []
@@ -2278,17 +2278,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 281}
+    uvTransform: {x: 333, y: 279}
   - name: Asteroids_Frame_108
     originalName: 
-    pivot: {x: 0.56, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 104
-      width: 25
+      x: 333
+      y: 304
+      width: 22
       height: 17
     spriteID: 027d05b703071ec42a9c9db1d568bbe6
     spriteBone: []
@@ -2298,17 +2298,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 104}
+    uvTransform: {x: 333, y: 304}
   - name: Asteroids_Frame_109
     originalName: 
-    pivot: {x: 0.56, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 129
-      width: 25
+      x: 333
+      y: 329
+      width: 22
       height: 17
     spriteID: 63d5f8ed300ac0f4ab30b2edd5598e17
     spriteBone: []
@@ -2318,17 +2318,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 129}
+    uvTransform: {x: 333, y: 329}
   - name: Asteroids_Frame_110
     originalName: 
-    pivot: {x: 0.5769231, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 281
-      width: 26
+      x: 333
+      y: 354
+      width: 22
       height: 17
     spriteID: 8c80fed78a39efd479d5f7a6f6097461
     spriteBone: []
@@ -2338,17 +2338,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 281}
+    uvTransform: {x: 333, y: 354}
   - name: Asteroids_Frame_111
     originalName: 
-    pivot: {x: 0.5769231, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 306
-      width: 26
+      x: 333
+      y: 379
+      width: 22
       height: 17
     spriteID: c7ae95ab36ac41b4d97009a977a674de
     spriteBone: []
@@ -2358,17 +2358,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 306}
+    uvTransform: {x: 333, y: 379}
   - name: Asteroids_Frame_112
     originalName: 
-    pivot: {x: 0.5925926, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 79
-      width: 27
+      x: 333
+      y: 404
+      width: 22
       height: 17
     spriteID: dea3a9353dbb9e847ba2412de70bbffd
     spriteBone: []
@@ -2378,17 +2378,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 79}
+    uvTransform: {x: 333, y: 404}
   - name: Asteroids_Frame_113
     originalName: 
-    pivot: {x: 0.5925926, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 104
-      width: 27
+      x: 333
+      y: 429
+      width: 22
       height: 17
     spriteID: ae82339ebd8813248b414fc2976dacf1
     spriteBone: []
@@ -2398,17 +2398,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 104}
+    uvTransform: {x: 333, y: 429}
   - name: Asteroids_Frame_114
     originalName: 
-    pivot: {x: 0.5925926, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 129
-      width: 27
+      x: 333
+      y: 454
+      width: 22
       height: 17
     spriteID: c366615a1fdc91847922f0441e0325cd
     spriteBone: []
@@ -2418,17 +2418,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 129}
+    uvTransform: {x: 333, y: 454}
   - name: Asteroids_Frame_115
     originalName: 
-    pivot: {x: 0.5769231, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 331
-      width: 26
+      x: 333
+      y: 479
+      width: 22
       height: 17
     spriteID: 52047f6f8e2123c4e96a8350899ac77c
     spriteBone: []
@@ -2438,17 +2438,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 331}
+    uvTransform: {x: 333, y: 479}
   - name: Asteroids_Frame_116
     originalName: 
-    pivot: {x: 0.5769231, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 356
-      width: 26
+      x: 363
+      y: 4
+      width: 22
       height: 17
     spriteID: a8e2977b6adb4ac4e97a82e0d7ed4a25
     spriteBone: []
@@ -2458,17 +2458,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 356}
+    uvTransform: {x: 363, y: 4}
   - name: Asteroids_Frame_117
     originalName: 
-    pivot: {x: 0.56, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 154
-      width: 25
+      x: 363
+      y: 29
+      width: 22
       height: 17
     spriteID: 74c24ff47a20e0e4ba9b0d67fbeed1d2
     spriteBone: []
@@ -2478,17 +2478,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 154}
+    uvTransform: {x: 363, y: 29}
   - name: Asteroids_Frame_118
     originalName: 
-    pivot: {x: 0.56, y: -0.4117647}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 339
-      y: 179
-      width: 25
+      x: 363
+      y: 54
+      width: 22
       height: 17
     spriteID: c58bddd74f3da7b428a50b6264c02a6e
     spriteBone: []
@@ -2498,18 +2498,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 339, y: 179}
+    uvTransform: {x: 363, y: 54}
   - name: Asteroids_Frame_119
     originalName: 
-    pivot: {x: 0.5416667, y: -0.3888889}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 307
-      y: 30
-      width: 24
-      height: 18
+      x: 363
+      y: 79
+      width: 22
+      height: 17
     spriteID: 1f1d01157d8c22f459f1645c244c19fb
     spriteBone: []
     spriteOutline: []
@@ -2518,18 +2518,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 307, y: 30}
+    uvTransform: {x: 363, y: 79}
   - name: Asteroids_Frame_120
     originalName: 
-    pivot: {x: 0.5217391, y: -0.36842105}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 276
-      y: 31
-      width: 23
-      height: 19
+      x: 363
+      y: 104
+      width: 22
+      height: 17
     spriteID: 2cfc74cb24068084c8ae7a5dec4925f7
     spriteBone: []
     spriteOutline: []
@@ -2538,18 +2538,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 276, y: 31}
+    uvTransform: {x: 363, y: 104}
   - name: Asteroids_Frame_121
     originalName: 
-    pivot: {x: 0.5, y: -0.35}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 465
+      x: 363
+      y: 129
       width: 22
-      height: 20
+      height: 17
     spriteID: 938722ee7f411634d8d577577a6aa3c6
     spriteBone: []
     spriteOutline: []
@@ -2558,18 +2558,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 465}
+    uvTransform: {x: 363, y: 129}
   - name: Asteroids_Frame_122
     originalName: 
-    pivot: {x: 0.5, y: -0.33333334}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 333
+      x: 363
+      y: 154
       width: 22
-      height: 21
+      height: 17
     spriteID: f9f20b70bf695b54ebd98786cdddad59
     spriteBone: []
     spriteOutline: []
@@ -2578,18 +2578,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 333}
+    uvTransform: {x: 363, y: 154}
   - name: Asteroids_Frame_123
     originalName: 
-    pivot: {x: 0.5, y: -0.3181818}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 155
+      x: 363
+      y: 179
       width: 22
-      height: 22
+      height: 17
     spriteID: 7bb22ff013a954540bd090bd9dc45317
     spriteBone: []
     spriteOutline: []
@@ -2598,18 +2598,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 155}
+    uvTransform: {x: 363, y: 179}
   - name: Asteroids_Frame_124
     originalName: 
-    pivot: {x: 0.5, y: -0.30434784}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 482
+      x: 363
+      y: 204
       width: 22
-      height: 23
+      height: 17
     spriteID: 28c6bd805807e6a4ea556e551842fb6f
     spriteBone: []
     spriteOutline: []
@@ -2618,18 +2618,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 482}
+    uvTransform: {x: 363, y: 204}
   - name: Asteroids_Frame_125
     originalName: 
-    pivot: {x: 0.5, y: -0.30434784}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 211
-      y: 4
+      x: 363
+      y: 229
       width: 22
-      height: 23
+      height: 17
     spriteID: 097eec11b3bc57949ae22399c0a25fb6
     spriteBone: []
     spriteOutline: []
@@ -2638,18 +2638,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 211, y: 4}
+    uvTransform: {x: 363, y: 229}
   - name: Asteroids_Frame_126
     originalName: 
-    pivot: {x: 0.5, y: -0.2916667}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 263
+      x: 363
+      y: 254
       width: 22
-      height: 24
+      height: 17
     spriteID: 87f3a73703e16224e9239f82c3038c9b
     spriteBone: []
     spriteOutline: []
@@ -2658,18 +2658,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 263}
+    uvTransform: {x: 363, y: 254}
   - name: Asteroids_Frame_127
     originalName: 
-    pivot: {x: 0.5, y: -0.2916667}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 295
+      x: 363
+      y: 279
       width: 22
-      height: 24
+      height: 17
     spriteID: 8bda0333e3f8ecf438ebffee138a2740
     spriteBone: []
     spriteOutline: []
@@ -2678,18 +2678,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 295}
+    uvTransform: {x: 363, y: 279}
   - name: Asteroids_Frame_128
     originalName: 
-    pivot: {x: 0.5, y: -0.28}
+    pivot: {x: 0.5, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 181
-      y: 70
+      x: 363
+      y: 304
       width: 22
-      height: 25
+      height: 17
     spriteID: 1a986df3e686e3145a22cfefc5819310
     spriteBone: []
     spriteOutline: []
@@ -2698,7 +2698,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 181, y: 70}
+    uvTransform: {x: 363, y: 304}
   - name: Asteroids_Frame_129
     originalName: 
     pivot: {x: 0.5, y: -0.31578946}
@@ -2706,8 +2706,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 241
-      y: 154
+      x: 181
+      y: 33
       width: 24
       height: 19
     spriteID: 6fa662eb3e2c28d4f9bd855bab619f59
@@ -2718,7 +2718,2667 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 241, y: 154}
+    uvTransform: {x: 181, y: 33}
+  - name: Asteroids_Frame_130
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 60
+      width: 22
+      height: 19
+    spriteID: 3dcce15454a668e4db53e2e9aa946837
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 60}
+  - name: Asteroids_Frame_131
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 87
+      width: 22
+      height: 19
+    spriteID: 5529da2f028b5784c8d72af0648dae4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 87}
+  - name: Asteroids_Frame_132
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 114
+      width: 22
+      height: 19
+    spriteID: cf0e6c6c7f13fa4499e48628567761e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 114}
+  - name: Asteroids_Frame_133
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 141
+      width: 22
+      height: 19
+    spriteID: 665705c92b4516f4499974f8464d0d65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 141}
+  - name: Asteroids_Frame_134
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 168
+      width: 22
+      height: 19
+    spriteID: 0573688b7aaf1c24cb5c50523ebcdff3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 168}
+  - name: Asteroids_Frame_135
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 195
+      width: 22
+      height: 19
+    spriteID: a80b7304f16cb504cbc660058bcf3807
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 195}
+  - name: Asteroids_Frame_136
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 222
+      width: 22
+      height: 19
+    spriteID: 36cfc09708f595546a3ea5e8b2aabe37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 222}
+  - name: Asteroids_Frame_137
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 249
+      width: 22
+      height: 19
+    spriteID: 9ebb2510552dd4d4c83f4f4435b2f8d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 249}
+  - name: Asteroids_Frame_138
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 276
+      width: 22
+      height: 19
+    spriteID: 41906440046ebd04f8540218a8ba1131
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 276}
+  - name: Asteroids_Frame_139
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 303
+      width: 22
+      height: 19
+    spriteID: bf285024a1be8e640a671b15e4f6ced4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 303}
+  - name: Asteroids_Frame_140
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 330
+      width: 22
+      height: 19
+    spriteID: ffa391d9393e2b6458a94d741382c02c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 330}
+  - name: Asteroids_Frame_141
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 357
+      width: 22
+      height: 19
+    spriteID: a1dd761d133b33d40948de17980f128c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 357}
+  - name: Asteroids_Frame_142
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 384
+      width: 22
+      height: 19
+    spriteID: 292cbd5ff98b06d4293f30a054c3f79f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 384}
+  - name: Asteroids_Frame_143
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 411
+      width: 22
+      height: 19
+    spriteID: 36b38a3f405b8604da46c02d636844ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 411}
+  - name: Asteroids_Frame_144
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 438
+      width: 22
+      height: 19
+    spriteID: 8a4ee83b484880a4386a45ce663a8e24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 438}
+  - name: Asteroids_Frame_145
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 465
+      width: 22
+      height: 19
+    spriteID: 7791c5fd44721864f99ececcb156a4d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 465}
+  - name: Asteroids_Frame_146
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 4
+      width: 22
+      height: 19
+    spriteID: b4ac7343bb01aa04fb6ec4707851510b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 4}
+  - name: Asteroids_Frame_147
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 31
+      width: 22
+      height: 19
+    spriteID: f95983660256ea7468d1e819ad997e1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 31}
+  - name: Asteroids_Frame_148
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 58
+      width: 22
+      height: 19
+    spriteID: e7d3be0d7c75d5440a93c09d36e65039
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 58}
+  - name: Asteroids_Frame_149
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 85
+      width: 22
+      height: 19
+    spriteID: 2156115361d62ee43bf5775733fe27fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 85}
+  - name: Asteroids_Frame_150
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 112
+      width: 22
+      height: 19
+    spriteID: a516108d98028e84e91ae3d31c1e8a29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 112}
+  - name: Asteroids_Frame_151
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 139
+      width: 22
+      height: 19
+    spriteID: 9147527c5a37e56429211d639aeb6624
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 139}
+  - name: Asteroids_Frame_152
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 166
+      width: 22
+      height: 19
+    spriteID: 931329681f38a1d4b863ba70d09ac909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 166}
+  - name: Asteroids_Frame_153
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 193
+      width: 22
+      height: 19
+    spriteID: f710cb241d53355469798cb7932b8024
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 193}
+  - name: Asteroids_Frame_154
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 220
+      width: 22
+      height: 19
+    spriteID: d2526fb7fa39b8443b5772035e72999b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 220}
+  - name: Asteroids_Frame_155
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 247
+      width: 22
+      height: 19
+    spriteID: 70ac3751c46561c42980df649beafcb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 247}
+  - name: Asteroids_Frame_156
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 274
+      width: 22
+      height: 19
+    spriteID: 2c15555fe2917844aa1346eef74bd165
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 274}
+  - name: Asteroids_Frame_157
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 301
+      width: 22
+      height: 19
+    spriteID: 4188017c2d607414aac6c17b358b4889
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 301}
+  - name: Asteroids_Frame_158
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 328
+      width: 22
+      height: 19
+    spriteID: 7d3e0e1df47fa504d9a3b222d00e5cd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 328}
+  - name: Asteroids_Frame_159
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 355
+      width: 22
+      height: 19
+    spriteID: 5c2490f26e3c3d142bd3aa2bfd279158
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 355}
+  - name: Asteroids_Frame_160
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 382
+      width: 22
+      height: 19
+    spriteID: 212663805e0662a4f9799cd1fca8bb0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 382}
+  - name: Asteroids_Frame_161
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 409
+      width: 22
+      height: 19
+    spriteID: a03a9fb22c500ca4ea8cb7e2fbac2df7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 409}
+  - name: Asteroids_Frame_162
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 436
+      width: 22
+      height: 19
+    spriteID: a4c84d193150ac2439cfae549a4f3464
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 436}
+  - name: Asteroids_Frame_163
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 463
+      width: 22
+      height: 19
+    spriteID: 5d165b4fcdbdf454aa09a62364409ff1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 463}
+  - name: Asteroids_Frame_164
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 4
+      width: 22
+      height: 19
+    spriteID: 5ee61f196a941c74886c00a7edcda16c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 4}
+  - name: Asteroids_Frame_165
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 31
+      width: 22
+      height: 19
+    spriteID: 4d9d05be13dbe6c4185060311a5004db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 31}
+  - name: Asteroids_Frame_166
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 58
+      width: 22
+      height: 19
+    spriteID: 58655abc5941f26478b30cd6cb986279
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 58}
+  - name: Asteroids_Frame_167
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 85
+      width: 22
+      height: 19
+    spriteID: 8c1961984f6695341b5c557f5a995e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 85}
+  - name: Asteroids_Frame_168
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 112
+      width: 22
+      height: 19
+    spriteID: d01ce2b6f1c2fa74880aefa668bb7298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 112}
+  - name: Asteroids_Frame_169
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 139
+      width: 22
+      height: 19
+    spriteID: 4add204d79593a940b7558ab2fca7aed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 139}
+  - name: Asteroids_Frame_170
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 166
+      width: 22
+      height: 19
+    spriteID: 3c0f74c772cbcee46897d882382d79b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 166}
+  - name: Asteroids_Frame_171
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 193
+      width: 22
+      height: 19
+    spriteID: 56a71451409f17a4e8dbbeb4f9380afb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 193}
+  - name: Asteroids_Frame_172
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 220
+      width: 22
+      height: 19
+    spriteID: a98a341e89dcd8545bd4fc601bfd29c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 220}
+  - name: Asteroids_Frame_173
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 247
+      width: 22
+      height: 19
+    spriteID: 6734edc167908e249ad01cd07346e3db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 247}
+  - name: Asteroids_Frame_174
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 274
+      width: 22
+      height: 19
+    spriteID: d3ee2848c99757d4d81a861f2bb9afde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 274}
+  - name: Asteroids_Frame_175
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 301
+      width: 22
+      height: 19
+    spriteID: c1023fe68b7e0e84b86962ba2eab853c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 301}
+  - name: Asteroids_Frame_176
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 328
+      width: 22
+      height: 19
+    spriteID: c7b54de74a19d8b4a8fa9621fd7287b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 328}
+  - name: Asteroids_Frame_177
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 355
+      width: 22
+      height: 19
+    spriteID: f4cc64ecf5818e843b24077abd8560da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 355}
+  - name: Asteroids_Frame_178
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 382
+      width: 22
+      height: 19
+    spriteID: 630428aeea9c1584bb3c9d17ee80ae00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 382}
+  - name: Asteroids_Frame_179
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 409
+      width: 22
+      height: 19
+    spriteID: e2af56e8bc587e74c8ca8eb741f3d20c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 409}
+  - name: Asteroids_Frame_180
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 436
+      width: 22
+      height: 19
+    spriteID: f0b86f054a0eec54d80a778580439b77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 436}
+  - name: Asteroids_Frame_181
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 463
+      width: 22
+      height: 19
+    spriteID: 0ad8ebf764dc9bc4fbc80a3b07d0c245
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 463}
+  - name: Asteroids_Frame_182
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 4
+      width: 22
+      height: 19
+    spriteID: e6e8489564609664083248b1015b1a8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 4}
+  - name: Asteroids_Frame_183
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 31
+      width: 22
+      height: 19
+    spriteID: 2f38b27df89a8c74489d663926c2dbec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 31}
+  - name: Asteroids_Frame_184
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 58
+      width: 22
+      height: 19
+    spriteID: 03442bfd6e334d949b03466eb986549a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 58}
+  - name: Asteroids_Frame_185
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 85
+      width: 22
+      height: 19
+    spriteID: b0b2da5d2d1baec4db0ba26a8f69f427
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 85}
+  - name: Asteroids_Frame_186
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 112
+      width: 22
+      height: 19
+    spriteID: fe56c239d7ae88745a3e03846b79348c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 112}
+  - name: Asteroids_Frame_187
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 139
+      width: 22
+      height: 19
+    spriteID: 8ab014fc6569fad439b487f4c9f46ca3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 139}
+  - name: Asteroids_Frame_188
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 166
+      width: 22
+      height: 19
+    spriteID: 7ea516aa5512d5b4bb3ba262d6170342
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 166}
+  - name: Asteroids_Frame_189
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 490
+      width: 22
+      height: 18
+    spriteID: c913f1272a0d4c949a8ffe18a0daca87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 490}
+  - name: Asteroids_Frame_190
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 193
+      width: 22
+      height: 19
+    spriteID: 0c27ec55a87fca042836bb34530048c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 193}
+  - name: Asteroids_Frame_191
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 220
+      width: 22
+      height: 19
+    spriteID: 425496ebfb5df2149838fe63e466d8d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 220}
+  - name: Asteroids_Frame_192
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 247
+      width: 22
+      height: 19
+    spriteID: 86fe1c7dea67f884b8fe6fd2556dc320
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 247}
+  - name: Asteroids_Frame_193
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 274
+      width: 22
+      height: 19
+    spriteID: 95c723ea6ada6c84989ad0c7d2761482
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 274}
+  - name: Asteroids_Frame_194
+    originalName: 
+    pivot: {x: 0.45833334, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 4
+      width: 24
+      height: 21
+    spriteID: 7c935a512f561a94aa984757cb824d47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 4}
+  - name: Asteroids_Frame_195
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 498
+      width: 10
+      height: 9
+    spriteID: 470dff6b5dcdce5489a3e54cbbedcf7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 498}
+  - name: Asteroids_Frame_196
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 498
+      width: 10
+      height: 9
+    spriteID: d0537728907173c4bbcd7dfb3864dde0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 498}
+  - name: Asteroids_Frame_197
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 399
+      width: 10
+      height: 9
+    spriteID: 94eeca064a7a54143a3f4010573b2092
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 399}
+  - name: Asteroids_Frame_198
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 416
+      width: 10
+      height: 9
+    spriteID: e1fc02535128fb042b64786fd5b0dc4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 416}
+  - name: Asteroids_Frame_199
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 433
+      width: 10
+      height: 9
+    spriteID: a151aca2dd690f7448d498bf880a2ed3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 433}
+  - name: Asteroids_Frame_200
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 450
+      width: 10
+      height: 9
+    spriteID: ce7a3dbefeab7a042ba975292f1b323d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 450}
+  - name: Asteroids_Frame_201
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 500
+      width: 10
+      height: 8
+    spriteID: 3f8b3bdb9a6b9c34fbcfc2b799b86fdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 500}
+  - name: Asteroids_Frame_202
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 467
+      width: 10
+      height: 9
+    spriteID: e59faa1d8e2ef434e8f38c95534f97f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 467}
+  - name: Asteroids_Frame_203
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 484
+      width: 10
+      height: 9
+    spriteID: 64665cfc38a281145b14af83f3c96150
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 484}
+  - name: Asteroids_Frame_204
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 4
+      width: 10
+      height: 9
+    spriteID: 9ae7492d5ecac5c43ae00f9825391579
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 4}
+  - name: Asteroids_Frame_205
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 21
+      width: 10
+      height: 9
+    spriteID: 0473052200236d445ad730eedd75a245
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 21}
+  - name: Asteroids_Frame_206
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 38
+      width: 10
+      height: 9
+    spriteID: da1cbf6332d8098469430525934a3e4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 38}
+  - name: Asteroids_Frame_207
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 55
+      width: 10
+      height: 9
+    spriteID: 21e564fc3900c1e4a8ba043d09f5ffd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 55}
+  - name: Asteroids_Frame_208
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 72
+      width: 10
+      height: 9
+    spriteID: 941334fa24e2ffb46bcb8a7c30c002a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 72}
+  - name: Asteroids_Frame_209
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 89
+      width: 10
+      height: 9
+    spriteID: dcfd1240a45528e4ba77f8614548bab9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 89}
+  - name: Asteroids_Frame_210
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 498
+      width: 9
+      height: 9
+    spriteID: 85fb30d02a0de634989eee30e2170fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 498}
+  - name: Asteroids_Frame_211
+    originalName: 
+    pivot: {x: 0.5, y: -0.90909094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 492
+      width: 12
+      height: 11
+    spriteID: ac8076a5fbf398746ace66e2f603f8cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 492}
+  - name: Asteroids_Frame_212
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 498
+      width: 9
+      height: 9
+    spriteID: 5aab5dffdffa190429a680f59c854cef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 498}
+  - name: Asteroids_Frame_213
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 106
+      width: 9
+      height: 9
+    spriteID: 87fd9c6687431374295eea79d6e56532
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 106}
+  - name: Asteroids_Frame_214
+    originalName: 
+    pivot: {x: 0.5, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 496
+      width: 8
+      height: 9
+    spriteID: 0209809d9e2a53a49bcf4cc70dc83eaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 496}
+  - name: Asteroids_Frame_215
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 123
+      width: 9
+      height: 9
+    spriteID: 16fde5d798091f24fbcb08de2bc57c69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 123}
+  - name: Asteroids_Frame_216
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 140
+      width: 9
+      height: 9
+    spriteID: d91102f2cec98fa4e92a5317a777a222
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 140}
+  - name: Asteroids_Frame_217
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 157
+      width: 9
+      height: 9
+    spriteID: c1bff59a76a7e7b43bd3d1a7bbc3fd75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 157}
+  - name: Asteroids_Frame_218
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 174
+      width: 9
+      height: 9
+    spriteID: 59ea85dcf3d949f4c94fed5d49b02585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 174}
+  - name: Asteroids_Frame_219
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 191
+      width: 9
+      height: 9
+    spriteID: 0ec5267a329812f4792e62c85ddc7367
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 191}
+  - name: Asteroids_Frame_220
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 208
+      width: 9
+      height: 9
+    spriteID: d1ef55ebbfbd1a64d8b40a50d5ac922c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 208}
+  - name: Asteroids_Frame_221
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 225
+      width: 9
+      height: 9
+    spriteID: 6028ff80b8449974b9624bdf8d14a30d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 225}
+  - name: Asteroids_Frame_222
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 242
+      width: 9
+      height: 9
+    spriteID: c4dee9c42f325334f9389caa2b03ad44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 242}
+  - name: Asteroids_Frame_223
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 259
+      width: 9
+      height: 9
+    spriteID: 64d00b94ac67c9e4c8884dc1fe18b22d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 259}
+  - name: Asteroids_Frame_224
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 276
+      width: 9
+      height: 9
+    spriteID: 0dfc47e8bb57d2c4bbed77071bbfaa65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 276}
+  - name: Asteroids_Frame_225
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 293
+      width: 9
+      height: 9
+    spriteID: deb6e8c38934f4545bb08ea5a0b6a721
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 293}
+  - name: Asteroids_Frame_226
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 310
+      width: 9
+      height: 9
+    spriteID: 7c50b50518fe6984bbbd30c2638f1b50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 310}
+  - name: Asteroids_Frame_227
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 327
+      width: 9
+      height: 9
+    spriteID: c04ecd4d7ca693c4e9bbb010d210f1a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 327}
+  - name: Asteroids_Frame_228
+    originalName: 
+    pivot: {x: 0.45454547, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 496
+      width: 11
+      height: 11
+    spriteID: a3401f55d60919647835dfe4f622a20c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 496}
+  - name: Asteroids_Frame_229
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 498
+      width: 7
+      height: 10
+    spriteID: 765bce04648b78c46a42078b882d4385
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 498}
+  - name: Asteroids_Frame_230
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 84
+      width: 7
+      height: 10
+    spriteID: f5e34dbd5d99bb64b80d256851ccf001
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 84}
+  - name: Asteroids_Frame_231
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 300
+      width: 7
+      height: 9
+    spriteID: 8119d4bf82dde484da926ce3fadfa290
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 300}
+  - name: Asteroids_Frame_232
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 317
+      width: 7
+      height: 9
+    spriteID: b1982d95cf674ca4cb63e745596a0a99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 317}
+  - name: Asteroids_Frame_233
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 102
+      width: 7
+      height: 10
+    spriteID: ef7d27027a476a540839c4b7f24ed996
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 102}
+  - name: Asteroids_Frame_234
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 120
+      width: 7
+      height: 10
+    spriteID: 20ce5843abeb3c5428d0af09756ae545
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 120}
+  - name: Asteroids_Frame_235
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 138
+      width: 7
+      height: 10
+    spriteID: 520a2b0ad1b12734699ce77650d33db7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 138}
+  - name: Asteroids_Frame_236
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 156
+      width: 7
+      height: 10
+    spriteID: d9adb16c8e675654ca44a73de916f92e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 156}
+  - name: Asteroids_Frame_237
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 174
+      width: 7
+      height: 10
+    spriteID: fb4ed61515b99fd43aa6dfa173b07042
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 174}
+  - name: Asteroids_Frame_238
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 192
+      width: 7
+      height: 10
+    spriteID: a6423abe0a81c4645b716a392a1a6352
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 192}
+  - name: Asteroids_Frame_239
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 210
+      width: 7
+      height: 10
+    spriteID: 8367bcf3013952445ac85b72569b6ef2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 210}
+  - name: Asteroids_Frame_240
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 228
+      width: 7
+      height: 10
+    spriteID: 4416691df1d5fa649ace80d5667ff2d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 228}
+  - name: Asteroids_Frame_241
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 246
+      width: 7
+      height: 10
+    spriteID: a7765433d11b9554ea32d69ee9a75225
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 246}
+  - name: Asteroids_Frame_242
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 264
+      width: 7
+      height: 10
+    spriteID: 7ec3d6b5f035e9c4c8169bfa929167de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 264}
+  - name: Asteroids_Frame_243
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 334
+      width: 6
+      height: 10
+    spriteID: 68306084f5f996846ad6413d9d902019
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 334}
+  - name: Asteroids_Frame_244
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 282
+      width: 7
+      height: 10
+    spriteID: a4de89b2983261d4999c848335302023
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 282}
+  - name: Asteroids_Frame_245
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 379
+      width: 9
+      height: 12
+    spriteID: d373014b370154943abf10eb9c369ee0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 379}
+  - name: Asteroids_Frame_246
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 22
+      y: 500
+      width: 10
+      height: 8
+    spriteID: 661b34e80aeb9b141aac82d445b354d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 22, y: 500}
+  - name: Asteroids_Frame_247
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 344
+      width: 10
+      height: 8
+    spriteID: 0fac893d169a7684b8ca15a9f468b4cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 344}
+  - name: Asteroids_Frame_248
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 52
+      width: 9
+      height: 8
+    spriteID: 4f9ef223cefdd5142b7b7264cfce003b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 52}
+  - name: Asteroids_Frame_249
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 360
+      width: 10
+      height: 8
+    spriteID: 1269ba0a182b80a4e8b29de05c525565
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 360}
+  - name: Asteroids_Frame_250
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 376
+      width: 10
+      height: 8
+    spriteID: 04d492d62aef91847a64a1f659440540
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 376}
+  - name: Asteroids_Frame_251
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 392
+      width: 10
+      height: 8
+    spriteID: 8983f0ddd301a284893b991a20f099b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 392}
+  - name: Asteroids_Frame_252
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 408
+      width: 10
+      height: 8
+    spriteID: afdc001ad97de8849903f7f927c879e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 408}
+  - name: Asteroids_Frame_253
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 424
+      width: 10
+      height: 8
+    spriteID: 807356f8c59c812479f3eaf97f207d9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 424}
+  - name: Asteroids_Frame_254
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 440
+      width: 10
+      height: 8
+    spriteID: ad01b79e09bb9814ab2320e42f2c224e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 440}
+  - name: Asteroids_Frame_255
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 456
+      width: 10
+      height: 8
+    spriteID: fde109f41ee396a468e4fc6cedd63a20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 456}
+  - name: Asteroids_Frame_256
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 472
+      width: 10
+      height: 8
+    spriteID: 6bf095f8d1c6b7448bc18d5940b85ac8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 472}
+  - name: Asteroids_Frame_257
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 488
+      width: 10
+      height: 8
+    spriteID: 7255b599c08838e4389dcd57f83ac6ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 488}
+  - name: Asteroids_Frame_258
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 4
+      width: 10
+      height: 8
+    spriteID: 9063f3bb0c934c54bb7e0c14d52352d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 4}
+  - name: Asteroids_Frame_259
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 20
+      width: 10
+      height: 8
+    spriteID: 13a84cbd9a5bec34a9f3c8ccba84d5e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 20}
+  - name: Asteroids_Frame_260
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 36
+      width: 10
+      height: 8
+    spriteID: 24aa23c1cb722934eaca0912e5a8eff1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 36}
+  - name: Asteroids_Frame_261
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 68
+      width: 9
+      height: 8
+    spriteID: 8f5f3b6afdd105d4c8baf1f51603a1e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 68}
+  - name: Asteroids_Frame_262
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 498
+      width: 12
+      height: 10
+    spriteID: f790a8786c2d5fa4da5f4c4ea22a31c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 498}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -3254,7 +5914,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 25
+        height: 17
       spriteId: 2e594378557721044bdd761b9511f89e
     - name: Asteroids_Frame_66
       frameIndex: 66
@@ -3262,7 +5922,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 25
+        height: 17
       spriteId: 1576d0d10d3de3044afc547e25b94188
     - name: Asteroids_Frame_67
       frameIndex: 67
@@ -3270,7 +5930,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: f07c6f88307668b429c6434c61c4b26b
     - name: Asteroids_Frame_68
       frameIndex: 68
@@ -3278,7 +5938,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: 25721f52dee75e240a015e022d4c43a8
     - name: Asteroids_Frame_69
       frameIndex: 69
@@ -3286,7 +5946,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: a240560955ad219439c0b3f81200816d
     - name: Asteroids_Frame_70
       frameIndex: 70
@@ -3294,7 +5954,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 21
-        height: 23
+        height: 17
       spriteId: 824c52a1c743e6648aa62f51ffc79f1c
     - name: Asteroids_Frame_71
       frameIndex: 71
@@ -3302,7 +5962,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 21
-        height: 22
+        height: 17
       spriteId: c7e2b7dbb88fcd749b98c1fbae0ed952
     - name: Asteroids_Frame_72
       frameIndex: 72
@@ -3310,7 +5970,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 21
+        height: 17
       spriteId: 0a3d4ac999c02784ab5d43d671896519
     - name: Asteroids_Frame_73
       frameIndex: 73
@@ -3318,30 +5978,30 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 20
+        height: 17
       spriteId: 20c9683e98114154ab0aeb9036db908a
     - name: Asteroids_Frame_74
       frameIndex: 74
       cellRect:
         x: 5
         y: 7
-        width: 23
-        height: 19
+        width: 22
+        height: 17
       spriteId: 3410f869b97843545baf9ff86efc1ef8
     - name: Asteroids_Frame_75
       frameIndex: 75
       cellRect:
         x: 5
         y: 7
-        width: 24
-        height: 18
+        width: 22
+        height: 17
       spriteId: 8df037247a510eb4eb3b81e973e4fc0f
     - name: Asteroids_Frame_76
       frameIndex: 76
       cellRect:
         x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: accb35fad3b155940baba4f39b080b46
     - name: Asteroids_Frame_77
@@ -3349,7 +6009,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: bdc326bea7161e1488f101a1f1d1240c
     - name: Asteroids_Frame_78
@@ -3357,7 +6017,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: fce49ca736e31114489bd1acd35795c1
     - name: Asteroids_Frame_79
@@ -3365,7 +6025,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: 5d8e30318761e0449a7245d3f1d6e73d
     - name: Asteroids_Frame_80
@@ -3373,7 +6033,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 27
+        width: 22
         height: 17
       spriteId: 8777aeaa02aa7824f8803fa3eadaa895
     - name: Asteroids_Frame_81
@@ -3381,7 +6041,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 27
+        width: 22
         height: 17
       spriteId: e007859b520a32a498159434d5ed89dd
     - name: Asteroids_Frame_82
@@ -3389,7 +6049,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 27
+        width: 22
         height: 17
       spriteId: e81e015de7d5c5b4693005f3ed4ce56a
     - name: Asteroids_Frame_83
@@ -3397,7 +6057,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: 83a31746279f61d42a93992fde9b166b
     - name: Asteroids_Frame_84
@@ -3405,7 +6065,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: 4eaef1815c9f35e4b9a79678b0803afd
     - name: Asteroids_Frame_85
@@ -3413,7 +6073,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: f53df0746c4178045bcefb3cb666844c
     - name: Asteroids_Frame_86
@@ -3421,7 +6081,7 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: 9ba4ad489f9fb2a4ab3b4313fe379baf
     - name: Asteroids_Frame_87
@@ -3429,272 +6089,272 @@ ScriptedImporter:
       cellRect:
         x: 5
         y: 7
-        width: 24
+        width: 22
         height: 17
       spriteId: e5dc7f8a413f7e34bb3e80b64890b0b7
     - name: Asteroids_Frame_88
       frameIndex: 88
       cellRect:
         x: 5
-        y: 6
-        width: 23
-        height: 18
+        y: 7
+        width: 22
+        height: 17
       spriteId: 4feca162bfd651d4aac965c7e6e29006
     - name: Asteroids_Frame_89
       frameIndex: 89
       cellRect:
         x: 5
-        y: 5
+        y: 7
         width: 22
-        height: 19
+        height: 17
       spriteId: 6076581d158d5ba46b4a26477c638f04
     - name: Asteroids_Frame_90
       frameIndex: 90
       cellRect:
         x: 5
-        y: 4
+        y: 7
         width: 22
-        height: 20
+        height: 17
       spriteId: c3fcb9acdb5f52446a7ef3b2f808378a
     - name: Asteroids_Frame_91
       frameIndex: 91
       cellRect:
         x: 5
-        y: 3
+        y: 7
         width: 22
-        height: 21
+        height: 17
       spriteId: e4bbacd8dd02edc409ad805c033af05d
     - name: Asteroids_Frame_92
       frameIndex: 92
       cellRect:
         x: 5
-        y: 2
+        y: 7
         width: 22
-        height: 22
+        height: 17
       spriteId: 36f800759c6571d409409edc9702bf22
     - name: Asteroids_Frame_93
       frameIndex: 93
       cellRect:
         x: 5
-        y: 2
+        y: 7
         width: 22
-        height: 22
+        height: 17
       spriteId: 531ff53aeaa22974ea39d091e4cdeb86
     - name: Asteroids_Frame_94
       frameIndex: 94
       cellRect:
         x: 5
-        y: 1
+        y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: 79ab2012c9c21304aa312bcab240c9ad
     - name: Asteroids_Frame_95
       frameIndex: 95
       cellRect:
         x: 5
-        y: 1
+        y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: b8baf5dcba4158c4485a1b6c961db4d1
     - name: Asteroids_Frame_96
       frameIndex: 96
       cellRect:
         x: 5
-        y: 0
+        y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: ff8c5fc4e6de88446937da496f363ebc
     - name: Asteroids_Frame_97
       frameIndex: 97
       cellRect:
         x: 5
-        y: 0
+        y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: 05abcfdfcdc5df24da6d5ad792174216
     - name: Asteroids_Frame_98
       frameIndex: 98
       cellRect:
         x: 5
-        y: 0
+        y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: 7fca0cbb72e83574b85a49cd790ed2f9
     - name: Asteroids_Frame_99
       frameIndex: 99
       cellRect:
         x: 5
-        y: 1
+        y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: afdc4ccb00f3b4841a665a877a9e7ffc
     - name: Asteroids_Frame_100
       frameIndex: 100
       cellRect:
         x: 5
-        y: 1
+        y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: eca25fc34d435cf4db5732c06f451dfa
     - name: Asteroids_Frame_101
       frameIndex: 101
       cellRect:
         x: 5
-        y: 2
+        y: 7
         width: 22
-        height: 22
+        height: 17
       spriteId: 51414858eabfa584e9aaff35add21828
     - name: Asteroids_Frame_102
       frameIndex: 102
       cellRect:
         x: 5
-        y: 2
+        y: 7
         width: 22
-        height: 22
+        height: 17
       spriteId: fa687a64c9cb352478441bfb0327d9b7
     - name: Asteroids_Frame_103
       frameIndex: 103
       cellRect:
         x: 5
-        y: 3
+        y: 7
         width: 22
-        height: 21
+        height: 17
       spriteId: d7246f173e146f94dbdd27682f5ecc4c
     - name: Asteroids_Frame_104
       frameIndex: 104
       cellRect:
         x: 5
-        y: 4
+        y: 7
         width: 22
-        height: 20
+        height: 17
       spriteId: 0de48aaffce29cb48bfc548b2a0e8912
     - name: Asteroids_Frame_105
       frameIndex: 105
       cellRect:
         x: 5
-        y: 5
+        y: 7
         width: 22
-        height: 19
+        height: 17
       spriteId: 0b9db41fab171b345b6b80691f061b8c
     - name: Asteroids_Frame_106
       frameIndex: 106
       cellRect:
-        x: 4
-        y: 6
-        width: 23
-        height: 18
+        x: 5
+        y: 7
+        width: 22
+        height: 17
       spriteId: e075e9373da441545b4c46cf660af4a9
     - name: Asteroids_Frame_107
       frameIndex: 107
       cellRect:
-        x: 3
+        x: 5
         y: 7
-        width: 24
+        width: 22
         height: 17
       spriteId: e5df0fe30d9e51b499c21fcb7fc23f37
     - name: Asteroids_Frame_108
       frameIndex: 108
       cellRect:
-        x: 2
+        x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: 027d05b703071ec42a9c9db1d568bbe6
     - name: Asteroids_Frame_109
       frameIndex: 109
       cellRect:
-        x: 2
+        x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: 63d5f8ed300ac0f4ab30b2edd5598e17
     - name: Asteroids_Frame_110
       frameIndex: 110
       cellRect:
-        x: 1
+        x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: 8c80fed78a39efd479d5f7a6f6097461
     - name: Asteroids_Frame_111
       frameIndex: 111
       cellRect:
-        x: 1
+        x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: c7ae95ab36ac41b4d97009a977a674de
     - name: Asteroids_Frame_112
       frameIndex: 112
       cellRect:
-        x: 0
+        x: 5
         y: 7
-        width: 27
+        width: 22
         height: 17
       spriteId: dea3a9353dbb9e847ba2412de70bbffd
     - name: Asteroids_Frame_113
       frameIndex: 113
       cellRect:
-        x: 0
+        x: 5
         y: 7
-        width: 27
+        width: 22
         height: 17
       spriteId: ae82339ebd8813248b414fc2976dacf1
     - name: Asteroids_Frame_114
       frameIndex: 114
       cellRect:
-        x: 0
+        x: 5
         y: 7
-        width: 27
+        width: 22
         height: 17
       spriteId: c366615a1fdc91847922f0441e0325cd
     - name: Asteroids_Frame_115
       frameIndex: 115
       cellRect:
-        x: 1
+        x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: 52047f6f8e2123c4e96a8350899ac77c
     - name: Asteroids_Frame_116
       frameIndex: 116
       cellRect:
-        x: 1
+        x: 5
         y: 7
-        width: 26
+        width: 22
         height: 17
       spriteId: a8e2977b6adb4ac4e97a82e0d7ed4a25
     - name: Asteroids_Frame_117
       frameIndex: 117
       cellRect:
-        x: 2
+        x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: 74c24ff47a20e0e4ba9b0d67fbeed1d2
     - name: Asteroids_Frame_118
       frameIndex: 118
       cellRect:
-        x: 2
+        x: 5
         y: 7
-        width: 25
+        width: 22
         height: 17
       spriteId: c58bddd74f3da7b428a50b6264c02a6e
     - name: Asteroids_Frame_119
       frameIndex: 119
       cellRect:
-        x: 3
+        x: 5
         y: 7
-        width: 24
-        height: 18
+        width: 22
+        height: 17
       spriteId: 1f1d01157d8c22f459f1645c244c19fb
     - name: Asteroids_Frame_120
       frameIndex: 120
       cellRect:
-        x: 4
+        x: 5
         y: 7
-        width: 23
-        height: 19
+        width: 22
+        height: 17
       spriteId: 2cfc74cb24068084c8ae7a5dec4925f7
     - name: Asteroids_Frame_121
       frameIndex: 121
@@ -3702,7 +6362,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 20
+        height: 17
       spriteId: 938722ee7f411634d8d577577a6aa3c6
     - name: Asteroids_Frame_122
       frameIndex: 122
@@ -3710,7 +6370,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 21
+        height: 17
       spriteId: f9f20b70bf695b54ebd98786cdddad59
     - name: Asteroids_Frame_123
       frameIndex: 123
@@ -3718,7 +6378,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 22
+        height: 17
       spriteId: 7bb22ff013a954540bd090bd9dc45317
     - name: Asteroids_Frame_124
       frameIndex: 124
@@ -3726,7 +6386,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: 28c6bd805807e6a4ea556e551842fb6f
     - name: Asteroids_Frame_125
       frameIndex: 125
@@ -3734,7 +6394,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 23
+        height: 17
       spriteId: 097eec11b3bc57949ae22399c0a25fb6
     - name: Asteroids_Frame_126
       frameIndex: 126
@@ -3742,7 +6402,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: 87f3a73703e16224e9239f82c3038c9b
     - name: Asteroids_Frame_127
       frameIndex: 127
@@ -3750,7 +6410,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 24
+        height: 17
       spriteId: 8bda0333e3f8ecf438ebffee138a2740
     - name: Asteroids_Frame_128
       frameIndex: 128
@@ -3758,7 +6418,7 @@ ScriptedImporter:
         x: 5
         y: 7
         width: 22
-        height: 25
+        height: 17
       spriteId: 1a986df3e686e3145a22cfefc5819310
     - name: Asteroids_Frame_129
       frameIndex: 129
@@ -3768,6 +6428,1070 @@ ScriptedImporter:
         width: 24
         height: 19
       spriteId: 6fa662eb3e2c28d4f9bd855bab619f59
+    - name: Asteroids_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 3dcce15454a668e4db53e2e9aa946837
+    - name: Asteroids_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 5529da2f028b5784c8d72af0648dae4e
+    - name: Asteroids_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: cf0e6c6c7f13fa4499e48628567761e2
+    - name: Asteroids_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 665705c92b4516f4499974f8464d0d65
+    - name: Asteroids_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 0573688b7aaf1c24cb5c50523ebcdff3
+    - name: Asteroids_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: a80b7304f16cb504cbc660058bcf3807
+    - name: Asteroids_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 36cfc09708f595546a3ea5e8b2aabe37
+    - name: Asteroids_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 9ebb2510552dd4d4c83f4f4435b2f8d3
+    - name: Asteroids_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 41906440046ebd04f8540218a8ba1131
+    - name: Asteroids_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: bf285024a1be8e640a671b15e4f6ced4
+    - name: Asteroids_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: ffa391d9393e2b6458a94d741382c02c
+    - name: Asteroids_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: a1dd761d133b33d40948de17980f128c
+    - name: Asteroids_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 292cbd5ff98b06d4293f30a054c3f79f
+    - name: Asteroids_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 36b38a3f405b8604da46c02d636844ee
+    - name: Asteroids_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 8a4ee83b484880a4386a45ce663a8e24
+    - name: Asteroids_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 7791c5fd44721864f99ececcb156a4d9
+    - name: Asteroids_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: b4ac7343bb01aa04fb6ec4707851510b
+    - name: Asteroids_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: f95983660256ea7468d1e819ad997e1f
+    - name: Asteroids_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: e7d3be0d7c75d5440a93c09d36e65039
+    - name: Asteroids_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 2156115361d62ee43bf5775733fe27fc
+    - name: Asteroids_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: a516108d98028e84e91ae3d31c1e8a29
+    - name: Asteroids_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 9147527c5a37e56429211d639aeb6624
+    - name: Asteroids_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 931329681f38a1d4b863ba70d09ac909
+    - name: Asteroids_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: f710cb241d53355469798cb7932b8024
+    - name: Asteroids_Frame_154
+      frameIndex: 154
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: d2526fb7fa39b8443b5772035e72999b
+    - name: Asteroids_Frame_155
+      frameIndex: 155
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 70ac3751c46561c42980df649beafcb4
+    - name: Asteroids_Frame_156
+      frameIndex: 156
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 2c15555fe2917844aa1346eef74bd165
+    - name: Asteroids_Frame_157
+      frameIndex: 157
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 4188017c2d607414aac6c17b358b4889
+    - name: Asteroids_Frame_158
+      frameIndex: 158
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 7d3e0e1df47fa504d9a3b222d00e5cd0
+    - name: Asteroids_Frame_159
+      frameIndex: 159
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 5c2490f26e3c3d142bd3aa2bfd279158
+    - name: Asteroids_Frame_160
+      frameIndex: 160
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 212663805e0662a4f9799cd1fca8bb0c
+    - name: Asteroids_Frame_161
+      frameIndex: 161
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: a03a9fb22c500ca4ea8cb7e2fbac2df7
+    - name: Asteroids_Frame_162
+      frameIndex: 162
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: a4c84d193150ac2439cfae549a4f3464
+    - name: Asteroids_Frame_163
+      frameIndex: 163
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 5d165b4fcdbdf454aa09a62364409ff1
+    - name: Asteroids_Frame_164
+      frameIndex: 164
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 5ee61f196a941c74886c00a7edcda16c
+    - name: Asteroids_Frame_165
+      frameIndex: 165
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 4d9d05be13dbe6c4185060311a5004db
+    - name: Asteroids_Frame_166
+      frameIndex: 166
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 58655abc5941f26478b30cd6cb986279
+    - name: Asteroids_Frame_167
+      frameIndex: 167
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 8c1961984f6695341b5c557f5a995e84
+    - name: Asteroids_Frame_168
+      frameIndex: 168
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: d01ce2b6f1c2fa74880aefa668bb7298
+    - name: Asteroids_Frame_169
+      frameIndex: 169
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 4add204d79593a940b7558ab2fca7aed
+    - name: Asteroids_Frame_170
+      frameIndex: 170
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 3c0f74c772cbcee46897d882382d79b7
+    - name: Asteroids_Frame_171
+      frameIndex: 171
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 56a71451409f17a4e8dbbeb4f9380afb
+    - name: Asteroids_Frame_172
+      frameIndex: 172
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: a98a341e89dcd8545bd4fc601bfd29c9
+    - name: Asteroids_Frame_173
+      frameIndex: 173
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 6734edc167908e249ad01cd07346e3db
+    - name: Asteroids_Frame_174
+      frameIndex: 174
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: d3ee2848c99757d4d81a861f2bb9afde
+    - name: Asteroids_Frame_175
+      frameIndex: 175
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: c1023fe68b7e0e84b86962ba2eab853c
+    - name: Asteroids_Frame_176
+      frameIndex: 176
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: c7b54de74a19d8b4a8fa9621fd7287b0
+    - name: Asteroids_Frame_177
+      frameIndex: 177
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: f4cc64ecf5818e843b24077abd8560da
+    - name: Asteroids_Frame_178
+      frameIndex: 178
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 630428aeea9c1584bb3c9d17ee80ae00
+    - name: Asteroids_Frame_179
+      frameIndex: 179
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: e2af56e8bc587e74c8ca8eb741f3d20c
+    - name: Asteroids_Frame_180
+      frameIndex: 180
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: f0b86f054a0eec54d80a778580439b77
+    - name: Asteroids_Frame_181
+      frameIndex: 181
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 0ad8ebf764dc9bc4fbc80a3b07d0c245
+    - name: Asteroids_Frame_182
+      frameIndex: 182
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: e6e8489564609664083248b1015b1a8b
+    - name: Asteroids_Frame_183
+      frameIndex: 183
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 2f38b27df89a8c74489d663926c2dbec
+    - name: Asteroids_Frame_184
+      frameIndex: 184
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 03442bfd6e334d949b03466eb986549a
+    - name: Asteroids_Frame_185
+      frameIndex: 185
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: b0b2da5d2d1baec4db0ba26a8f69f427
+    - name: Asteroids_Frame_186
+      frameIndex: 186
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: fe56c239d7ae88745a3e03846b79348c
+    - name: Asteroids_Frame_187
+      frameIndex: 187
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 8ab014fc6569fad439b487f4c9f46ca3
+    - name: Asteroids_Frame_188
+      frameIndex: 188
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 7ea516aa5512d5b4bb3ba262d6170342
+    - name: Asteroids_Frame_189
+      frameIndex: 189
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 18
+      spriteId: c913f1272a0d4c949a8ffe18a0daca87
+    - name: Asteroids_Frame_190
+      frameIndex: 190
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 0c27ec55a87fca042836bb34530048c1
+    - name: Asteroids_Frame_191
+      frameIndex: 191
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 425496ebfb5df2149838fe63e466d8d1
+    - name: Asteroids_Frame_192
+      frameIndex: 192
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 86fe1c7dea67f884b8fe6fd2556dc320
+    - name: Asteroids_Frame_193
+      frameIndex: 193
+      cellRect:
+        x: 6
+        y: 5
+        width: 22
+        height: 19
+      spriteId: 95c723ea6ada6c84989ad0c7d2761482
+    - name: Asteroids_Frame_194
+      frameIndex: 194
+      cellRect:
+        x: 5
+        y: 4
+        width: 24
+        height: 21
+      spriteId: 7c935a512f561a94aa984757cb824d47
+    - name: Asteroids_Frame_195
+      frameIndex: 195
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 470dff6b5dcdce5489a3e54cbbedcf7f
+    - name: Asteroids_Frame_196
+      frameIndex: 196
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: d0537728907173c4bbcd7dfb3864dde0
+    - name: Asteroids_Frame_197
+      frameIndex: 197
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 94eeca064a7a54143a3f4010573b2092
+    - name: Asteroids_Frame_198
+      frameIndex: 198
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: e1fc02535128fb042b64786fd5b0dc4d
+    - name: Asteroids_Frame_199
+      frameIndex: 199
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: a151aca2dd690f7448d498bf880a2ed3
+    - name: Asteroids_Frame_200
+      frameIndex: 200
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: ce7a3dbefeab7a042ba975292f1b323d
+    - name: Asteroids_Frame_201
+      frameIndex: 201
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 3f8b3bdb9a6b9c34fbcfc2b799b86fdb
+    - name: Asteroids_Frame_202
+      frameIndex: 202
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: e59faa1d8e2ef434e8f38c95534f97f2
+    - name: Asteroids_Frame_203
+      frameIndex: 203
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 64665cfc38a281145b14af83f3c96150
+    - name: Asteroids_Frame_204
+      frameIndex: 204
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 9ae7492d5ecac5c43ae00f9825391579
+    - name: Asteroids_Frame_205
+      frameIndex: 205
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 0473052200236d445ad730eedd75a245
+    - name: Asteroids_Frame_206
+      frameIndex: 206
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: da1cbf6332d8098469430525934a3e4e
+    - name: Asteroids_Frame_207
+      frameIndex: 207
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 21e564fc3900c1e4a8ba043d09f5ffd5
+    - name: Asteroids_Frame_208
+      frameIndex: 208
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: 941334fa24e2ffb46bcb8a7c30c002a0
+    - name: Asteroids_Frame_209
+      frameIndex: 209
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 9
+      spriteId: dcfd1240a45528e4ba77f8614548bab9
+    - name: Asteroids_Frame_210
+      frameIndex: 210
+      cellRect:
+        x: 12
+        y: 11
+        width: 9
+        height: 9
+      spriteId: 85fb30d02a0de634989eee30e2170fa5
+    - name: Asteroids_Frame_211
+      frameIndex: 211
+      cellRect:
+        x: 10
+        y: 10
+        width: 12
+        height: 11
+      spriteId: ac8076a5fbf398746ace66e2f603f8cd
+    - name: Asteroids_Frame_212
+      frameIndex: 212
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 5aab5dffdffa190429a680f59c854cef
+    - name: Asteroids_Frame_213
+      frameIndex: 213
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 87fd9c6687431374295eea79d6e56532
+    - name: Asteroids_Frame_214
+      frameIndex: 214
+      cellRect:
+        x: 12
+        y: 12
+        width: 8
+        height: 9
+      spriteId: 0209809d9e2a53a49bcf4cc70dc83eaa
+    - name: Asteroids_Frame_215
+      frameIndex: 215
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 16fde5d798091f24fbcb08de2bc57c69
+    - name: Asteroids_Frame_216
+      frameIndex: 216
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: d91102f2cec98fa4e92a5317a777a222
+    - name: Asteroids_Frame_217
+      frameIndex: 217
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: c1bff59a76a7e7b43bd3d1a7bbc3fd75
+    - name: Asteroids_Frame_218
+      frameIndex: 218
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 59ea85dcf3d949f4c94fed5d49b02585
+    - name: Asteroids_Frame_219
+      frameIndex: 219
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 0ec5267a329812f4792e62c85ddc7367
+    - name: Asteroids_Frame_220
+      frameIndex: 220
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: d1ef55ebbfbd1a64d8b40a50d5ac922c
+    - name: Asteroids_Frame_221
+      frameIndex: 221
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 6028ff80b8449974b9624bdf8d14a30d
+    - name: Asteroids_Frame_222
+      frameIndex: 222
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: c4dee9c42f325334f9389caa2b03ad44
+    - name: Asteroids_Frame_223
+      frameIndex: 223
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 64d00b94ac67c9e4c8884dc1fe18b22d
+    - name: Asteroids_Frame_224
+      frameIndex: 224
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 0dfc47e8bb57d2c4bbed77071bbfaa65
+    - name: Asteroids_Frame_225
+      frameIndex: 225
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: deb6e8c38934f4545bb08ea5a0b6a721
+    - name: Asteroids_Frame_226
+      frameIndex: 226
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: 7c50b50518fe6984bbbd30c2638f1b50
+    - name: Asteroids_Frame_227
+      frameIndex: 227
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 9
+      spriteId: c04ecd4d7ca693c4e9bbb010d210f1a7
+    - name: Asteroids_Frame_228
+      frameIndex: 228
+      cellRect:
+        x: 11
+        y: 11
+        width: 11
+        height: 11
+      spriteId: a3401f55d60919647835dfe4f622a20c
+    - name: Asteroids_Frame_229
+      frameIndex: 229
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: 765bce04648b78c46a42078b882d4385
+    - name: Asteroids_Frame_230
+      frameIndex: 230
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: f5e34dbd5d99bb64b80d256851ccf001
+    - name: Asteroids_Frame_231
+      frameIndex: 231
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 9
+      spriteId: 8119d4bf82dde484da926ce3fadfa290
+    - name: Asteroids_Frame_232
+      frameIndex: 232
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 9
+      spriteId: b1982d95cf674ca4cb63e745596a0a99
+    - name: Asteroids_Frame_233
+      frameIndex: 233
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: ef7d27027a476a540839c4b7f24ed996
+    - name: Asteroids_Frame_234
+      frameIndex: 234
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: 20ce5843abeb3c5428d0af09756ae545
+    - name: Asteroids_Frame_235
+      frameIndex: 235
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: 520a2b0ad1b12734699ce77650d33db7
+    - name: Asteroids_Frame_236
+      frameIndex: 236
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: d9adb16c8e675654ca44a73de916f92e
+    - name: Asteroids_Frame_237
+      frameIndex: 237
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: fb4ed61515b99fd43aa6dfa173b07042
+    - name: Asteroids_Frame_238
+      frameIndex: 238
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: a6423abe0a81c4645b716a392a1a6352
+    - name: Asteroids_Frame_239
+      frameIndex: 239
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: 8367bcf3013952445ac85b72569b6ef2
+    - name: Asteroids_Frame_240
+      frameIndex: 240
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: 4416691df1d5fa649ace80d5667ff2d8
+    - name: Asteroids_Frame_241
+      frameIndex: 241
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: a7765433d11b9554ea32d69ee9a75225
+    - name: Asteroids_Frame_242
+      frameIndex: 242
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: 7ec3d6b5f035e9c4c8169bfa929167de
+    - name: Asteroids_Frame_243
+      frameIndex: 243
+      cellRect:
+        x: 13
+        y: 11
+        width: 6
+        height: 10
+      spriteId: 68306084f5f996846ad6413d9d902019
+    - name: Asteroids_Frame_244
+      frameIndex: 244
+      cellRect:
+        x: 12
+        y: 11
+        width: 7
+        height: 10
+      spriteId: a4de89b2983261d4999c848335302023
+    - name: Asteroids_Frame_245
+      frameIndex: 245
+      cellRect:
+        x: 11
+        y: 10
+        width: 9
+        height: 12
+      spriteId: d373014b370154943abf10eb9c369ee0
+    - name: Asteroids_Frame_246
+      frameIndex: 246
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 661b34e80aeb9b141aac82d445b354d0
+    - name: Asteroids_Frame_247
+      frameIndex: 247
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 0fac893d169a7684b8ca15a9f468b4cd
+    - name: Asteroids_Frame_248
+      frameIndex: 248
+      cellRect:
+        x: 11
+        y: 12
+        width: 9
+        height: 8
+      spriteId: 4f9ef223cefdd5142b7b7264cfce003b
+    - name: Asteroids_Frame_249
+      frameIndex: 249
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 1269ba0a182b80a4e8b29de05c525565
+    - name: Asteroids_Frame_250
+      frameIndex: 250
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 04d492d62aef91847a64a1f659440540
+    - name: Asteroids_Frame_251
+      frameIndex: 251
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 8983f0ddd301a284893b991a20f099b0
+    - name: Asteroids_Frame_252
+      frameIndex: 252
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: afdc001ad97de8849903f7f927c879e8
+    - name: Asteroids_Frame_253
+      frameIndex: 253
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 807356f8c59c812479f3eaf97f207d9a
+    - name: Asteroids_Frame_254
+      frameIndex: 254
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: ad01b79e09bb9814ab2320e42f2c224e
+    - name: Asteroids_Frame_255
+      frameIndex: 255
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: fde109f41ee396a468e4fc6cedd63a20
+    - name: Asteroids_Frame_256
+      frameIndex: 256
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 6bf095f8d1c6b7448bc18d5940b85ac8
+    - name: Asteroids_Frame_257
+      frameIndex: 257
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 7255b599c08838e4389dcd57f83ac6ea
+    - name: Asteroids_Frame_258
+      frameIndex: 258
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 9063f3bb0c934c54bb7e0c14d52352d7
+    - name: Asteroids_Frame_259
+      frameIndex: 259
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 13a84cbd9a5bec34a9f3c8ccba84d5e8
+    - name: Asteroids_Frame_260
+      frameIndex: 260
+      cellRect:
+        x: 11
+        y: 12
+        width: 10
+        height: 8
+      spriteId: 24aa23c1cb722934eaca0912e5a8eff1
+    - name: Asteroids_Frame_261
+      frameIndex: 261
+      cellRect:
+        x: 12
+        y: 12
+        width: 9
+        height: 8
+      spriteId: 8f5f3b6afdd105d4c8baf1f51603a1e5
+    - name: Asteroids_Frame_262
+      frameIndex: 262
+      cellRect:
+        x: 10
+        y: 11
+        width: 12
+        height: 10
+      spriteId: f790a8786c2d5fa4da5f4c4ea22a31c9
     linkedCells: []
     parentIndex: -1
   platformSettings: []
