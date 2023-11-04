@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8429825520755198442}
   - component: {fileID: 484153185177598447}
   - component: {fileID: 2954773465663113116}
+  - component: {fileID: 8197870952287166050}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -72,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1861063975
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2133700041, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  m_Sprite: {fileID: -2089448441, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,7 +124,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.23}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -131,17 +132,80 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.10864583, y: 0.051846102}
-      - {x: 0.08332592, y: 0.08357811}
-      - {x: -0.030508403, y: 0.103634335}
-      - {x: -0.082743056, y: 0.05689321}
-      - {x: -0.10880971, y: -0.016543258}
-      - {x: -0.08133796, y: -0.070565954}
-      - {x: -0.03481519, y: -0.097310066}
-      - {x: 0.042679477, y: -0.10114313}
-      - {x: 0.085424155, y: -0.050131496}
-      - {x: 0.08535705, y: 0.012899004}
+    - - {x: 0.037778594, y: 0.0818003}
+      - {x: -0.0153037235, y: 0.08357811}
+      - {x: -0.064846136, y: 0.06637424}
+      - {x: -0.08566541, y: 0.04520377}
+      - {x: -0.09565909, y: -0.033346828}
+      - {x: -0.067456745, y: -0.06545182}
+      - {x: -0.00705277, y: -0.092195936}
+      - {x: 0.029528858, y: -0.09456782}
+      - {x: 0.085424155, y: -0.012871407}
+      - {x: 0.08608764, y: 0.026049625}
   m_UseDelaunayMesh: 0
+--- !u!114 &8197870952287166050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440363663109671033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91930592d9804e3584f117378255592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShipSprites:
+  - {fileID: 1593251385, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1036677206, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -576747690, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -815084627, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1481205437, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -930834907, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1609607483, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 2139534447, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1229141757, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -113970365, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 335000145, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -2116449716, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 780463384, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1844571326, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1467944947, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1404939613, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1914214620, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1745834167, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1677315865, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1471140618, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1993113891, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1151642787, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1902410551, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1907034812, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1657129896, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1555580585, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -64649054, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -632434890, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 444478785, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1315738966, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 335454114, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 119643645, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1653646105, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 764723179, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1705571086, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1648116438, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 881866190, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -2010327617, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -602248574, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 813369589, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1922858069, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1112814936, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1679374779, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -980091198, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1372581505, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 473031042, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1107478725, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1187873137, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1583779968, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  ShipSpriteRenderer: {fileID: 484153185177598447}
 --- !u!1 &6410463560493302824
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +217,7 @@ GameObject:
   - component: {fileID: 7363981919573446191}
   - component: {fileID: 6655195671727941076}
   - component: {fileID: 1350852913063638943}
+  - component: {fileID: 3984359664422593603}
   m_Layer: 0
   m_Name: MiddleGravy2
   m_TagString: Untagged
@@ -189,10 +254,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 8429825520755198442}
-  Gun: {fileID: 7363981919573446191}
+  GunBehaviour: {fileID: 3984359664422593603}
   Collider: {fileID: 2954773465663113116}
   ShipHighlighter: {fileID: 1350852913063638943}
   BlinkGameObjects: []
+  IlluminatedRenderers:
+  - {fileID: 8197870952287166050}
 --- !u!114 &1350852913063638943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,3 +274,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteRenderers:
   - {fileID: 484153185177598447}
+--- !u!114 &3984359664422593603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410463560493302824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5210ad8f1b81405c9cfce1dbd4db7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoints: []

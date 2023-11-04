@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5078072610317507593}
   - component: {fileID: 456006888773436553}
   - component: {fileID: 7854507291992679609}
+  - component: {fileID: 3386716335200167798}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -72,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1861063975
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 946168116, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  m_Sprite: {fileID: -444831459, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,7 +124,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.12, y: 0.12}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -139,6 +140,36 @@ PolygonCollider2D:
       - {x: 0.043660562, y: 0.005019149}
       - {x: 0.03996209, y: 0.042564746}
   m_UseDelaunayMesh: 0
+--- !u!114 &3386716335200167798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054201321040258439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91930592d9804e3584f117378255592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShipSprites:
+  - {fileID: -311429642, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -2062778183, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 999246476, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1000889209, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1304332574, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1415664343, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 692039876, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -190416252, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1096510014, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 421493184, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -397136368, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1012359510, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -657747687, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1275676743, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -966558437, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 2103836735, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  ShipSpriteRenderer: {fileID: 456006888773436553}
 --- !u!1 &5203256149921356605
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,6 +181,7 @@ GameObject:
   - component: {fileID: 9116846548570866556}
   - component: {fileID: 1941011775630499774}
   - component: {fileID: 6720502546738230850}
+  - component: {fileID: -2453840662639924954}
   m_Layer: 0
   m_Name: SmallGravy2
   m_TagString: Untagged
@@ -186,10 +218,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 5078072610317507593}
-  Gun: {fileID: 9116846548570866556}
+  GunBehaviour: {fileID: -2453840662639924954}
   Collider: {fileID: 7854507291992679609}
   ShipHighlighter: {fileID: 6720502546738230850}
   BlinkGameObjects: []
+  IlluminatedRenderers:
+  - {fileID: 3386716335200167798}
 --- !u!114 &6720502546738230850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,3 +238,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteRenderers:
   - {fileID: 456006888773436553}
+--- !u!114 &-2453840662639924954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203256149921356605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5210ad8f1b81405c9cfce1dbd4db7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoints: []

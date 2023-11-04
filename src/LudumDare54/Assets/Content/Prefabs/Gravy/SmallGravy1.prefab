@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5053829682831385523}
   - component: {fileID: 5085175224699464742}
   - component: {fileID: 8708877745212334713}
+  - component: {fileID: 6684021824950324835}
   m_Layer: 0
   m_Name: SmallGravy1
   m_TagString: Untagged
@@ -47,10 +48,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 3205730579594594662}
-  Gun: {fileID: 5053829682831385523}
+  GunBehaviour: {fileID: 6684021824950324835}
   Collider: {fileID: 1341007017745367307}
   ShipHighlighter: {fileID: 8708877745212334713}
   BlinkGameObjects: []
+  IlluminatedRenderers:
+  - {fileID: 3531728594629278533}
 --- !u!114 &8708877745212334713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,6 +68,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteRenderers:
   - {fileID: 3439157914411129913}
+--- !u!114 &6684021824950324835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533455377448128303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5210ad8f1b81405c9cfce1dbd4db7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoints: []
 --- !u!1 &4338437225689220887
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,6 +92,7 @@ GameObject:
   - component: {fileID: 3205730579594594662}
   - component: {fileID: 3439157914411129913}
   - component: {fileID: 1341007017745367307}
+  - component: {fileID: 3531728594629278533}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -137,9 +154,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1861063975
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1894111192, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  m_Sprite: {fileID: 105348998, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -188,7 +205,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.13, y: 0.12}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -196,12 +213,42 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.026032262, y: 0.044583373}
-      - {x: -0.019260153, y: 0.045448773}
-      - {x: -0.04775739, y: 0.013758041}
-      - {x: -0.049563516, y: -0.013371952}
-      - {x: -0.013026996, y: -0.042839594}
-      - {x: 0.011812873, y: -0.042133447}
-      - {x: 0.04820265, y: 0.0061546713}
-      - {x: 0.044504173, y: 0.027424462}
+    - - {x: 0.034722686, y: 0.044004012}
+      - {x: -0.013466535, y: 0.045448773}
+      - {x: -0.044281226, y: 0.014337402}
+      - {x: -0.041452453, y: -0.01684812}
+      - {x: -0.0066540185, y: -0.040522147}
+      - {x: 0.017606493, y: -0.04039536}
+      - {x: 0.055734344, y: 0.008472118}
+      - {x: 0.056091398, y: 0.024527654}
   m_UseDelaunayMesh: 0
+--- !u!114 &3531728594629278533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338437225689220887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91930592d9804e3584f117378255592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShipSprites:
+  - {fileID: 1132760785, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 2011179639, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 391571417, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 623413002, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 769439220, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1402918811, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -2043381560, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1886015229, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -732027512, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1890617263, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1033677184, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1156836881, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1250307520, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -678442661, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1166951081, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1515971219, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  ShipSpriteRenderer: {fileID: 3439157914411129913}

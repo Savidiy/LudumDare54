@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1194359720682041707}
   - component: {fileID: 2266976687210469471}
   - component: {fileID: 3666270285921454264}
+  - component: {fileID: -3932281087486378059}
   m_Layer: 0
   m_Name: SmallGravy3
   m_TagString: Untagged
@@ -47,10 +48,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateRoot: {fileID: 7391851342061984515}
-  Gun: {fileID: 1194359720682041707}
+  GunBehaviour: {fileID: -3932281087486378059}
   Collider: {fileID: 1999026802398493054}
   ShipHighlighter: {fileID: 3666270285921454264}
-  BlinkGameObjects: []
+  BlinkGameObjects:
+  - {fileID: 1189325127720145932}
+  IlluminatedRenderers:
+  - {fileID: 1806350796191470065}
 --- !u!114 &3666270285921454264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,6 +69,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpriteRenderers:
   - {fileID: 3052064492791415628}
+--- !u!114 &-3932281087486378059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189325127720145932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5210ad8f1b81405c9cfce1dbd4db7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoints: []
 --- !u!1 &5401094751231698286
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,6 +93,7 @@ GameObject:
   - component: {fileID: 7391851342061984515}
   - component: {fileID: 3052064492791415628}
   - component: {fileID: 1999026802398493054}
+  - component: {fileID: 1806350796191470065}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -137,9 +155,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1861063975
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1858162424, guid: b873da952584d204bb7e71eb8a8c54dd, type: 3}
+  m_Sprite: {fileID: -1273539812, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -188,7 +206,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.12, y: 0.12}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -205,3 +223,33 @@ PolygonCollider2D:
       - {x: 0.043660562, y: -0.013352403}
       - {x: 0.04302401, y: 0.017303854}
   m_UseDelaunayMesh: 0
+--- !u!114 &1806350796191470065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401094751231698286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91930592d9804e3584f117378255592d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShipSprites:
+  - {fileID: 530013131, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 217845410, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -225327913, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1151085976, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1583165851, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 524795164, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -969048376, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1367951642, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 1960943486, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -436352677, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1244422608, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -1162336761, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 976596041, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -947876499, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: 753899083, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  - {fileID: -752822792, guid: f8a60574738af8d40a7d642295ee26ea, type: 3}
+  ShipSpriteRenderer: {fileID: 3052064492791415628}
