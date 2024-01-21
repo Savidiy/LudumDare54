@@ -3,10 +3,10 @@ using Sirenix.OdinInspector;
 
 namespace LudumDare54
 {
-    [Serializable]
+    [Serializable, InlineProperty]
     public sealed class SoundIdData
     {
-        [ValueDropdown(nameof(SoundIds)), HorizontalGroup, HideLabel] public string SoundId;
+        [ValueDropdown(nameof(SoundIds)), HorizontalGroup, HideLabel] public string SoundId = string.Empty;
         private ValueDropdownList<string> SoundIds => OdinSoundIdsProvider.SoundIds;
         public static SoundIdData Empty { get; } = new() {SoundId = string.Empty};
 

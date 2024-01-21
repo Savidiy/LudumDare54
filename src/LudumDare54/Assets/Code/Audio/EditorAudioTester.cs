@@ -38,8 +38,6 @@ namespace LudumDare54
                 _testAudioSource = UnityEditor.EditorUtility
                     .CreateGameObjectWithHideFlags("Test Sound", HideFlags.HideAndDontSave, typeof(AudioSource))
                     .GetComponent<AudioSource>();
-
-            _testAudioSource.gameObject.hideFlags = HideFlags.HideAndDontSave;
             
             return _testAudioSource;
 #endif

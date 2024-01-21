@@ -55,8 +55,8 @@ namespace LudumDare54
         public bool HasAimAngle;
         public float AimAngleDegree = 1;
 
-        [InlineProperty] public SoundIdData ShootSoundId;
-        [InlineProperty] public SoundIdData HurtSoundId;
+        public SoundIdData ShootSoundId;
+        public SoundIdData HurtSoundId;
         public EffectType DeathExplosionType;
     }
 }

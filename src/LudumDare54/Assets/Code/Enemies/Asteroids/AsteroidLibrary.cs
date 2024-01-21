@@ -45,7 +45,7 @@ namespace LudumDare54
         public float ForwardSpeed;
         public int StartHealth;
         public int SelfDamageFromCollision;
-        [InlineProperty] public SoundIdData HurtSoundId;
+        public SoundIdData HurtSoundId;
 
         [Title("Death Spawn")]
         public int MinSpawnCount;

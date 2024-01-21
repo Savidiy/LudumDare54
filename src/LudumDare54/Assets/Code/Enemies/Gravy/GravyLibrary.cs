@@ -48,7 +48,7 @@ namespace LudumDare54
         public float OutsideRotationPeriod;
         public float OutsideRotationDistance;
         public float OutsideRotationDelay = 1;
-        [InlineProperty] public SoundIdData HurtSoundId;
+        public SoundIdData HurtSoundId;
 
         [Title("Death Spawn")]
         public int MinSpawnCount;
