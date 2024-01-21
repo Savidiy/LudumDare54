@@ -26,22 +26,13 @@ MonoBehaviour:
     SpawnPoints:
     - Position: {x: 1.883, y: -0.766, z: 0}
       Rotation: {x: -0, y: -0, z: 28.340378}
-      ShipType: 10
+      ShipType: 11
     - Position: {x: -1.1, y: 0.605, z: 0}
       Rotation: {x: 0, y: 0, z: 276.291}
       ShipType: 12
     - Position: {x: 1.139, y: 0.764, z: 0}
       Rotation: {x: 0, y: 0, z: 193.23361}
       ShipType: 16
-    - Position: {x: -1.7690171, y: 0.6913268, z: 0}
-      Rotation: {x: -0, y: -0, z: 68}
-      ShipType: 50
-    - Position: {x: -0.4, y: 0.66, z: 0}
-      Rotation: {x: 0, y: 0, z: 317}
-      ShipType: 50
-    - Position: {x: 1.8236817, y: 1.3893967, z: 0}
-      Rotation: {x: 0, y: 0, z: 230.00002}
-      ShipType: 40
     Width: 5
   - LevelId: Tutor2
     SpawnPoints:
@@ -101,7 +92,7 @@ MonoBehaviour:
       ShipType: 22
     - Position: {x: 1.93, y: -2.05, z: 0}
       Rotation: {x: -0, y: -0, z: 154}
-      ShipType: 20
+      ShipType: 12
     - Position: {x: -0.25, y: 2.09, z: 0}
       Rotation: {x: 0, y: 0, z: 328}
       ShipType: 10
@@ -134,10 +125,10 @@ MonoBehaviour:
       ShipType: 30
     - Position: {x: -0.26847982, y: -0.22682524, z: 0}
       Rotation: {x: -0, y: -0, z: 133.88303}
-      ShipType: 30
+      ShipType: 50
     - Position: {x: -0.77278113, y: 0.57226634, z: 0}
       Rotation: {x: -0, y: -0, z: 3.0563257}
-      ShipType: 30
+      ShipType: 50
     - Position: {x: 1.6126596, y: -0.26584005, z: 0}
       Rotation: {x: -0, y: -0, z: 16.450129}
       ShipType: 30
@@ -167,10 +158,10 @@ MonoBehaviour:
       ShipType: 30
     - Position: {x: -1.1387274, y: -2.3527713, z: 0}
       Rotation: {x: 0, y: 0, z: 269}
-      ShipType: 30
+      ShipType: 40
     - Position: {x: 0.6314558, y: -0.68515563, z: 0}
       Rotation: {x: 0, y: 0, z: 269}
-      ShipType: 30
+      ShipType: 40
     - Position: {x: -2.2277756, y: 1.2576537, z: 0}
       Rotation: {x: -0, y: -0, z: 112}
       ShipType: 31
@@ -212,13 +203,13 @@ MonoBehaviour:
       ShipType: 30
     - Position: {x: -1.79, y: 2.16, z: 0}
       Rotation: {x: 0, y: 0, z: 348}
-      ShipType: 30
+      ShipType: 40
     - Position: {x: -0.35, y: -2.72, z: 0}
       Rotation: {x: -0, y: -0, z: 39}
-      ShipType: 30
+      ShipType: 40
     - Position: {x: -0.17, y: -3.29, z: 0}
       Rotation: {x: -0, y: -0, z: 39}
-      ShipType: 30
+      ShipType: 40
     - Position: {x: -2.851449, y: -2.058896, z: 0}
       Rotation: {x: -0, y: -0, z: 39}
       ShipType: 40
@@ -226,7 +217,7 @@ MonoBehaviour:
       Rotation: {x: -0, y: -0, z: 46}
       ShipType: 40
     - Position: {x: -2.51, y: 1.22, z: 0}
-      Rotation: {x: -0, y: -0, z: 20.000002}
+      Rotation: {x: -0, y: -0, z: 20.000004}
       ShipType: 40
     Width: 6
   - LevelId: Turret5
@@ -260,7 +251,7 @@ MonoBehaviour:
       ShipType: 31
     - Position: {x: -2, y: 1, z: 0}
       Rotation: {x: 0, y: 0, z: 194}
-      ShipType: 31
+      ShipType: 40
     - Position: {x: -4, y: 0, z: 0}
       Rotation: {x: -0, y: -0, z: 158}
       ShipType: 30
@@ -278,15 +269,18 @@ MonoBehaviour:
       ShipType: 32
     - Position: {x: -3.95, y: 1.44, z: 0}
       Rotation: {x: -0, y: -0, z: 64}
-      ShipType: 32
+      ShipType: 40
     - Position: {x: 1.3864493, y: 0.5886335, z: 0}
       Rotation: {x: -0, y: -0, z: 51}
       ShipType: 40
     - Position: {x: -0.37441897, y: -1.106245, z: 0}
-      Rotation: {x: -0, y: -0, z: 3.9999995}
+      Rotation: {x: -0, y: -0, z: 3.999999}
       ShipType: 40
     - Position: {x: -3.26, y: -1.55, z: 0}
       Rotation: {x: -0, y: -0, z: 2}
+      ShipType: 40
+    - Position: {x: 0.24769473, y: 2.590615, z: 0}
+      Rotation: {x: 0, y: 0, z: 221}
       ShipType: 40
     Width: 7
   - LevelId: Turret6
@@ -317,7 +311,7 @@ MonoBehaviour:
       ShipType: 17
     - Position: {x: -1.35, y: -0.76, z: 0}
       Rotation: {x: 0, y: 0, z: 286.56122}
-      ShipType: 31
+      ShipType: 40
     - Position: {x: 2.0611362, y: -0.15613699, z: 0}
       Rotation: {x: -0, y: -0, z: 56.00001}
       ShipType: 31
@@ -326,7 +320,7 @@ MonoBehaviour:
       ShipType: 31
     - Position: {x: 1.1042012, y: -2.9370012, z: 0}
       Rotation: {x: 0, y: 0, z: 277}
-      ShipType: 32
+      ShipType: 40
     - Position: {x: 1.49, y: 0.48, z: 0}
       Rotation: {x: 0, y: 0, z: 277}
       ShipType: 32
@@ -344,7 +338,7 @@ MonoBehaviour:
       ShipType: 30
     - Position: {x: 2.7761946, y: 3.2003965, z: 0}
       Rotation: {x: 0, y: 0, z: 243}
-      ShipType: 30
+      ShipType: 40
     - Position: {x: 0.09480238, y: -1.9543366, z: 0}
       Rotation: {x: -0, y: -0, z: 154}
       ShipType: 40
@@ -376,15 +370,66 @@ MonoBehaviour:
       Rotation: {x: -0, y: -0, z: 149}
       ShipType: 40
     - Position: {x: 0.02, y: -2.14, z: 0}
-      Rotation: {x: -0, y: 0, z: 5.0831623}
+      Rotation: {x: -0, y: -0, z: 5.0831623}
       ShipType: 40
     - Position: {x: -0.76, y: 1.03, z: 0}
       Rotation: {x: 0, y: 0, z: 322}
       ShipType: 40
     - Position: {x: 1.25, y: -1.56, z: 0}
       Rotation: {x: 0, y: 0, z: 255}
-      ShipType: 40
+      ShipType: 50
     - Position: {x: -2.42, y: 1.71, z: 0}
       Rotation: {x: -0, y: -0, z: 84.5788}
-      ShipType: 40
+      ShipType: 50
     Width: 6.5
+  - LevelId: Asteroids1
+    SpawnPoints:
+    - Position: {x: 1.883, y: -0.766, z: 0}
+      Rotation: {x: -0, y: -0, z: 28.340378}
+      ShipType: 10
+    - Position: {x: -1.1, y: 0.605, z: 0}
+      Rotation: {x: 0, y: 0, z: 276.291}
+      ShipType: 12
+    - Position: {x: 1.139, y: 0.764, z: 0}
+      Rotation: {x: 0, y: 0, z: 193.23361}
+      ShipType: 16
+    - Position: {x: -1.7690171, y: 0.6913268, z: 0}
+      Rotation: {x: -0, y: -0, z: 68}
+      ShipType: 50
+    - Position: {x: -0.4, y: 0.66, z: 0}
+      Rotation: {x: 0, y: 0, z: 317}
+      ShipType: 50
+    - Position: {x: 1.8236817, y: 1.3893967, z: 0}
+      Rotation: {x: 0, y: 0, z: 230.00002}
+      ShipType: 40
+    Width: 5
+  - LevelId: Dude1
+    SpawnPoints:
+    - Position: {x: 2.012939, y: 1.6447562, z: 0}
+      Rotation: {x: 0, y: 0, z: 281}
+      ShipType: 22
+    - Position: {x: -0.051890373, y: -1.714149, z: 0}
+      Rotation: {x: 0, y: 0, z: 347}
+      ShipType: 25
+    - Position: {x: 0.9144508, y: -1.8826808, z: 0}
+      Rotation: {x: 0, y: 0, z: 337}
+      ShipType: 10
+    - Position: {x: 1.3662875, y: -0.8363023, z: 0}
+      Rotation: {x: 0, y: 0, z: 206}
+      ShipType: 12
+    - Position: {x: -1.3250697, y: 1.8838972, z: 0}
+      Rotation: {x: -0, y: -0, z: 1}
+      ShipType: 17
+    - Position: {x: 0.54063225, y: -1.3076496, z: 0}
+      Rotation: {x: 0, y: 0, z: 277}
+      ShipType: 30
+    - Position: {x: -0.22, y: 0.73, z: 0}
+      Rotation: {x: 0, y: 0, z: 330.85294}
+      ShipType: 50
+    - Position: {x: 1.21, y: 0.61, z: 0}
+      Rotation: {x: -0, y: -0, z: 3.0563257}
+      ShipType: 50
+    - Position: {x: 0.24, y: 0.86, z: 0}
+      Rotation: {x: -0, y: -0, z: 51.35401}
+      ShipType: 50
+    Width: 5
