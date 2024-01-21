@@ -17,32 +17,16 @@ namespace LudumDare54
             return soundIdData.SoundId;
         }
 
-#if UNITY_EDITOR
-        private static EditorScriptableObjectLoader<SoundLibrary> Loader = new();
-#endif
-        [HorizontalGroup(Width = 60), Button(SdfIconType.Play, "Play")]
-        private void PlaySound()
-        {
-#if UNITY_EDITOR
-            if (!Loader.GetAsset().TryGetClip(SoundId, out AudioClip audioClip))
-                return;
-
-            Camera camera = Camera.main;
-            var audioSource = camera.GetComponent<AudioSource>();
-            audioSource.PlayOneShot(audioClip);
-            // AudioSource.PlayClipAtPoint(audioClip, camera.transform.position);
-#endif
-        }
-
-        [HorizontalGroup(Width = 60), Button(SdfIconType.PinMap, "Ping")]
+        [Button("Ping", Icon = SdfIconType.Search), HorizontalGroup(Width = 60)]
         private void FindSound()
         {
-#if UNITY_EDITOR
-            if (Loader.GetAsset().TryGetClip(SoundId, out AudioClip audioClip))
-                UnityEditor.EditorGUIUtility.PingObject(audioClip);
-            else
-                Debug.LogError($"Sound with id '{SoundId}' not found");
-#endif
+            EditorAudioTester.PingAudioAsset(SoundId);
+        }
+
+        [Button("Play", Icon = SdfIconType.Play), HorizontalGroup(Width = 60)]
+        private void TestSound()
+        {
+            EditorAudioTester.TestSound(SoundId);
         }
     }
 }
