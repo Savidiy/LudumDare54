@@ -30,11 +30,12 @@ namespace LudumDare54
             PlayOnce(_soundSettings.ClickSoundId);
         }
 
-        public void PlayOnce(string soundId)
+        public void PlayOnce(SoundIdData soundIdData)
         {
             if (_soundVolumeProvider.SoundVolume.Value == 0)
                 return;
 
+            string soundId = soundIdData.SoundId;
             if (_soundLibrary.TryGetClip(soundId, out AudioClip audioClip))
                 _soundSource.PlayOneShot(audioClip);
         }

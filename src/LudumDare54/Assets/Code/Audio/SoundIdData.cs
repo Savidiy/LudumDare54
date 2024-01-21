@@ -1,7 +1,5 @@
 using System;
-using Savidiy.Utils;
 using Sirenix.OdinInspector;
-using UnityEngine;
 
 namespace LudumDare54
 {
@@ -11,11 +9,6 @@ namespace LudumDare54
         [ValueDropdown(nameof(SoundIds)), HorizontalGroup, HideLabel] public string SoundId;
         private ValueDropdownList<string> SoundIds => OdinSoundIdsProvider.SoundIds;
         public static SoundIdData Empty { get; } = new() {SoundId = string.Empty};
-
-        public static implicit operator string(SoundIdData soundIdData)
-        {
-            return soundIdData.SoundId;
-        }
 
         [Button("Ping", Icon = SdfIconType.Search), HorizontalGroup(Width = 60)]
         private void FindSound()

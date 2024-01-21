@@ -26,7 +26,8 @@ namespace LudumDare54
             if (_musicSource != null)
                 return;
 
-            if (!_soundLibrary.TryGetClip(_soundSettings.MusicSoundId, out AudioClip audioClip))
+            string soundId = _soundSettings.MusicSoundId.SoundId;
+            if (!_soundLibrary.TryGetClip(soundId, out AudioClip audioClip))
                 return;
 
             _musicSource = _cameraProvider.Camera.gameObject.AddComponent<AudioSource>();
