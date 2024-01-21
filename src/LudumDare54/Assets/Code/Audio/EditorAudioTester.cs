@@ -31,16 +31,16 @@ namespace LudumDare54
 #endif
         }
 
+#if UNITY_EDITOR
         private static AudioSource GetTestAudioSource()
         {
-#if UNITY_EDITOR
             if (_testAudioSource == null)
                 _testAudioSource = UnityEditor.EditorUtility
                     .CreateGameObjectWithHideFlags("Test Sound", HideFlags.HideAndDontSave, typeof(AudioSource))
                     .GetComponent<AudioSource>();
             
             return _testAudioSource;
-#endif
         }
+#endif
     }
 }

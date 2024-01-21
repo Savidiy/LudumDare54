@@ -1,6 +1,4 @@
-﻿#if UNITY_EDITOR
-using Sirenix.OdinInspector;
-using UnityEditor;
+﻿using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace LudumDare54
@@ -19,6 +17,7 @@ namespace LudumDare54
         private bool _isShowedNewLevelNameTextField;
         [ShowIf(nameof(_isShowedNewLevelNameTextField))] public string NewLevelId;
 
+#if UNITY_EDITOR
         [Button]
         private void CreateNewLevelButton()
         {
@@ -63,7 +62,7 @@ namespace LudumDare54
 
         private void OnValidate()
         {
-            if (EditorApplication.isPlaying)
+            if (UnityEditor.EditorApplication.isPlaying)
                 return;
 
             if (_currentLevelId != LevelId)
@@ -122,6 +121,6 @@ namespace LudumDare54
 
             LevelLibrary.ValidateAndSave();
         }
+#endif
     }
 }
-#endif

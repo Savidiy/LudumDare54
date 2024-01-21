@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using Sirenix.OdinInspector;
+﻿using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace LudumDare54
@@ -7,7 +6,7 @@ namespace LudumDare54
     internal sealed class SpawnPointEditor : MonoBehaviour
     {
         public ShipType ShipType;
-
+#if UNITY_EDITOR
         [Button]
         private void RandomAngle()
         {
@@ -32,6 +31,6 @@ namespace LudumDare54
         {
             name = $"Spawn - {ShipType.ToStringCached()}";
         }
+#endif
     }
 }
-#endif
