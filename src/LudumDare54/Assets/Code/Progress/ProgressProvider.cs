@@ -14,7 +14,7 @@ namespace LudumDare54
             _progressSettings = progressSettings;
             HasProgress = _progressStorage.HasProgress();
             Progress = HasProgress
-                ? _progressStorage.LoadProgress()
+                ? LoadProgressInternal()
                 : CreateDefaultProgress();
         }
 
@@ -47,8 +47,15 @@ namespace LudumDare54
 
         public void LoadProgress()
         {
-            Progress = _progressStorage.LoadProgress();
+            Progress = LoadProgressInternal();
             HasProgress = true;
+        }
+
+        private Progress LoadProgressInternal()
+        {
+            return _progressStorage.TryLoadProgress(out Progress progress) 
+                ? progress 
+                : CreateDefaultProgress();
         }
     }
 }

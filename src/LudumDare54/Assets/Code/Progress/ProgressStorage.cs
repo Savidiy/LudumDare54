@@ -1,4 +1,6 @@
-﻿using Savidiy.Utils;
+﻿using System;
+using Savidiy.Utils;
+using UnityEngine;
 
 namespace LudumDare54
 {
@@ -23,12 +25,26 @@ namespace LudumDare54
             string json = _serializer.Serialize(progress);
             _playerPrefsService.SetString(PROGRESS_KEY, json);
         }
-
-        public Progress LoadProgress()
+        
+        public bool TryLoadProgress(out Progress progress)
         {
+            progress = default;
+            
+            if (!HasProgress())
+                return false;
+
             string json = _playerPrefsService.GetString(PROGRESS_KEY);
-            Progress progress = _serializer.Deserialize(json);
-            return progress;
+            try
+            {
+                progress = _serializer.Deserialize(json);
+                return true;
+
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Can't load progress: " + e.Message);
+                return false;
+            }
         }
     }
 }
